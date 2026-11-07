@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Goeie More Roetine", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Goeie More Toneel", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Goeie more toneel", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Opdateringsresultate sal ontvang word sodra 'n eksterne diens gekoppel is.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Dagtyd", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Berei geselekteerde toestelle voor in volgorde soos jy die dag begin.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Sonpaneel Veranda Lig", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Die ligging-trigger word nog nie ondersteun nie, so dit kan nie gestoor word nie. Wenktipes: Timer, Weer, Toesteltoestand, Sekuriteitsmodus en Wanneer Alarm afgaan (sensor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Afstands-toegangsadres", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "As jy \u2019n toestel of hub vanaf \u2019n ander adres bereik terwyl jy van die huis af is (VPN of poort-vooruitskakeling), word daardie adres probeer wanneer die plaaslike adres nie antwoord nie. Dit word slegs op hierdie toestel gestoor.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Voeg eers \u2019n toestel by; dan kan jy \u2019n afstandsadres gee.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Wanneer jy by die huis kom", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Wanneer jy die huis verlaat", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Die ligging-trigger werk net in die mobiele app; dit kan nie op hierdie toestel opgestel word nie.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

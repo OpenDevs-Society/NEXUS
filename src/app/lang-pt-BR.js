@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Rotina de bom dia", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Cena de bom dia", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Cena de bom dia", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Os resultados da atualiza\u00e7\u00e3o chegar\u00e3o assim que um servi\u00e7o externo for conectado.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Diurno", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Prepara os dispositivos selecionados em ordem quando voc\u00ea come\u00e7a o dia.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Luz solar para p\u00e1tio", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "O gatilho de localiza\u00e7\u00e3o ainda n\u00e3o \u00e9 compat\u00edvel, portanto n\u00e3o pode ser salvo.Tipos de trabalho: Temporizador, Clima, Estado do dispositivo, Modo de seguran\u00e7a e Quando o alarme dispara (sensor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Endere\u00e7o de acesso remoto", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Se voc\u00ea acessar um dispositivo ou hub de outro endere\u00e7o enquanto estiver fora de casa (VPN ou encaminhamento de porta), esse endere\u00e7o ser\u00e1 tentado quando o endere\u00e7o local n\u00e3o responder.Ele \u00e9 armazenado apenas neste dispositivo.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Adicione um dispositivo primeiro;ent\u00e3o voc\u00ea pode fornecer um endere\u00e7o remoto.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Ao chegar em casa", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Ao sair de casa", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "O gatilho de localiza\u00e7\u00e3o funciona apenas no aplicativo m\u00f3vel;ele n\u00e3o pode ser configurado neste dispositivo.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

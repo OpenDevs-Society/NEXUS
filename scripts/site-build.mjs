@@ -3636,9 +3636,9 @@ function renderDownloads(c) {
     <p class="dl-note">${esc(c.downloads.smartScreenNote)}</p>
     <div class="dl-chips">
       <a class="dl-chip" href="${INSTALLER_REPO}" target="_blank" rel="noopener" title="${c.lang === 'tr' ? 'macOS kurucusu (.dmg / .zip) kurulum deposunda' : tx('The macOS installer (.dmg / .zip) is in the installer repository')}">${LOGO_APPLE}macOS</a>
-      <a class="dl-chip" href="${INSTALLER_REPO}" target="_blank" rel="noopener" title="${c.lang === 'tr' ? 'iOS / iPhone paketi kurulum deposunda; ücretsiz Apple ID ile yüklenir' : tx('The iOS / iPhone package is in the installer repository; install it with a free Apple ID')}">${LOGO_APPLE}iOS (iPhone)</a>
+      <a class="dl-chip" href="${INSTALLER_REPO}" target="_blank" rel="noopener" title="${c.lang === 'tr' ? 'iPhone paketi kurulum deposunda; ücretsiz Apple ID ile yüklenir' : tx('The iPhone package is in the installer repository; install it with a free Apple ID')}">${LOGO_APPLE}iOS (iPhone)</a>
     </div>
-    <div class="dl-gh"><a class="btn btn-ghost" href="https://github.com/Enard52/nexus-releases" target="_blank" rel="noopener" title="${c.lang === 'tr' ? 'Tüm paketler (Linux AppImage, RPM, ARM64, Windows taşınabilir), SHA-256 dosyaları ve arşiv bu depoda' : tx('Every package (Linux AppImage, RPM, ARM64, Windows portable), SHA-256 file and archive lives in this repository')}">${icon('github')}${c.lang === 'tr' ? 'Kurulum deposunu gör' : tx('View the installer repository')}</a></div>
+    <div class="dl-gh"><a class="btn btn-ghost" href="https://github.com/Enard52/nexus-releases" target="_blank" rel="noopener" title="${c.lang === 'tr' ? 'Tüm kurucular, SHA-256 dosyaları ve güncelleme listeleri bu depoda' : tx('Every installer, SHA-256 file and updater manifest lives in this repository')}">${icon('github')}${c.lang === 'tr' ? 'Kurulum deposunu gör' : tx('View the installer repository')}</a></div>
   </div>
 </section>`;
 }

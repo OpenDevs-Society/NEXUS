@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Godmorgen rutine", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Godmorgen scene", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Godmorgen scene", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Opdateringsresultater kommer, n\u00e5r en ekstern tjeneste er tilsluttet.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Dagtimerne", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Forbereder udvalgte enheder i r\u00e6kkef\u00f8lge, n\u00e5r du starter dagen.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Solar g\u00e5rdhave lys", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Placeringsudl\u00f8seren er ikke underst\u00f8ttet endnu, s\u00e5 den kan ikke gemmes.Arbejdstyper: Timer, vejr, enhedstilstand, sikkerhedstilstand og n\u00e5r alarmen udl\u00f8ses (sensor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Fjernadgangsadresse", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Hvis du n\u00e5r en enhed eller hub fra en anden adresse, mens du er v\u00e6k hjemmefra (VPN eller portvideresendelse), fors\u00f8ges denne adresse, n\u00e5r den lokale adresse ikke svarer.Det gemmes kun p\u00e5 denne enhed.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Tilf\u00f8j en enhed f\u00f8rst;s\u00e5 kan du give den en fjernadresse.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "N\u00e5r man kommer hjem", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "N\u00e5r man forlader hjemmet", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Placeringsudl\u00f8seren virker kun i mobilappen;det kan ikke konfigureres p\u00e5 denne enhed.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

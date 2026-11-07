@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Kagawian ng Magandang Umaga", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Eksena ng Magandang Umaga", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Eksena ng magandang umaga", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Darating ang mga update na resulta kapag nakakonekta ang panlabas na serbisyo.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Sa araw", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Inihahanda ang mga piniling aparato sunod-sunod habang sinisimulan mo ang araw.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Solar Patio Light", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Ang location trigger ay hindi pa suportado, kaya hindi ito maaaring mai-save. Mga gumaganang uri: Timer, Weather, Device State, Security Mode, at When Alarm Triggers (sensor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Remote Access Address", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Kung maaabot mo ang isang device o hub mula sa ibang address habang wala sa bahay (VPN o port forwarding), sinusubukan ang address na iyon kapag hindi sumasagot ang local address. Ito ay nakaimbak lamang sa device na ito.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Magdagdag muna ng device; pagkatapos ay maaari mong ibigay ang remote address nito.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Kapag umuwing bahay", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Kapag umaalis sa bahay", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Ang location trigger ay gumagana lamang sa mobile app; hindi ito maaaring i-set up sa device na ito.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Uhlelo Lwakho Lokusasa Lokuhle Kwakusasa", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Isimo Sekusasa Lokuhle Kwakusasa", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Isimo Sokubingelela Ekuseni", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Imiphumela yokuvuselela izofika uma isevisi yangaphandle ixhunywe.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Emini", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Ilungiselela amadivayisi akhethiwe ngokulandelana njengoba uqala usuku.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Isibani Socingo Lwemisebe Yelanga", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Isibani sendawo asisekelwa okwamanje, ngakho-ke asikwazi ukusigcina. Izinhlobo ezisebenzayo: Isikhathi, Isimo Sezulu, Isimo Sedivayisi, Imodi Yokuphepha kanye Ngesikhathi I-alamu Ivulelwa (isenzwa).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Ikheli Lokufinyelela Kude", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Uma ufinyelela kudivayisi noma ku-hub usekwe kwenye ikheli ngesikhathi ungasekhaya (VPN noma ukuqhudelana kwe-port), lelo kheli lizamazama uma ikheli lendawo lingaphenduli. Ligcinwa kuphela kule divayisi.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Faka idivayisi kuqala; bese ungayinikeza ikheli lokufinyelela kude.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Uma ufika ekhaya", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Uma ushiya ekhaya", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Isibani sendawo sisebenza kuphela kuhlelo lokusebenza lweselula; asikwazi ukusimisa kule divayisi.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

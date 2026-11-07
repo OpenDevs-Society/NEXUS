@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Dzie\u0144 dobry", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Dzie\u0144 dobry Scena", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Dzie\u0144 dobry scena", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Wyniki aktualizacji pojawi\u0105 si\u0119 po pod\u0142\u0105czeniu us\u0142ugi zewn\u0119trznej.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Dzie\u0144", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Przygotowuje wybrane urz\u0105dzenia w kolejno\u015bci od rozpocz\u0119cia dnia.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "S\u0142oneczne o\u015bwietlenie tarasowe", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Wyzwalacz lokalizacji nie jest jeszcze obs\u0142ugiwany, wi\u0119c nie mo\u017cna go zapisa\u0107.Typy pracy: Timer, Pogoda, Stan urz\u0105dzenia, Tryb bezpiecze\u0144stwa i Kiedy wyzwala si\u0119 alarm (czujnik).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Adres zdalnego dost\u0119pu", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Je\u015bli \u0142\u0105czysz si\u0119 z urz\u0105dzeniem lub koncentratorem z innego adresu, b\u0119d\u0105c poza domem (VPN lub przekierowanie port\u00f3w), ten adres jest pr\u00f3bowany, gdy adres lokalny nie odpowiada.S\u0105 one przechowywane wy\u0142\u0105cznie na tym urz\u0105dzeniu.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Najpierw dodaj urz\u0105dzenie;wtedy mo\u017cesz nada\u0107 mu zdalny adres.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Po przybyciu do domu", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Kiedy wychodzisz z domu", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Wyzwalacz lokalizacji dzia\u0142a tylko w aplikacji mobilnej;nie mo\u017cna go skonfigurowa\u0107 na tym urz\u0105dzeniu.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

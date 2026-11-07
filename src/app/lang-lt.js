@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Labas rytas rutina", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Labas rytas scena", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Labas rytas scena", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Atnaujinimo rezultatai bus gaunami tik prisijungus prie i\u0161orin\u0117s paslaugos.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Dienos metu", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Paruo\u0161ia pasirinktus \u012frenginius pagal j\u016bs\u0173 dienos prad\u017ei\u0105.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Saul\u0117s terasa \u0161viesos", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Vietos paleidiklis dar nepalaikomas, tod\u0117l negali b\u016bti i\u0161saugotas. Veikiantys tipai: Laikmatis, Oras, \u012erenginio b\u016bkl\u0117, Saugumo re\u017eimas ir Kai suveikia aliarmas (jutiklis).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Nuotolin\u0117s prieigos adresas", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Nuotolinio pri\u0117jimo adresas", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Jei pasiekiate \u012frengin\u012f ar \u0161akotuv\u0105 i\u0161 kito adreso b\u016bdami toli nuo nam\u0173 (VPN arba porto peradresavimas), \u0161is adresas bus m\u0117ginamas, kai vietinis adresas neatsako. Jis saugomas tik \u0161iame \u012frenginyje.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Pirmiausia prid\u0117kite \u012frengin\u012f; tada galite jam suteikti nuotolin\u012f adres\u0105.", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "I\u0161\u0117jus i\u0161 nam\u0173", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Atvykus namo", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

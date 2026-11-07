@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Huomenta rutiini", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Hyv\u00e4\u00e4 huomenta kohtaus", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Hyv\u00e4\u00e4 huomenta kohtaus", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "P\u00e4ivitystulokset saapuvat, kun ulkoinen palvelu on yhdistetty.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "P\u00e4iv\u00e4ll\u00e4", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Valmistelee valitut laitteet j\u00e4rjestyksess\u00e4, kun aloitat p\u00e4iv\u00e4n.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Aurinkopatiovalo", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Sijaintitriggeri\u00e4 ei viel\u00e4 tueta, joten sit\u00e4 ei voi tallentaa.Toimintatyypit: Ajastin, S\u00e4\u00e4, Laitteen tila, Turvatila ja Kun h\u00e4lytys laukeaa (anturi).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Et\u00e4k\u00e4ytt\u00f6osoite", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Jos saavutat laitteen tai keskittimen toisesta osoitteesta ollessasi poissa kotoa (VPN tai portin edelleenl\u00e4hetys), kyseist\u00e4 osoitetta yritet\u00e4\u00e4n, kun paikallinen osoite ei vastaa.Se on tallennettu vain t\u00e4lle laitteelle.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Lis\u00e4\u00e4 ensin laite;sitten voit antaa sille et\u00e4osoitteen.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Kotiin saapuessaan", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "L\u00e4htiess\u00e4\u00e4n kotoa", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Sijaintilaukaisin toimii vain mobiilisovelluksessa;sit\u00e4 ei voi m\u00e4\u00e4ritt\u00e4\u00e4 t\u00e4lle laitteelle.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

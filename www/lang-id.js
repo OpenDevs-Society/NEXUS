@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Rutinitas Selamat Pagi", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Adegan Selamat Pagi", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Adegan selamat pagi", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Hasil pembaruan akan muncul begitu layanan eksternal terhubung.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Siang", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Mempersiapkan perangkat yang dipilih secara berurutan saat Anda memulai hari.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Lampu Teras Surya", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Pemicu lokasi belum didukung, jadi tidak bisa disimpan. Jenis yang bekerja: Timer, Cuaca, Status Perangkat, Mode Keamanan, dan Saat Alarm Ditrigger (sensor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Alamat Akses Jarak Jauh", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Jika Anda mencapai perangkat atau hub dari alamat lain saat jauh dari rumah (VPN atau penerusan port), alamat itu dicoba ketika alamat lokal tidak merespon. Alamat ini hanya disimpan di perangkat ini.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Tambahkan perangkat terlebih dahulu; kemudian Anda dapat memberinya alamat jarak jauh.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Saat tiba di rumah", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Saat meninggalkan rumah", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Pemicu lokasi hanya berfungsi di aplikasi seluler; tidak dapat diatur di perangkat ini.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

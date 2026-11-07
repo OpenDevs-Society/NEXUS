@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Jutranja rutina", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Jutranji prizor", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Jutranji prizor", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Rezultati posodobitev bodo na voljo, ko bo povezana zunanja storitev.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Dnevni \u010das", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Pripravlja izbrane naprave po vrsti, ko za\u010dnete dan.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Svetilka na son\u010dni terasi", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Spro\u017eilec lokacije \u0161e ni podprt, zato ga ni mogo\u010de shraniti. Podprte vrste: \u010casovnik, Vreme, Stanje naprave, Na\u010din varnosti in Ko alarm spro\u017ei (senzor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Oddaljen dostop naslov", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "\u010ce do naprave ali osrednje enote dostopate z drugega naslova, ko ste stran od doma (VPN ali posredovanje vrat), se ta naslov uporabi, ko lokalni naslov ne odgovori. Shranjen je samo na tej napravi.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Najprej dodajte napravo; nato ji lahko dolo\u010dite oddaljeni naslov.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Ob prihodu domov", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Ob odhodu od doma", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Spro\u017eilec lokacije deluje samo v mobilni aplikaciji; na tej napravi ga ni mogo\u010de nastaviti.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

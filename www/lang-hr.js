@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Dobro jutro rutina", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Dobro jutro scena", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Dobro jutro scena", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Rezultati a\u017euriranja sti\u0107i \u0107e nakon povezivanja vanjske usluge.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Tijekom dana", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Priprema odabranih ure\u0111aja redom kako zapo\u010dinjete dan.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Solarna terasa svjetlo", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Okida\u010d lokacije jo\u0161 nije podr\u017ean, pa se ne mo\u017ee spremiti. Podr\u017eani tipovi: Timer, Vrijeme, Stanje ure\u0111aja, Sigurnosni na\u010din i Kada alarm signalizira (senzor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Adresa za udaljeni pristup", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Adresa za daljinski pristup", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Ako pristupate ure\u0111aju ili \u010dvori\u0161tu s druge adrese dok niste kod ku\u0107e (VPN ili proslje\u0111ivanje porta), ta se adresa poku\u0161ava koristiti kada lokalna adresa ne odgovara. Spremi se samo na ovom ure\u0111aju.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Prvo dodajte ure\u0111aj; zatim mu mo\u017eete dodijeliti adresu za daljinski pristup.", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Pri izlasku iz ku\u0107e", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Prilikom dolaska ku\u0107i", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.

@@ -1545,7 +1545,6 @@ window.NEXUS_LANG = {
     "G\u00fcnayd\u0131n Rutini": "Rutini ya Asubuhi", // EN: Good Morning Routine
     "G\u00fcnayd\u0131n Senaryosu": "Mandhari ya Asubuhi", // EN: Good Morning Scene
     "G\u00fcnayd\u0131n senaryosu": "Mandhari ya asubuhi", // EN: Good morning scene
-    "G\u00fcncelleme sonu\u00e7lar\u0131 harici servis ba\u011flan\u0131nca al\u0131nacak.": "Matokeo ya sasisho yatawasili mara huduma ya nje itakapounganishwa.", // EN: Update results will arrive once an external service is connected.
     "G\u00fcnd\u00fcz": "Wakati wa Mchana", // EN: Daytime
     "G\u00fcne ba\u015flarken se\u00e7ili cihazlar\u0131 s\u0131rayla haz\u0131rlar.": "Inatayarisha vifaa vipendwa kwa mpangilio unapopanza siku.", // EN: Prepares selected devices in order as you start the day.
     "G\u00fcne\u015f Enerjili Avlu I\u015f\u0131\u011f\u0131": "Taa ya Patio ya Jua", // EN: Solar Patio Light
@@ -3084,7 +3083,6 @@ window.NEXUS_LANG = {
     "Konum tetikleyicisi hen\u00fcz desteklenmiyor, bu y\u00fczden kaydedilemez. \u00c7al\u0131\u015fan t\u00fcrler: Zamanlay\u0131c\u0131, Hava Durumu, Cihaz Durumu, G\u00fcvenlik Modu ve Alarm Tetiklendi\u011finde (sens\u00f6r).": "Kichocheo cha eneo bado hakitimiwi, kwa hivyo hakiwezi kuhifadhiwa. Aina zinazofanya kazi: Kipima muda, Hali ya Hali ya Hewa, Hali ya Kifaa, Hali ya Usalama na Wakati Alarms Inachochea (kifaa cha sensor).", // EN: The location trigger is not supported yet, so it cannot be saved. Working types: Timer, Weather, Device State, Security Mode and When Alarm Triggers (sensor).
     "Uzak Eri\u015fim Adresi": "Anwani ya Upatikanaji wa Mbali", // EN: Remote Access Address
     "Evin d\u0131\u015f\u0131ndayken (VPN ya da port y\u00f6nlendirme) bir cihaza veya hub'a ba\u015fka bir adresten ula\u015f\u0131yorsan, yerel adres yan\u0131t vermedi\u011finde bu adres denenir. Yaln\u0131z bu cihazda saklan\u0131r.": "Ikiwa unafikia kifaa au kituo kutoka anwani nyingine wakati uko mbali na nyumbani (VPN au kupeleka bandari), anwani hiyo inajaribiwa wakati anwani ya ndani haijajibu. Inahifadhiwa tu kwenye kifaa hiki.", // EN: If you reach a device or hub from another address while away from home (VPN or port forwarding), that address is tried when the local address does not answer. It is stored only on this device.
-    "\u00d6nce bir cihaz ekle; sonra ona uzak adres verebilirsin.": "Ongeza kifaa kwanza; kisha unaweza kikiawekea anwani ya mbali.", // EN: Add a device first; then you can give it a remote address.
     "Eve gelince": "Unapofika nyumbani", // EN: When arriving home
     "Evden \u00e7\u0131k\u0131nca": "Unapoondoka nyumbani", // EN: When leaving home
     "Konum tetikleyicisi yaln\u0131zca mobil uygulamada \u00e7al\u0131\u015f\u0131r; bu cihazda kurulamaz.": "Kichocheo cha eneo kinafanya kazi tu kwenye programu ya simu; hakiwezi kuanzishwa kwenye kifaa hiki.", // EN: The location trigger only works in the mobile app; it cannot be set up on this device.
