@@ -1228,16 +1228,24 @@ window.nexusCopy = function (text) {
     return null;
   }
 
-  // Başlığın arkasındaki zemin: ilk boyalı ata (düz renk ya da geçiş)
-  function backdropOf(h) {
-    for (var n = h.parentElement; n; n = n.parentElement) {
+  // Başlığın arkasındaki zemin: ilk boyalı ata (düz renk ya da geçiş). Yarı saydam zemin (ör. koyu temada
+  // rgba(vurgu, 0.16) ile boyanan açık sayfa zemini) altındaki zeminle karıştırılır; yoksa başlık neredeyse
+  // opak vurgu rengine boyanıyordu (koyu temada sahne sayfalarında parlak mavi şerit).
+  function backdropOf(h) { return backdropFrom(h.parentElement); }
+  function backdropFrom(start) {
+    for (var n = start; n; n = n.parentElement) {
       var cs = getComputedStyle(n);
       if (cs.backgroundImage && cs.backgroundImage.indexOf('gradient') !== -1) {
         var stops = rgbList(cs.backgroundImage);
         if (stops.length >= 2) return { el: n, from: stops[0], to: stops[stops.length - 1] };
       }
       var c = rgbList(cs.backgroundColor)[0];
-      if (c && c[3] > 0) return { el: n, from: c, to: c };
+      if (c && c[3] > 0) {
+        if (c[3] >= 0.99) return { el: n, from: c, to: c };
+        var u = backdropFrom(n.parentElement), a = c[3];
+        var mix = function (b) { return [0, 1, 2].map(function (i) { return Math.round(b[i] * (1 - a) + c[i] * a); }).concat([1]); };
+        return { el: u.el, from: mix(u.from), to: mix(u.to) };
+      }
     }
     var dark = document.documentElement.classList.contains('dark');
     var d = dark ? [15, 23, 42, 1] : [236, 233, 253, 1];
