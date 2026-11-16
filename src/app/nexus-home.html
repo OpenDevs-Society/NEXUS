@@ -94,10 +94,6 @@
 <button type="button" aria-label="Ara" class="nx-desk-hide text-[#4C7DFF]" onclick="if (window.nexusOpenPalette) window.nexusOpenPalette(this)">
 <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke-width="2"></circle><path d="M20 20l-3.5-3.5" stroke-linecap="round" stroke-width="2"></path></svg>
 </button>
-<!-- Plus Action Button -->
-<a href="nexus-plus.html" class="bg-[#4C7DFF]/10 text-[#4C7DFF] border border-[#4C7DFF]/20 px-4 py-1.5 rounded-full font-semibold text-sm flex items-center">
-        Plus
-      </a>
 <!-- Plus Icon (opens quick add menu) -->
 <button aria-label="Hızlı ekle" class="text-[#4C7DFF]" onclick="toggleQuickAdd()">
 <svg class="h-8 w-8" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -263,9 +259,15 @@
 <!-- END: Devices Section -->
 <section class="mt-6 hidden" id="tap-to-run-section">
 <div class="flex items-center justify-between mb-4">
-<h2 class="text-xl font-bold tracking-tight">Dokun Çalıştır</h2>
+<h2 class="text-xl font-bold tracking-tight">Tıkla ve çalıştır</h2>
 </div>
 <div class="grid grid-cols-2 gap-4" id="tap-to-run-grid"></div>
+</section>
+<!-- Bugün: yalnızca gerçek olay kaydından (nexusEvents) bugünün son olayları; veri yoksa dürüst boş satır. Masaüstünde boş alanı doldurur. -->
+<section class="nx-today" id="nx-today" data-purpose="today-panel" aria-labelledby="nx-today-title">
+<div class="nx-today__head"><h2 class="text-xl font-bold tracking-tight" id="nx-today-title">Bugün</h2><a class="nx-today__all" href="nexus-messages.html">Tümünü Gör</a></div>
+<ul class="nx-today__list" id="nx-today-list"></ul>
+<p class="nx-today__empty" id="nx-today-empty" hidden>Bugün henüz bir olay yok. Senaryo, otomasyon ve cihaz olayları gerçekleştikçe burada görünür.</p>
 </section>
 <!-- Edit/Düzenle Button (opens card edit page) -->
 <div class="mt-4 flex justify-center">
@@ -663,5 +665,30 @@ if (window.NexusSheetGestures) {
 })();
 </script>
 
+<script data-purpose="today-panel">
+(function () {
+  // Bugün paneli: nexusEvents (automation-engine, sahneler, bildirimler) tek kaynağından bugünün son 5 olayı.
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function render() {
+    var list = document.getElementById("nx-today-list"), empty = document.getElementById("nx-today-empty");
+    if (!list || !empty) return;
+    var ev = [];
+    try { ev = JSON.parse(window.nexusGetItem("nexusEvents") || "[]"); } catch (e) {}
+    if (!Array.isArray(ev)) ev = [];
+    var today = new Date().toDateString();
+    ev = ev.filter(function (x) { var d = new Date(x && x.ts); return x && x.title && !isNaN(d.getTime()) && d.toDateString() === today; })
+      .sort(function (a, b) { return (b.ts || 0) - (a.ts || 0); }).slice(0, 5);
+    list.innerHTML = ev.map(function (x) {
+      var t = new Date(x.ts).toLocaleTimeString(window.nexusLocale || "tr-TR", { hour: "2-digit", minute: "2-digit" });
+      return "<li class=\"nx-today__row\"><time class=\"nx-today__time\">" + esc(t) + "</time><span class=\"nx-today__txt\"><b>" + esc(x.title) + "</b>" + (x.detail ? "<small>" + esc(x.detail) + "</small>" : "") + "</span></li>";
+    }).join("");
+    list.hidden = !ev.length;
+    empty.hidden = !!ev.length;
+  }
+  render();
+  window.addEventListener("storage", function (e) { if (e && e.key && /nexusEvents$/.test(e.key)) render(); });
+  window.addEventListener("focus", render);
+})();
+</script>
 </body></html>
 

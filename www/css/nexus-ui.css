@@ -1421,3 +1421,22 @@ html:is([data-nx-page="settings"], [data-nx-page="account-security"], [data-nx-p
   main :is(a, button).w-full :is(span, p).text-xs { font-size: var(--nx-fs-sub) !important; }
 /* İçerik H1: giriş ekranlarında 24/30 yerine 28 */
 html:is([data-nx-page="login"], [data-nx-page="register"], [data-nx-page="forgot-password"]) main h1 { font-size: var(--nx-fs-h1) !important; line-height: 1.2; }
+
+/* 51) Ana sayfa "Bugün" paneli: yalnızca gerçek olay kaydı (nexusEvents). Telefonda gizli (alan dar, Mesaj Merkezi zaten var);
+   masaüstünde cihazların altındaki boş alanı doldurur. */
+.nx-today { display: none; }
+html.nx-desk .nx-today { display: block; margin-top: 32px; padding: 20px 22px; border-radius: 24px; background: #ffffff; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px -16px rgba(15, 23, 42, 0.12); }
+html.nx-desk.dark .nx-today { background: #1e293b; box-shadow: none; }
+.nx-today__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.nx-today__all { font-size: 14px; font-weight: 600; color: var(--nx-accent-press, #3F6FFF); text-decoration: none; }
+.nx-today__list { list-style: none; margin: 0; padding: 0; }
+.nx-today__list[hidden], .nx-today__empty[hidden] { display: none; }
+.nx-today__row { display: flex; align-items: baseline; gap: 16px; padding: 10px 0; border-top: 1px solid rgba(148, 163, 184, 0.16); }
+.nx-today__row:first-child { border-top: 0; }
+.nx-today__time { flex: none; width: 48px; font-size: 13px; font-weight: 600; color: #64748b; font-variant-numeric: tabular-nums; }
+.nx-today__txt { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.nx-today__txt b { font-size: 15px; font-weight: 600; color: #0f172a; }
+.nx-today__txt small { font-size: 13px; color: #64748b; }
+html.dark .nx-today__txt b { color: #f1f5f9; }
+html.dark .nx-today__time, html.dark .nx-today__txt small, html.dark .nx-today__empty { color: #94a3b8; }
+.nx-today__empty { margin: 0; font-size: 14px; color: #64748b; }
