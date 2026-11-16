@@ -1467,20 +1467,65 @@ function renderDevices() {
             // Ad kutuya sığmazsa tek satırda kesmek telefon kartında cihazı tanınmaz kılıyordu
             // ("Oturma Odası Lambası" → "Oturma Odası La…"). Tasarım sistemindeki .nx-name gibi
             // iki satıra kadar sarar; kartı sabit yüksekliği h-40 içinde taşmaz (ölçüldü).
-            html += `
-            <${tag}${link} class="relative bg-white rounded-3xl p-5 card-shadow flex flex-col justify-between h-40 active:scale-[0.98] transition-transform" id="dyn-card-${device.id}">
+            // Kart, cihazın GERÇEK durumunu (Açık · %80 / Kapalı) gösterir; yalnızca erişilebilirlik
+            // ("Bağlı") yazan eski metin kartı bir durum paneli olmaktan çıkarıyordu. Açma/kapama
+            // yeteneği olan ve ulaşılabilen cihazda kartın üstünde tek dokunuşluk güç düğmesi olur.
+            let stateText = device.state || 'Kapalı';
+            let power = null;
+            if (pairedIndex !== null && window.NX && typeof window.NX.statusOf === 'function') {
+                try {
+                    const idx = Number(pairedIndex);
+                    // Kart nesnesi birleştirilmiş özettir; durum ve yetenekler kayıtlı cihazdan okunur.
+                    const raw = (window.NX.readDevices() || [])[idx];
+                    const st = raw ? window.NX.statusOf(raw, idx) : null;
+                    if (st && st.text) stateText = st.text;
+                    if (st && st.badge !== 'warn' && raw.protocol !== 'wol' && window.NX.hasPower(raw)) {
+                        power = { idx, on: window.NX.stateOf(raw).switch === true };
+                    }
+                } catch (e) { power = null; }
+            }
+            const safeName = String(device.name || 'Cihaz').replace(/"/g, '&quot;');
+            const inner = `
                 <div>
                     ${visual}
-                    <h3 class="font-bold text-base leading-tight line-clamp-2">${device.name || 'Cihaz'}</h3>
+                    <h3 class="font-bold text-base leading-tight line-clamp-2${power ? ' pr-9' : ''}">${device.name || 'Cihaz'}</h3>
                 </div>
-                <p class="text-slate-500 text-sm font-medium leading-5">${device.state || 'Kapalı'}</p>
+                <p class="nx-dev-state${power && power.on ? ' is-on' : ''} text-slate-500 text-sm font-medium leading-5">${stateText}</p>`;
+            if (power) {
+                html += `
+            <article class="relative bg-white rounded-3xl p-5 card-shadow flex flex-col justify-between h-40 active:scale-[0.98] transition-transform" id="dyn-card-${device.id}">
+                <a class="nx-card-link" href="nexus-device.html?i=${pairedIndex}" aria-label="${safeName}"></a>
+                ${inner}
+                <button type="button" class="nx-pwr${power.on ? ' is-on' : ''}" data-nx-power="${power.idx}" aria-pressed="${power.on}" aria-label="Aç / Kapat">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3v8"/><path d="M6.4 6.6a8 8 0 1 0 11.2 0"/></svg>
+                </button>
+            </article>
+            `;
+            } else {
+                html += `
+            <${tag}${link} class="relative bg-white rounded-3xl p-5 card-shadow flex flex-col justify-between h-40 active:scale-[0.98] transition-transform" id="dyn-card-${device.id}">${inner}
             </${tag}>
             `;
+            }
         });
     }
     
     grids.forEach(grid => {
         grid.innerHTML = html;
+        if (!grid.dataset.nxPowerBound) {
+            grid.dataset.nxPowerBound = '1';
+            grid.addEventListener('click', (event) => {
+                const btn = event.target.closest && event.target.closest('[data-nx-power]');
+                if (!btn || !grid.contains(btn)) return;
+                event.preventDefault();
+                event.stopPropagation();
+                if (!window.NX || typeof window.NX.setField !== 'function') return;
+                const idx = Number(btn.getAttribute('data-nx-power'));
+                const on = btn.getAttribute('aria-pressed') === 'true';
+                // setField izin denetimini kendisi yapar (izin yoksa null döner, durum değişmez).
+                if (window.NX.setField(idx, 'switch', !on)) renderDevices();
+            });
+        }
     });
 }
 

@@ -52,16 +52,10 @@
 <a aria-label="Geri" class="p-1 -ml-1" href="#" onclick="event.preventDefault(); if (history.length > 1) history.back(); else location.href = 'nexus-home.html';">
 <i class="w-7 h-7 text-slate-700" data-lucide="chevron-left"></i>
 </a>
-<!-- MiniApp capsule: more menu + close -->
-<div class="flex items-center bg-white/70 backdrop-blur rounded-full border border-white/60 shadow-sm" data-purpose="miniapp-capsule">
-<button aria-label="Mini uygulama menüsü" class="px-4 py-2" onclick="openSheet('menu')">
-<i class="w-5 h-5 text-slate-700" data-lucide="ellipsis"></i>
+<!-- Başlık: geri | başlık | tek ikon (mini uygulama kapsülü "··· ×" kaldırıldı; geri zaten kapatır) -->
+<button aria-label="Mini uygulama menüsü" class="p-2 -mr-2 rounded-full flex items-center justify-center active:scale-95 transition-transform" onclick="openSheet('menu')">
+<i class="w-6 h-6 text-slate-700" data-lucide="ellipsis"></i>
 </button>
-<span class="w-px h-5 bg-slate-300/70"></span>
-<a aria-label="Mini uygulamayı kapat" class="px-4 py-2" href="nexus-home.html">
-<i class="w-5 h-5 text-slate-700" data-lucide="x"></i>
-</a>
-</div>
 </header>
 <!-- END: MiniApp Header -->
 <!-- BEGIN: MainContent -->

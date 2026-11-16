@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/mh", // EN: /mo
     "0 Cihaz": "0 Gl\u00e9is", // EN: 0 Devices
     "0 cihaz": "0 gl\u00e9as", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "N\u00e1 cur isteach ar feadh 1 uair a th\u00ecde", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 sp\u00fan\u00f3g", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Sl\u00e1inti\u00fail", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "N\u00e1 cur isteach ar feadh 12 uair a th\u00ecde", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "T\u00f3gann s\u00e9 15 N\u00f3im\u00e9ad", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 sp\u00fan\u00f3ga", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "N\u00e1 cur isteach ar feadh 24 uair a th\u00ecde", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 gl\u00e9is ar si\u00fal, 2 d\u00fanadh ag fanacht le dearbh\u00fa.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "Triail saor in aisce 3 l\u00e1", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "N\u00e1 cur isteach ar feadh 3 huaire", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 sp\u00fan\u00f3ga", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "Printe\u00e1la 3D", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 Gl\u00e9is\u00ed Affected", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Teallach Leictreach", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Sc\u00e1la Cliste", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Cumhacht tadhlaigh", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "N\u00e1 b\u00ed buartha, cabhr\u00f3imid leat do chuntas a aisghabh\u00e1il. Roghnaigh le do thoil modh.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Fuinnimh", // EN: Energy
     "Enerji Kontrol\u00fc": "Rial\u00fa Fuinnimh", // EN: Energy Control
     "Enerji Raporlar\u0131": "Tuarasc\u00e1lacha Fuinnimh", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "S\u00faiteoir", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Oigheann Micreathonn", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Roghnchl\u00e1r app beag", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "D\u00fan app beag", // EN: Close mini app
     "Misafir": "Aoi", // EN: Guest
     "Misafir Deneyimi": "Taith\u00ed an Aoi", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Rochtain Aoi", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Seomra Aoi 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Wi-Fi an Aoi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "T\u00e1 s\u00e9 le feice\u00e1il anseo nuair a bheidh l\u00edonra na n-a\u00edonna socraithe.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "N\u00ed thaispe\u00e1nann muid staid r\u00e9idh gan sonra\u00ed l\u00edonra na n-a\u00edonna n\u00f3 rochtain shealadach.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Cruthaigh app m\u00f3d aoi a ullmha\u00edonn an bealach isteach, an solas agus na gl\u00e9asanna i limist\u00e9ar roinnte nuair a theachtar na n-a\u00edonna. \u00c1irigh solas f\u00e1ilte, f\u00f3gra\u00ed ci\u00faine agus c\u00e9imeanna rochtana aoi.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Socruithe solais, rochtana agus atmaisf\u00e9ar le h\u00fas\u00e1id l\u00e1ithreach nuair a shroicheann a\u00edonna.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Ullmhaigh an t-iontr\u00e1il, solas, limist\u00e9ir roinnte agus gl\u00e9asanna siamsa\u00edochta ar phain\u00e9al amh\u00e1in roimh theacht na n-a\u00edonna. Cruthaigh sreabhadh f\u00e1ilteaithe socair ach sl\u00e1n sa teach.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Sceideal N\u00e1 Clogad", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Sceideal N\u00e1 Clogad", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Beidh N\u00e1 Clogad ar si\u00fal", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "M\u00fach N\u00e1 Clogad", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "N\u00e1 clogad ar si\u00fal", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "N\u00e1 clogad d\u00fanta", // EN: Do not disturb turned off
     "Renk": "Dath", // EN: Color

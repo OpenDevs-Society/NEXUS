@@ -323,7 +323,54 @@
     }
   }
 
+  // Şablon senaryo sayfaları (tek kahraman kartı + çalıştır çubuğu) eskiden senaryonun ne
+  // yapacağını hiç göstermiyordu; uygun cihaz yokken çalıştır çubuğu da açıklamasız kayboluyordu.
+  var TEMPLATE_SCENES = ['good-morning', 'away-home', 'leave-home', 'night-security', 'sleep-mode'];
+
+  function renderTemplateSteps() {
+    var main = document.querySelector('main');
+    var hero = main && main.querySelector('section');
+    if (!hero) return;
+    body.classList.add('nx-scene-tpl');
+    ensureEngine(function () {
+      if (!window.NX || !NX.readDevices || !NX.sceneActsOf) return;
+      var devices = NX.readDevices();
+      var rows = [];
+      devices.forEach(function (d) {
+        var acts = NX.sceneActsOf(pageId, d);
+        if (!acts.length) return;
+        var parts = [];
+        acts.forEach(function (a) { var t = describeAct(a); if (t && parts.indexOf(t) === -1) parts.push(t); });
+        rows.push({ d: d, text: parts.join(' · ') });
+      });
+      var sec = document.createElement('section');
+      sec.className = 'nx-scene-steps space-y-3';
+      sec.setAttribute('data-scene-steps', '1');
+      var head = '<h3 class="text-[15px] font-bold text-slate-900 dark:text-white px-1">Ne yapacak</h3>';
+      if (rows.length) {
+        sec.innerHTML = head + rows.map(function (r) {
+          return '<div class="feature-card bg-white dark:bg-slate-800 rounded-3xl p-4 flex items-center gap-4">' +
+            '<img src="' + NX.imageUrl(r.d) + '" alt="" class="w-12 h-12 object-contain" onerror="this.style.visibility=\'hidden\'">' +
+            '<div class="flex-1 min-w-0"><h4 class="text-[15px] font-bold text-slate-900 dark:text-white truncate">' + NX.escapeHtml(r.d.name) + '</h4>' +
+            '<p class="text-xs text-slate-500 dark:text-slate-400 font-medium">' + NX.escapeHtml(r.text || '') + '</p></div></div>';
+        }).join('');
+      } else {
+        // Hiç cihaz yokken alt çubuk zaten "Önce cihaz ekle" diyor; ikinci bir düğme eklenmez.
+        var add = devices.length
+          ? '<a href="nexus-pair.html" class="nx-empty__cta">Cihaz ekle</a>'
+          : '';
+        sec.innerHTML = head + '<div class="nx-empty">' +
+          '<p class="nx-empty__title">Bu senaryoyu uygulayacak uygun cihaz yok</p>' +
+          '<p class="nx-empty__text">Işık, perde, klima veya kilit gibi uyumlu bir cihaz eklediğinde burada listelenir.</p>' +
+          add + '</div>';
+      }
+      hero.parentNode.insertBefore(sec, hero.nextSibling);
+      if (window.lucide && lucide.createIcons) { try { lucide.createIcons(); } catch (e) {} }
+    });
+  }
+
   function renderRealSceneSteps() {
+    if (TEMPLATE_SCENES.indexOf(pageId) !== -1) return renderTemplateSteps();
     if (pageId !== 'movie-mode' && pageId !== 'welcome-home') return;
     ensureEngine(function () {
       if (!window.NX || !NX.readDevices || !NX.sceneActsOf) return;

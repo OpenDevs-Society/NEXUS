@@ -61,7 +61,7 @@
 <section class="bg-white rounded-3xl menu-container-shadow p-5 mb-5" data-purpose="web-address">
 <p class="text-sm font-semibold text-slate-500 mb-2">Hesap ve indirme sitesi</p>
 <div class="flex items-center justify-between gap-3 bg-slate-50 rounded-xl px-3 py-3">
-<span class="min-w-0 font-bold text-sm text-[#4C7DFF] truncate" id="web-url">https://nexus-smarthome.pages.dev</span>
+<span class="min-w-0 font-bold text-sm text-[#4C7DFF] truncate" id="web-url" data-url="https://nexus-smarthome.pages.dev">nexus-smarthome.pages.dev</span>
 <button aria-label="Bağlantıyı kopyala" class="nx-tap text-slate-400 flex-shrink-0" id="copy-icon" onclick="copyUrl()">
 <i class="w-5 h-5" data-lucide="copy"></i>
 </button>
@@ -92,7 +92,7 @@
     lucide.createIcons();
     // Copy the web address to clipboard with confirmation
     function copyUrl() {
-      nexusCopy(document.getElementById('web-url').textContent).then(function (ok) {
+      nexusCopy(document.getElementById('web-url').getAttribute('data-url') || document.getElementById('web-url').textContent).then(function (ok) {
         var note = document.getElementById('copied-note');
         note.textContent = ok ? 'Bağlantı kopyalandı' : 'Kopyalanamadı — adresi elle seç';
         note.classList.remove('hidden');

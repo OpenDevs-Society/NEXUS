@@ -86,12 +86,14 @@
       html += '<section class="bg-white rounded-3xl p-5 nexus-card-shadow"><div class="flex items-center gap-3 mb-4">' +
         '<div class="w-10 h-10 rounded-full bg-[#4C7DFF]/10 flex items-center justify-center text-[#4C7DFF]"><i data-lucide="' + iconFor(room.name) + '" class="w-5 h-5"></i></div>' +
         '<div class="min-w-0"><h2 class="text-lg font-bold text-slate-900 truncate">' + esc(room.name) + '</h2><p class="text-xs text-slate-400">' + room.devices.length + ' cihaz</p></div></div>' +
-        '<div class="grid grid-cols-2 gap-3">' + scenes.map(function (s) {
+        '<div class="grid grid-cols-2 gap-3 nx-scene-grid">' + scenes.map(function (s) {
           var last = state[key] === s[1];
+          // Her kartta aynı "Dokun, çalışsın" yerine sahnenin bu odadaki gerçek etkisi yazılır.
+          var hit = room.devices.filter(function (d) { return NX.sceneActsOf(s[0], d).length; }).length;
           return '<button type="button" data-room="' + esc(key) + '" data-room-name="' + esc(room.name) + '" data-scene="' + s[0] + '" data-title="' + esc(s[1]) + '" class="bg-slate-50 text-slate-700 border border-slate-100 rounded-2xl p-4 flex flex-col items-start gap-2 active-scale text-left">' +
             '<i data-lucide="' + s[2] + '" class="w-6 h-6" style="color:' + s[3] + '"></i>' +
             '<div><div class="font-bold text-sm leading-tight">' + esc(s[1]) + '</div>' +
-            '<div class="text-[10px] text-slate-400">' + (last ? 'Son çalıştırılan' : 'Dokun, çalışsın') + '</div></div></button>';
+            '<div class="text-xs text-slate-500 mt-0.5">' + (last ? 'Son çalıştırılan' : hit + ' cihaz') + '</div></div></button>';
         }).join('') + '</div></section>';
     });
     if (!html) {

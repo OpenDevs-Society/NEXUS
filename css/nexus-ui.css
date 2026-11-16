@@ -25,7 +25,11 @@ html { overflow-x: hidden; }
   --nx-primary: var(--nx-accent,#4C7DFF);
   --nx-primary-press: var(--nx-accent-press,#3F6FFF);
   --nx-primary-soft: rgba(var(--nx-accent-rgbc,76,125,255),0.12);
-  --nx-accent: #22D3EE;
+  /* Camgöbeği yalnızca vurgu/gradyan rengidir. Eskiden burada --nx-accent'i #22D3EE'ye eziyordu;
+     bu yüzden var(--nx-accent) kullanan tüm butonlar (beyaz yazıyla 1,8:1) camgöbeği görünüyordu. */
+  --nx-cyan: #22D3EE;
+  --nx-cyan-deep: #0E7FA6; /* beyaz yazıyla 4,56:1 — yazılı gradyanların bitişi */
+  --nx-fill: #3366F0;      /* dolu birincil buton zemini (beyaz yazıyla 4,88:1) */
   --nx-gradient: linear-gradient(135deg, var(--nx-accent,#4C7DFF) 0%, #22D3EE 100%);
 
   --nx-page: #ECE9FD;
@@ -188,7 +192,7 @@ button.nx-reset {
   background: var(--nx-primary-soft); color: var(--nx-primary);
   margin-bottom: 4px;
 }
-.nx-empty__title { font-size: 16px; font-weight: 700; color: var(--nx-text); }
+.nx-empty__title { font-size: 18px; font-weight: 700; line-height: 1.3; color: var(--nx-text); }
 .nx-empty__text { font-size: 13px; line-height: 1.5; color: var(--nx-muted); max-width: 280px; }
 .nx-empty__cta {
   margin-top: 8px; display: inline-flex; align-items: center; justify-content: center; gap: 6px;
@@ -391,7 +395,7 @@ html:not(.dark) .text-emerald-500 { color: #047857; }
 html:not(.dark) .text-red-500 { color: #dc2626; }
 /* Beyaz yazılı marka degradesi: uç rengi koyulaştır, alt yazıyı tam beyaz yap */
 .nexus-gradient-bg, .gradient-button, .nexus-cta, .bg-billing-hero {
-  background-image: linear-gradient(135deg, #3F6EF5 0%, #0891B2 100%) !important;
+  background-image: linear-gradient(135deg, #3366F0 0%, var(--nx-cyan-deep,#0E7FA6) 100%) !important;
 }
 .bg-billing-hero .text-white\/85 { color: #ffffff; }
 
@@ -857,3 +861,114 @@ html.dark .nx-notice { --nx-n-bg: rgba(147, 180, 255, .12); --nx-n-bd: rgba(147,
 html.dark .nx-notice--warn { --nx-n-bg: rgba(245, 158, 11, .12); --nx-n-bd: rgba(245, 158, 11, .32); --nx-n-fg: #fcd34d; }
 html.dark .nx-notice--error { --nx-n-bg: rgba(244, 63, 94, .13); --nx-n-bd: rgba(244, 63, 94, .34); --nx-n-fg: #fda4af; }
 html.dark .nx-notice--ok { --nx-n-bg: rgba(16, 185, 129, .12); --nx-n-bd: rgba(16, 185, 129, .3); --nx-n-fg: #6ee7b7; }
+/* ==========================================================================
+   Tasarım düzeltmeleri — 2026-11 tasarım incelemesi
+   Ortak katmanda çözülür ki ekranlara tek tek yama gerekmesin.
+   ========================================================================== */
+
+/* 1) Dolu birincil butonlar: beyaz yazı WCAG AA (4,5:1) geçsin.
+      Yalnızca varsayılan mavi vurguda; Ayarlar'dan seçilen vurgu renkleri
+      (theme.js html'e satır içi --nx-accent yazar) kendi değerini korur.
+      [class~=…] tam sınıf eşleşmesidir: "bg-[#4C7DFF]/10" gibi açık tonlar etkilenmez. */
+html:not([style*="--nx-accent"]) :is(button, a, [role="button"], label):is([class~="bg-[#4C7DFF]"], [class~="bg-[var(--nx-accent,#4C7DFF)]"], [class~="bg-nexus-primary"], [class~="bg-nexus-purple"], [class~="bg-nexusPurple"], [class~="bg-nexus-brand"], .nx-empty__cta) {
+  background-color: var(--nx-fill) !important;
+}
+html:not([style*="--nx-accent"]) :is(button, a, [role="button"], label):is([class~="bg-[#4C7DFF]"], [class~="bg-[var(--nx-accent,#4C7DFF)]"], [class~="bg-nexus-primary"], [class~="bg-nexus-purple"], [class~="bg-nexusPurple"], [class~="bg-nexus-brand"], .nx-empty__cta):active {
+  background-color: #2A57D8 !important;
+}
+
+/* 2) Küçük büyük-harf bölüm başlıkları: 12px, okunur gri (açık temada 7:1+). */
+:is([class~="text-[10px]"], [class~="text-[11px]"], [class~="text-xs"])[class~="uppercase"] {
+  font-size: 12px !important;
+  letter-spacing: 0.08em !important;
+}
+html:not(.dark) :is([class~="text-[10px]"], [class~="text-[11px]"], [class~="text-xs"])[class~="uppercase"]:is(.text-slate-400, .text-slate-500, .text-gray-400, .text-gray-500) {
+  color: #475569 !important;
+}
+
+/* 3) Koyu tema: giriş alanları sayfa zeminiyle aynı renkte ve kenarlıksızdı (görünmüyordu). */
+html.dark body input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=hidden]):not(.bg-transparent),
+html.dark body textarea:not(.bg-transparent),
+html.dark body select:not(.bg-transparent) {
+  background-color: #1E293B !important;
+  border: 1px solid rgba(148, 163, 184, 0.30) !important;
+}
+html.dark body input:not([type=checkbox]):not([type=radio]):not([type=range]):focus-visible { border-color: var(--nx-primary) !important; }
+/* Koyu tema: anahtar topuzu beyaz ve net */
+html.dark .slider:before, html.dark .toggle-dot, html.dark [class*="peer-checked:after"]::after { background-color: #fff !important; }
+
+/* 4) Masaüstü: liste/form sayfaları 1080px'e gerilmesin. Geniş panolar (desktop.js WIDE)
+      1080px'te kalır; diğer tüm sayfalar okunur 820px sütunda ortalanır. Başlık ve alt
+      eylem çubuğu aynı değişkeni kullandığı için hizalı kalır. */
+html.nx-desk:not(.nx-desk-wide):not(.nx-desk-auth) { --page-max: 820px; }
+/* Masaüstünde dolu birincil butonlar tam genişliğe yayılmasın (formlar ve alt çubuk). */
+html.nx-desk:not(.nx-desk-auth) :is(button, a):is([class~="w-full"]):is([class~="bg-[#4C7DFF]"], [class~="bg-[var(--nx-accent,#4C7DFF)]"], [class~="bg-nexus-primary"], [class~="bg-nexus-purple"], [class~="bg-nexusPurple"], .nexus-cta, .nexus-gradient-bg, .gradient-button) {
+  max-width: 360px; margin-left: auto; margin-right: auto;
+}
+
+/* 5) Ana sayfa cihaz kartı: gerçek durum + tek dokunuşluk güç düğmesi.
+      Kartın tamamı kontrol ekranına gider (gerilmiş bağlantı); güç düğmesi onun üstündedir. */
+.nx-card-link { position: absolute; inset: 0; border-radius: inherit; z-index: 1; }
+.nx-card-link:focus-visible { outline: 2px solid var(--nx-primary); outline-offset: 2px; }
+.nx-pwr {
+  position: absolute; top: 14px; right: 14px; z-index: 2;
+  width: 36px; height: 36px; border-radius: 9999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: #F1F5F9; color: #64748B;
+  transition: background-color .15s ease, color .15s ease, transform .15s ease;
+}
+.nx-pwr svg { width: 18px; height: 18px; }
+.nx-pwr:active { transform: scale(0.92); }
+.nx-pwr.is-on { background: var(--nx-primary); color: #fff; box-shadow: 0 6px 14px rgba(var(--nx-accent-rgbc,51,102,240),.30); }
+html:not([style*="--nx-accent"]) .nx-pwr.is-on { background: var(--nx-fill); }
+html.dark .nx-pwr { background: rgba(148,163,184,.16); color: #CBD5E1; }
+.nx-dev-state.is-on { color: var(--nx-text) !important; font-weight: 700; }
+html.dark .nx-dev-state.is-on { color: #F1F5F9 !important; }
+
+/* 6) Boş favori kartı: durum metni bir sonraki adımı işaret etsin (birincil renk + ok). */
+.nx-fav-empty { color: var(--nx-primary) !important; font-weight: 600 !important; }
+html:not([style*="--nx-accent"]) .nx-fav-empty { color: var(--nx-fill) !important; }
+.nx-fav-empty::after { content: " \203A"; font-weight: 700; }
+html.dark .nx-fav-empty { color: #8FB0FF !important; }
+
+/* 7) Şablon senaryo sayfaları: kahraman kartı içeriğin yarısını kaplamasın; yatay ve kompakt
+      (simge solda, başlık + açıklama sağda). */
+body.nx-scene-tpl main > section:first-child {
+  display: grid !important; grid-template-columns: 56px minmax(0, 1fr); column-gap: 16px; row-gap: 2px;
+  align-items: center; text-align: left !important; padding: 18px 20px !important;
+}
+body.nx-scene-tpl main > section:first-child > div:first-child {
+  grid-row: 1 / span 2; width: 56px !important; height: 56px !important; margin: 0 !important; border-radius: 18px !important;
+}
+body.nx-scene-tpl main > section:first-child > div:first-child svg { width: 28px; height: 28px; }
+body.nx-scene-tpl main > section:first-child h2 { font-size: 19px !important; line-height: 1.25; align-self: end; }
+body.nx-scene-tpl main > section:first-child p { margin-top: 0 !important; font-size: 13px !important; align-self: start; }
+
+/* 8) Oda Sahneleri: tek kalan son kart ızgarada yalnız durmasın, tam genişlik olsun. */
+.nx-scene-grid > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+/* 9) Hava Kalitesi: ölçüm yokken dev "--" bozuk ekran gibi duruyordu; soluk bir tire gösterilir. */
+#air-quality-aqi.nx-aq-empty { color: #CBD5E1 !important; }
+html.dark #air-quality-aqi.nx-aq-empty { color: #475569 !important; }
+/* 10) Harita: durum/izin uyarısı doğrudan harita karolarının üstüne yazılıyordu; okunur bir kartta gösterilir. */
+#search-status {
+  background: rgba(255,255,255,.96); color: #334155 !important; font-size: 13px !important;
+  padding: 10px 12px !important; border-radius: 14px; box-shadow: 0 6px 18px rgba(15,23,42,.10);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+}
+html.dark #search-status { background: rgba(30,41,59,.96); color: #E2E8F0 !important; }
+
+/* 11) Etiket + anahtar satırları: uzun etiket ("Sohbet Geçmişini Sakla", "Zamanlanmış Sessiz Mod")
+       anahtara değiyordu. Satırda boşluk bırakılır, etiket hücresi daralabilir ve sarar. */
+.justify-between:has(> label.switch, > label > input[type="checkbox"], > .nx-upd-toggle, > button[role="switch"]) { gap: 12px; }
+.justify-between:has(> label.switch, > label > input[type="checkbox"], > .nx-upd-toggle, > button[role="switch"]) > :first-child { min-width: 0; flex: 1 1 auto; }
+.justify-between:has(> label.switch, > label > input[type="checkbox"], > .nx-upd-toggle, > button[role="switch"]) > :last-child { flex-shrink: 0; }
+
+/* 12) Çıkış Yap: sayfanın en baskın öğesi olmasın (koyu temada okunur kırmızı). */
+html.dark button[onclick="logout()"] { color: #F87171 !important; border-color: rgba(248,113,113,.25) !important; }
+
+/* 13) Form alanı etiketleri (yalnız placeholder yetmez) ve ayırt edilebilir metin bağlantısı. */
+.nx-field-label { display: block; font-size: 13px; font-weight: 600; color: #475569; margin: 0 4px 6px; line-height: 1.2; }
+html.dark .nx-field-label { color: #CBD5E1; }
+.nx-text-link { color: var(--nx-primary) !important; text-decoration: underline; text-decoration-color: rgba(var(--nx-accent-rgbc,51,102,240),.35); text-underline-offset: 3px; }
+html:not([style*="--nx-accent"]) .nx-text-link { color: var(--nx-fill) !important; }
+html.dark .nx-text-link { color: #8FB0FF !important; }

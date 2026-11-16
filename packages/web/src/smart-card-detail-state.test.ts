@@ -132,7 +132,10 @@ describe("smart-card-detail-state: stored-data / device-keyword pages", () => {
 
   it("treats an empty-string stored value as no data", () => {
     const r = load({ file: "nexus-guest-mode.html", storage: { nexusGuestModeStatus: "" } });
-    expect(isEmptyState(r.main.innerHTML)).toBe(true);
+    // Misafir modunun boş durumu cihaz eklemeye değil, misafiri davet etmeye yönlendirir (tasarım incelemesi 2026-11).
+    expect(r.main.innerHTML).toContain("nx-empty");
+    expect(r.main.innerHTML).toContain('href="nexus-household.html"');
+    expect(r.main.innerHTML).toContain("Üye davet et");
   });
 
   it("requires a matching device kind for the cleaning page", () => {

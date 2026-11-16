@@ -67,8 +67,10 @@
     },
     'nexus-guest-mode.html': {
       title: 'Misafir modu ayarlanmadı',
-      text: 'Misafir ağı veya geçici erişim bilgisi olmadan hazır durum göstermiyoruz.',
+      text: 'Misafire geçici erişim verince misafir modu burada hazırlanır.',
       icon: 'lucide:users-2',
+      // Misafir modunun asıl adımı cihaz eklemek değil, misafiri eve davet etmek.
+      cta: { href: 'nexus-household.html', label: 'Üye davet et', icon: 'user-plus' },
       keys: ['nexusGuestModeStatus']
     },
     'nexus-cleaning-start.html': {
@@ -121,14 +123,16 @@
   function renderEmpty(config) {
     var main = document.querySelector('main');
     if (!main) return;
+    // Ortak boş durum bileşeni (.nx-empty): tüm ekranlarda aynı başlık boyutu ve tek, bağlama uygun aksiyon.
+    var cta = config.cta || { href: 'nexus-pair.html', label: 'Cihaz ekle', icon: 'plus' };
     main.innerHTML = [
-      '<section class="min-h-[60vh] flex flex-col items-center justify-center text-center px-4">',
-      '<div class="w-20 h-20 rounded-[1.75rem] bg-[#4C7DFF]/10 text-[#4C7DFF] flex items-center justify-center mb-5">',
-      '<i data-lucide="' + String(config.icon).replace(/^lucide:/, '') + '" class="w-9 h-9"></i>',
+      '<section class="nx-empty nx-empty--page">',
+      '<div class="nx-empty__icon" aria-hidden="true">',
+      '<i data-lucide="' + String(config.icon).replace(/^lucide:/, '') + '" class="w-7 h-7"></i>',
       '</div>',
-      '<h2 class="text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">' + config.title + '</h2>',
-      '<p class="text-sm font-medium text-slate-500 dark:text-slate-400 mt-2 max-w-[270px]">' + config.text + '</p>',
-      '<a href="nexus-pair.html" class="mt-6 inline-flex h-12 px-6 gap-2 items-center justify-center rounded-2xl bg-[#4C7DFF] text-white text-sm font-bold active:scale-95 transition-transform"><i data-lucide="plus" class="w-4 h-4"></i>Cihaz ekle</a>',
+      '<h2 class="nx-empty__title">' + config.title + '</h2>',
+      '<p class="nx-empty__text">' + config.text + '</p>',
+      '<a href="' + cta.href + '" class="nx-empty__cta"><i data-lucide="' + cta.icon + '" class="w-4 h-4"></i>' + cta.label + '</a>',
       '</section>'
     ].join('');
     // Veri/cihaz yokken alttaki eylem düğmesi (Başlat, Bitir, Tamamla…) gösterilmez; dürüst adım "Cihaz ekle".

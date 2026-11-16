@@ -224,7 +224,7 @@
           box.appendChild(ic);
           box.appendChild(el("p", "nx-empty__title", nexusT("Ağda eklenmiş cihaz yok", "No devices on your network yet")));
           box.appendChild(el("p", "nx-empty__text", nexusT("Önce Cihaz Ekle'den cihazlarını bul. Yerel ağdaki cihazlar burada listelenir.", "First find your devices from Add Device. Devices on your local network are listed here.")));
-          var link = el("a", "inline-block mt-3 text-sm font-bold text-[#4C7DFF]", nexusT("Cihaz Ekle", "Add Device"));
+          var link = el("a", "nx-empty__cta", nexusT("Cihaz Ekle", "Add Device"));
           link.href = "nexus-pair.html";
           box.appendChild(link);
           list.appendChild(box);
@@ -244,7 +244,7 @@
             if (thumb.firstChild) left.appendChild(thumb);
           }
           var info = el("div", "min-w-0");
-          info.appendChild(el("p", "font-bold leading-tight truncate", d.name || nexusT("Adsız cihaz", "Unnamed device")));
+          info.appendChild(el("p", "font-bold leading-tight line-clamp-2 break-words", d.name || nexusT("Adsız cihaz", "Unnamed device")));
           var addr = el("p", "text-xs text-slate-400 mt-0.5 truncate", plainHost(d.host));
           addr.setAttribute("data-no-i18n", "");
           info.appendChild(addr);

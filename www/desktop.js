@@ -40,6 +40,14 @@
   function get(key) {
     try { return typeof nexusGetItem === "function" ? nexusGetItem(key) : localStorage.getItem(key); } catch (e) { return null; }
   }
+  // Görünen ad: kayıtlı ad, yoksa oturumdaki e-postanın adı; ikisi de yoksa "Misafir".
+  function displayName() {
+    var n = get("nexusUserName");
+    if (n) return n;
+    var acct = "";
+    try { acct = localStorage.getItem("nexusCurrentUser") || ""; } catch (e) {}
+    return acct && acct.indexOf("@") > 0 ? acct.split("@")[0] : "Misafir";
+  }
   function set(key, val) {
     try { if (typeof nexusSetItem === "function") nexusSetItem(key, val); else localStorage.setItem(key, val); } catch (e) {}
   }
@@ -162,7 +170,7 @@
       return;
     }
     if (document.getElementById("nx-side")) return;
-    var name = get("nexusUserName") || "Misafir";
+    var name = displayName();
     var initials = name.trim().split(/\s+/).map(function (p) { return p.charAt(0); }).join("").slice(0, 2).toLocaleUpperCase("tr-TR");
     var avatar = get("nexusAvatar");
     var avatarHtml = avatar
@@ -235,7 +243,7 @@
       var sideUser = document.querySelector(".nx-side-user");
       if (!sideUser) return;
       var av = get("nexusAvatar");
-      var nm = get("nexusUserName") || "Misafir";
+      var nm = displayName();
       var inits = nm.trim().split(/\s+/).map(function (p) { return p.charAt(0); }).join("").slice(0, 2).toLocaleUpperCase("tr-TR");
       var currentAv = sideUser.querySelector(".nx-side-avatar");
       if (currentAv) {

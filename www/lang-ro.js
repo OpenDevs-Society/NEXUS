@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/lun\u0103", // EN: /mo
     "0 Cihaz": "0 Dispozitive", // EN: 0 Devices
     "0 cihaz": "0 dispozitive", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Nu deranja\u021bi timp de 1 or\u0103", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 lingura", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 S\u0103n\u0103tos", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Nu deranja\u021bi timp de 12 ore", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Dureaz\u0103 15 minute", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 linguri", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Nu deranja\u021bi timp de 24 de ore", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 dispozitive pornite, 2 \u00eencuietori \u00een a\u0219teptarea confirm\u0103rii.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "Prob\u0103 gratuit\u0103 de 3 zile", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Nu deranja\u021bi timp de 3 ore", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 linguri", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "Imprimanta 3D", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 dispozitive afectate", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Semineu electric", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "C\u00e2ntare inteligent\u0103", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Puterea de aspirare", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Nu v\u0103 face\u021bi griji, v\u0103 vom ajuta s\u0103 v\u0103 recupera\u021bi contul.V\u0103 rug\u0103m s\u0103 alege\u021bi o metod\u0103.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Energie", // EN: Energy
     "Enerji Kontrol\u00fc": "Controlul Energiei", // EN: Energy Control
     "Enerji Raporlar\u0131": "Rapoarte energetice", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Storcator", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Cuptor cu microunde", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Mini meniul aplica\u021biei", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "\u00cenchide\u021bi miniaplica\u021bia", // EN: Close mini app
     "Misafir": "Oaspete", // EN: Guest
     "Misafir Deneyimi": "Experien\u021ba oaspe\u021bilor", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Acces pentru oaspe\u021bi", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Camer\u0103 de oaspe\u021bi 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Wi-Fi pentru oaspe\u021bi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "Va ap\u0103rea aici odat\u0103 ce re\u021beaua de invita\u021bi este configurat\u0103.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Nu afi\u0219\u0103m o stare de preg\u0103tire f\u0103r\u0103 re\u021bea pentru oaspe\u021bi sau detalii de acces temporar.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Crea\u021bi o aplica\u021bie pentru modul invitat care preg\u0103te\u0219te intrarea, iluminatul \u0219i dispozitivele din zon\u0103 partajat\u0103 de \u00eendat\u0103 ce sosesc oaspe\u021bii.Include\u021bi o lumin\u0103 de bun venit, notific\u0103ri silen\u021bioase \u0219i pa\u0219i de acces pentru oaspe\u021bi.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Set\u0103ri de lumin\u0103, acces \u0219i ambian\u021b\u0103 de utilizat imediat ce sosesc oaspe\u021bii.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Preg\u0103ti\u021bi intrarea, iluminatul, zonele comune \u0219i dispozitivele de divertisment pe un singur panou \u00eenainte de sosirea oaspe\u021bilor.Crea\u021bi un flux de bun venit relaxat, dar sigur acas\u0103.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Nu deranja\u021bi programul", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Nu deranja\u021bi programul", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Nu deranja\u021bi va fi activat", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Dezactiva\u021bi Nu deranja\u021bi", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Nu deranja este pornit", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Nu deranja este dezactivat", // EN: Do not disturb turned off
     "Renk": "Culoare", // EN: Color

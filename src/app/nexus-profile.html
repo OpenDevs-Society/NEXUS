@@ -122,7 +122,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="home"></i>
-                <span class="text-lg font-medium">Ev Yönetimi</span>
+                <span class="text-[16px] font-medium">Ev Yönetimi</span>
               </div>
               <i class="w-5 h-5 text-slate-300" data-lucide="chevron-right"></i>
             </a>
@@ -135,7 +135,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="package"></i>
-                <span class="text-lg font-medium">Siparişlerim</span>
+                <span class="text-[16px] font-medium">Siparişlerim</span>
               </div>
               <i class="w-5 h-5 text-slate-300" data-lucide="chevron-right"></i>
             </a>
@@ -148,7 +148,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="wifi"></i>
-                <span class="text-lg font-medium">Ev Ağı</span>
+                <span class="text-[16px] font-medium">Ev Ağı</span>
               </div>
               <i class="w-5 h-5 text-slate-300" data-lucide="chevron-right"></i>
             </a>
@@ -161,7 +161,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="message-square"></i>
-                <span class="text-lg font-medium">Mesaj Merkezi</span>
+                <span class="text-[16px] font-medium">Mesaj Merkezi</span>
               </div>
               <i class="w-5 h-5 text-slate-300" data-lucide="chevron-right"></i>
             </a>
@@ -174,7 +174,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="help-circle"></i>
-                <span class="text-lg font-medium whitespace-nowrap truncate"
+                <span class="text-[16px] font-medium whitespace-nowrap truncate"
                   >SSS &amp; Geribildirim</span
                 >
               </div>
@@ -189,7 +189,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="share-2"></i>
-                <span class="text-lg font-medium">Üçüncü Taraf Cihaz ve Hizmetler</span>
+                <span class="text-[16px] font-medium">Üçüncü Taraf Cihaz ve Hizmetler</span>
               </div>
               <i class="w-5 h-5 text-slate-300" data-lucide="chevron-right"></i>
             </a>
@@ -202,7 +202,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="car-front"></i>
-                <span class="text-lg font-medium">CarPlay</span>
+                <span class="text-[16px] font-medium">CarPlay</span>
                 <span
                   class="text-[10px] font-bold text-amber-600 bg-amber-100 rounded-full px-2 py-0.5"
                   >Yakında</span
@@ -219,7 +219,7 @@
             >
               <div class="flex items-center gap-4">
                 <i class="w-6 h-6 stroke-[1.5]" data-lucide="router"></i>
-                <span class="text-lg font-medium">HomeKit Bilgileri</span>
+                <span class="text-[16px] font-medium">HomeKit Bilgileri</span>
                 <span
                   class="text-[10px] font-bold text-slate-500 bg-slate-100 rounded-full px-2 py-0.5"
                   >Rehber</span
@@ -289,6 +289,12 @@
       (function () {
         function refreshProfile() {
           var name = nexusGetItem("nexusUserName");
+          // Ad girilmemiş ama oturum açıksa "Misafir" yazmak yanlış: e-posta adı gösterilir.
+          if (!name) {
+            var acct = "";
+            try { acct = localStorage.getItem("nexusCurrentUser") || ""; } catch (e) {}
+            if (acct && acct.indexOf("@") > 0) name = acct.split("@")[0];
+          }
           if (name) document.getElementById("profile-name").textContent = name;
           var avatar = nexusGetItem("nexusAvatar");
           var img = document.getElementById("profile-avatar");

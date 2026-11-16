@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/\uc6d4", // EN: /mo
     "0 Cihaz": "0 \uc7a5\uce58", // EN: 0 Devices
     "0 cihaz": "0\uac1c\uc758 \uae30\uae30", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "1\uc2dc\uac04 \ub3d9\uc548 \ubc29\ud574\ud558\uc9c0 \ub9c8\uc138\uc694", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1\uc2a4\ucff1", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "AQI 12 \u2022 \uac74\uac15\ud568", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "12\uc2dc\uac04 \ub3d9\uc548 \ubc29\ud574 \uae08\uc9c0 \ubaa8\ub4dc", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "15\ubd84 \uc18c\uc694", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2\uc2a4\ucff1", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "24\uc2dc\uac04 \ub3d9\uc548 \ubc29\ud574\ud558\uc9c0 \ub9c8\uc138\uc694", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3\uac1c\uc758 \uae30\uae30\uac00 \ucf1c\uc838 \uc788\uace0 2\uac1c\uc758 \uc7a0\uae08 \uc7a5\uce58\uac00 \ud655\uc778 \ub300\uae30 \uc911\uc785\ub2c8\ub2e4.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "3\uc77c \ubb34\ub8cc \ud3c9\uac00\ud310", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "3\uc2dc\uac04 \ub3d9\uc548 \ubc29\ud574\ud558\uc9c0 \ub9c8\uc138\uc694", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3\uc2a4\ucff1", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "3D \ud504\ub9b0\ud130", // EN: 3D printer
     "4 Cihaz Etkilenecek": "\uc601\ud5a5\uc744 \ubc1b\ub294 \uc7a5\uce58 4\uac1c", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "\uc804\uae30 \ubcbd\ub09c\ub85c", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "\uc2a4\ub9c8\ud2b8 \uc2a4\ucf00\uc77c", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "\ud761\uc785\ub825", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "\uac71\uc815\ud558\uc9c0 \ub9c8\uc138\uc694. \uacc4\uc815 \ubcf5\uad6c\ub97c \ub3c4\uc640\ub4dc\ub9ac\uaca0\uc2b5\ub2c8\ub2e4.\ubc29\ubc95\uc744 \uc120\ud0dd\ud558\uc138\uc694.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "\uc5d0\ub108\uc9c0", // EN: Energy
     "Enerji Kontrol\u00fc": "\uc5d0\ub108\uc9c0 \uc81c\uc5b4", // EN: Energy Control
     "Enerji Raporlar\u0131": "\uc5d0\ub108\uc9c0 \ubcf4\uace0\uc11c", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "\uc8fc\uc11c\uae30", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "\uc804\uc790\ub808\uc778\uc9c0", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "\ubbf8\ub2c8 \uc571 \uba54\ub274", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "\ubbf8\ub2c8\uc571 \ub2eb\uae30", // EN: Close mini app
     "Misafir": "\uc190\ub2d8", // EN: Guest
     "Misafir Deneyimi": "\uace0\uac1d \uacbd\ud5d8", // EN: Guest Experience
     "Misafir Eri\u015fimi": "\uac8c\uc2a4\ud2b8 \uc561\uc138\uc2a4", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "\uac1d\uc2e4 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "\uac8c\uc2a4\ud2b8 Wi-Fi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "\uac8c\uc2a4\ud2b8 \ub124\ud2b8\uc6cc\ud06c\uac00 \uc124\uc815\ub418\uba74 \uc5ec\uae30\uc5d0 \ud45c\uc2dc\ub429\ub2c8\ub2e4.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "\uac8c\uc2a4\ud2b8 \ub124\ud2b8\uc6cc\ud06c \ub610\ub294 \uc784\uc2dc \uc561\uc138\uc2a4 \uc138\ubd80\uc815\ubcf4\uac00 \uc5c6\uc73c\uba74 \uc900\ube44 \uc0c1\ud0dc\uac00 \ud45c\uc2dc\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "\uc190\ub2d8\uc774 \ub3c4\ucc29\ud558\uc790\ub9c8\uc790 \uc785\uad6c, \uc870\uba85, \uacf5\uc720 \uacf5\uac04 \uc7a5\uce58\ub97c \uc900\ube44\ud558\ub294 \uac8c\uc2a4\ud2b8 \ubaa8\ub4dc \uc571\uc744 \ub9cc\ub4ed\ub2c8\ub2e4.\ud658\uc601 \uc870\uba85, \uc870\uc6a9\ud55c \uc54c\ub9bc, \uc190\ub2d8 \uc811\uadfc \ub2e8\uacc4\ub97c \ud3ec\ud568\ud558\uc138\uc694.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "\uc190\ub2d8\uc774 \ub3c4\ucc29\ud558\uc790\ub9c8\uc790 \uc0ac\uc6a9\ud560 \uc870\uba85, \uc811\uadfc\uc131, \ubd84\uc704\uae30 \uc124\uc815\uc785\ub2c8\ub2e4.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "\uc190\ub2d8\uc774 \ub3c4\ucc29\ud558\uae30 \uc804\uc5d0 \uc785\uad6c, \uc870\uba85, \uacf5\uc720 \uacf5\uac04 \ubc0f \uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 \uc7a5\uce58\ub97c \ud558\ub098\uc758 \ud328\ub110\uc5d0 \uc900\ube44\ud558\uc2ed\uc2dc\uc624.\uc9d1\uc5d0\uc11c \ud3b8\uc548\ud558\uba74\uc11c\ub3c4 \uc548\uc804\ud55c \ud658\uc601 \ubd84\uc704\uae30\ub97c \uc870\uc131\ud558\uc138\uc694.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "\ubc29\ud574 \uae08\uc9c0 \uc77c\uc815", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "\ubc29\ud574 \uae08\uc9c0 \uc77c\uc815", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "\ubc29\ud574\uae08\uc9c0 \ubaa8\ub4dc\uac00 \ucf1c\uc9d1\ub2c8\ub2e4", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "\ubc29\ud574 \uae08\uc9c0 \ubaa8\ub4dc \ub044\uae30", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "\ubc29\ud574 \uae08\uc9c0 \ubaa8\ub4dc\uac00 \ucf1c\uc838 \uc788\uc2b5\ub2c8\ub2e4.", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "\ubc29\ud574 \uae08\uc9c0 \ubaa8\ub4dc\uac00 \uaebc\uc84c\uc2b5\ub2c8\ub2e4", // EN: Do not disturb turned off
     "Renk": "\uc0c9\uc0c1", // EN: Color

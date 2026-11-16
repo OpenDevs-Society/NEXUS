@@ -37,7 +37,7 @@
         <div id="air-quality-glow" class="absolute w-40 h-40 bg-slate-100 rounded-full blur-3xl opacity-60"></div>
 
         <div class="relative mb-2">
-          <h2 id="air-quality-aqi" class="text-6xl font-extrabold text-slate-900 tracking-tighter">--</h2>
+          <h2 id="air-quality-aqi" class="text-6xl font-extrabold text-slate-900 tracking-tighter">—</h2>
           <span class="absolute -right-6 top-1 text-sm font-bold text-slate-400">AQI</span>
         </div>
         <div id="air-quality-badge" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 rounded-full mb-6">
@@ -48,13 +48,13 @@
         <div class="w-full flex items-center gap-4 text-left">
             <div class="flex-1 bg-slate-50 p-3 rounded-2xl border border-slate-100">
                 <i data-lucide="thermometer" class="text-rose-500 text-lg mb-1"></i>
-                <div class="text-[10px] font-bold text-slate-400">SICAKLIK</div>
-                <div id="air-quality-temp" class="text-lg font-bold text-slate-900">-- C</div>
+                <div class="text-[12px] font-bold text-slate-500">SICAKLIK</div>
+                <div id="air-quality-temp" class="text-lg font-bold text-slate-900">—°C</div>
             </div>
             <div class="flex-1 bg-slate-50 p-3 rounded-2xl border border-slate-100">
                 <i data-lucide="droplets" class="text-sky-500 text-lg mb-1"></i>
-                <div class="text-[10px] font-bold text-slate-400">NEM</div>
-                <div id="air-quality-humidity" class="text-lg font-bold text-slate-900">--</div>
+                <div class="text-[12px] font-bold text-slate-500">NEM</div>
+                <div id="air-quality-humidity" class="text-lg font-bold text-slate-900">—</div>
             </div>
         </div>
       </section>
@@ -72,8 +72,8 @@
               <p id="air-purifier-status" class="text-[11px] font-medium text-slate-500">Cihaz eklenince kontrol görünür.</p>
             </div>
           </div>
-          <label class="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" class="sr-only peer">
+          <label class="relative inline-flex items-center cursor-pointer" id="air-purifier-toggle">
+            <input type="checkbox" class="sr-only peer" aria-label="Arıtıcı kontrolü">
             <div class="w-11 h-6 bg-slate-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#4C7DFF]"></div>
           </label>
         </div>
@@ -92,9 +92,9 @@ function renderAirQualityState(state, hasState) {
     const purifierTitle = document.getElementById('air-purifier-title');
     const purifierStatus = document.getElementById('air-purifier-status');
     const hasAqi = hasState && typeof state.aqi === 'number';
-    if (aqi) aqi.textContent = hasAqi ? state.aqi : '--';
-    if (temp) temp.textContent = hasState && typeof state.temp !== 'undefined' ? state.temp + ' C' : '-- C';
-    if (humidity) humidity.textContent = hasState && typeof state.humidity !== 'undefined' ? '%' + state.humidity : '--';
+    if (aqi) { aqi.textContent = hasAqi ? state.aqi : '—'; aqi.classList.toggle('nx-aq-empty', !hasAqi); }
+    if (temp) temp.textContent = hasState && typeof state.temp !== 'undefined' ? state.temp + '°C' : '—°C';
+    if (humidity) humidity.textContent = hasState && typeof state.humidity !== 'undefined' ? '%' + state.humidity : '—';
     if (badge) {
         let label = 'Ölçüm Yok', color = 'slate';
         if (hasAqi) {
@@ -105,6 +105,9 @@ function renderAirQualityState(state, hasState) {
         badge.innerHTML = '<span class="w-2 h-2 rounded-full bg-' + color + '-500"></span><span class="text-xs font-bold text-' + color + '-600">' + label + '</span>';
     }
     if (purifierTitle) purifierTitle.textContent = hasState ? 'Arıtıcı kontrolü' : 'Arıtıcı bağlı değil';
+    // Arıtıcı yokken basılamayan bir anahtar gösterilmez (cihaz yoksa eylem düğmesi olmaz).
+    const purifierToggle = document.getElementById('air-purifier-toggle');
+    if (purifierToggle) purifierToggle.classList.toggle('hidden', !hasState);
     if (purifierStatus) purifierStatus.textContent = hasState ? (state.purifier ? 'Açık' : 'Kapalı') : 'Cihaz eklenince kontrol görünür.';
 }
 document.addEventListener('DOMContentLoaded', () => {

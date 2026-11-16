@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/mo", // EN: /mo
     "0 Cihaz": "0 Eszk\u00f6z\u00f6k", // EN: 0 Devices
     "0 cihaz": "0 eszk\u00f6z", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Ne zavarjanak 1 \u00f3r\u00e1n kereszt\u00fcl", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 gomb\u00f3c", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Eg\u00e9szs\u00e9ges", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Ne zavarjanak 12 \u00f3r\u00e1n kereszt\u00fcl", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "15 percet vesz ig\u00e9nybe", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 gomb\u00f3c", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Ne zavarjanak 24 \u00f3r\u00e1n kereszt\u00fcl", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 k\u00e9sz\u00fcl\u00e9k bekapcsolt, 2 z\u00e1r meger\u0151s\u00edt\u00e9sre v\u00e1r.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "3 napos ingyenes pr\u00f3baverzi\u00f3", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Ne zavarjanak 3 \u00f3r\u00e1n kereszt\u00fcl", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 gomb\u00f3c", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "3D nyomtat\u00f3", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 \u00c9rintett eszk\u00f6z", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Elektromos kandall\u00f3", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Intelligens m\u00e9rleg", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Sz\u00edv\u00f3er\u0151", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Ne agg\u00f3djon, seg\u00edt\u00fcnk vissza\u00e1ll\u00edtani fi\u00f3kj\u00e1t.K\u00e9rj\u00fck, v\u00e1lasszon egy m\u00f3dszert.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Energia", // EN: Energy
     "Enerji Kontrol\u00fc": "Energiaszab\u00e1lyoz\u00e1s", // EN: Energy Control
     "Enerji Raporlar\u0131": "Energiajelent\u00e9sek", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Gy\u00fcm\u00f6lcscentrifuga", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Mikrohull\u00e1m\u00fa s\u00fct\u0151", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Minialkalmaz\u00e1s men\u00fc", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Z\u00e1rja be a minialkalmaz\u00e1st", // EN: Close mini app
     "Misafir": "Vend\u00e9g", // EN: Guest
     "Misafir Deneyimi": "Vend\u00e9g \u00e9lm\u00e9ny", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Vend\u00e9g hozz\u00e1f\u00e9r\u00e9s", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Vend\u00e9gszoba 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Vend\u00e9g Wi-Fi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "A vend\u00e9gh\u00e1l\u00f3zat be\u00e1ll\u00edt\u00e1sa ut\u00e1n itt jelenik meg.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Nem jelen\u00edtj\u00fck meg a k\u00e9sz \u00e1llapotot vend\u00e9gh\u00e1l\u00f3zat vagy ideiglenes hozz\u00e1f\u00e9r\u00e9si adatok n\u00e9lk\u00fcl.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Hozzon l\u00e9tre egy vend\u00e9g m\u00f3d\u00fa alkalmaz\u00e1st, amely a vend\u00e9gek \u00e9rkez\u00e9se ut\u00e1n azonnal el\u0151k\u00e9sz\u00edti a bej\u00e1ratot, a vil\u00e1g\u00edt\u00e1st \u00e9s a k\u00f6z\u00f6s haszn\u00e1lat\u00fa eszk\u00f6z\u00f6ket.Tartalmazzon \u00fcdv\u00f6zl\u0151l\u00e1mp\u00e1t, halk \u00e9rtes\u00edt\u00e9seket \u00e9s vend\u00e9g hozz\u00e1f\u00e9r\u00e9si l\u00e9p\u00e9seket.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "F\u00e9ny-, hozz\u00e1f\u00e9r\u00e9s- \u00e9s k\u00f6rnyezetbe\u00e1ll\u00edt\u00e1sok, amelyek azonnal haszn\u00e1lhat\u00f3k, amint a vend\u00e9gek meg\u00e9rkeznek.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "A vend\u00e9gek \u00e9rkez\u00e9se el\u0151tt egy panelen k\u00e9sz\u00edtse el\u0151 a bej\u00e1ratot, a vil\u00e1g\u00edt\u00e1st, a k\u00f6z\u00f6s ter\u00fcleteket \u00e9s a sz\u00f3rakoztat\u00f3 eszk\u00f6z\u00f6ket.Teremtsen nyugodt, de biztons\u00e1gos fogadtat\u00e1st otthon\u00e1ban.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Ne zavarjanak \u00fctemterv", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Ne zavarjanak \u00fctemterv", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "A Ne zavarjanak funkci\u00f3 be lesz kapcsolva", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Kapcsolja ki a Ne zavarjanak funkci\u00f3t", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "A Ne zavarjanak funkci\u00f3 be van kapcsolva", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "A Ne zavarjanak funkci\u00f3 ki van kapcsolva", // EN: Do not disturb turned off
     "Renk": "Sz\u00edn", // EN: Color

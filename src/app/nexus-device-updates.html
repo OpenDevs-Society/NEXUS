@@ -192,7 +192,7 @@
             '<div class="min-w-0 flex items-center gap-3">' +
               (window.NX ? '<img src="' + NX.imageUrl(device) + '" alt="" class="w-12 h-12 object-contain shrink-0" loading="lazy" decoding="async" onerror="this.style.visibility=\'hidden\'">' : '') +
               '<div class="min-w-0">' +
-                '<h4 class="font-bold truncate">' + escapeHtml(device.name || ('Cihaz ' + (index + 1))) + '</h4>' +
+                '<h4 class="font-bold leading-tight line-clamp-2 break-words">' + escapeHtml(device.name || ('Cihaz ' + (index + 1))) + '</h4>' +
                 '<p class="text-xs text-slate-500 mt-0.5 dark:text-slate-300">' + escapeHtml(device.host && device.protocol ? 'Yerel ağ · ' + device.protocol : 'Katalogdan eklendi') + '</p>' +
               '</div>' +
             '</div>' +
@@ -201,7 +201,7 @@
           // Aynı "Kontrol Et ile sürüm cihazdan okunur" notu her kartta tekrarlanmasın: yalnızca gerçek bir sonuç
           // (yükleniyor durumu düğmede görünür) ya da düğmesiz bir durum varsa gösterilir.
           (((LAST[index] && !BUSY[index]) || !supportsFirmware(device)) ?
-          '<div class="mt-3 pt-3 border-t border-slate-50 flex items-center gap-2 text-[11px] text-slate-400">' +
+          '<div class="mt-3 pt-3 border-t border-slate-50 flex items-center gap-2 text-xs text-slate-500">' +
             '<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4m0-4h.01" stroke-linecap="round"></path></svg>' +
             '<span class="truncate">' + escapeHtml((!BUSY[index] && LAST[index]) || (device.host && device.protocol ? 'Bu cihaz sürüm bilgisi paylaşmıyor' : 'Sürüm bilgisi cihazın kendi uygulamasında')) + '</span>' +
           '</div>' : '') +

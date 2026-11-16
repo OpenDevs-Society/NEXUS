@@ -775,16 +775,12 @@ window.NEXUS_EN = {
     "/ay": "/mo",
     "0 Cihaz": "0 Devices",
     "0 cihaz": "0 devices",
-    "1 saatliğine Rahatsız Etme": "Do Not Disturb for 1 hour",
     "1 ölçek": "1 scoop",
     "12 AQI • Sağlıklı": "12 AQI • Healthy",
-    "12 saatliğine Rahatsız Etme": "Do Not Disturb for 12 hours",
     "15 Dakika Sürecek": "Takes 15 Minutes",
     "2 ölçek": "2 scoops",
-    "24 saatliğine Rahatsız Etme": "Do Not Disturb for 24 hours",
     "3 cihazı açık, 2 kilit onay bekliyor.": "3 devices on, 2 locks awaiting confirmation.",
     "3 gün ücretsiz deneme": "3-day free trial",
-    "3 saatliğine Rahatsız Etme": "Do Not Disturb for 3 hours",
     "3 ölçek": "3 scoops",
     "3D yazıcı": "3D printer",
     "4 Cihaz Etkilenecek": "4 Devices Affected",
@@ -869,6 +865,12 @@ window.NEXUS_EN = {
     "Kamera eklediğinde gizlilik modu her kamera için burada görünür.":
       "Once you add a camera, its privacy mode appears here.",
     "Bu senaryoyu uygulayacak uygun cihaz yok": "No suitable device to run this scenario",
+    "Ne yapacak": "What it will do",
+    "Endişelenme, hesabını kurtarmana yardımcı olacağız. E-posta adresine bir sıfırlama bağlantısı gönderelim.": "Don't worry, we'll help you recover your account. We'll send a reset link to your email address.",
+    "Şifre tekrarı": "Confirm password",
+    "Misafire geçici erişim verince misafir modu burada hazırlanır.": "Guest mode is set up here once you give a guest temporary access.",
+    "Cihaz, enerji ve plan olayları gerçekleştikçe burada listelenir.": "Device, energy and plan events are listed here as they happen.",
+    "Aç / Kapat": "Turn on / off",
     "Işık, perde, klima veya kilit gibi uyumlu bir cihaz eklediğinde burada listelenir.":
       "Once you add a compatible device such as a light, curtain, air conditioner or lock, it is listed here.",
     "Uygun cihaz yok": "No suitable device",
@@ -1507,8 +1509,6 @@ window.NEXUS_EN = {
     "Elektrikli Şömine": "Electric Fireplace",
     "Elektronik Akıllı Tartı": "Smart Scale",
     "Emiş gücü": "Suction power",
-    "Endişelenme, hesabını kurtarmana yardımcı olacağız. Lütfen bir yöntem seç.":
-      "Don't worry, we'll help you recover your account. Please choose a method.",
     Enerji: "Energy",
     "Enerji Kontrolü": "Energy Control",
     "Enerji Raporları": "Energy Reports",
@@ -2250,7 +2250,6 @@ window.NEXUS_EN = {
     "Meyve Sıkacağı": "Juicer",
     "Mikrodalga Fırın": "Microwave Oven",
     "Mini uygulama menüsü": "Mini app menu",
-    "Mini uygulamayı kapat": "Close mini app",
     Misafir: "Guest",
     "Misafir Deneyimi": "Guest Experience",
     "Misafir Erişimi": "Guest Access",
@@ -2260,8 +2259,6 @@ window.NEXUS_EN = {
     "Misafir WiFi": "Guest Wi-Fi",
     "Misafir ağı ayarlanınca burada görünür.":
       "It will appear here once the guest network is set up.",
-    "Misafir ağı veya geçici erişim bilgisi olmadan hazır durum göstermiyoruz.":
-      "We don't show a ready state without guest network or temporary access details.",
     "Misafir geldiği anda giriş, aydınlatma ve ortak alan cihazlarını hazırlayan bir misafir modu uygulaması oluştur. Karşılama ışığı, sessiz bildirim ve misafir erişim adımları olsun.":
       "Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.",
     "Misafir geldiği anda kullanılacak ışık, erişim ve ortam ayarları.":
@@ -2533,7 +2530,6 @@ window.NEXUS_EN = {
     "Rahatsız Etme Programı": "Do Not Disturb Schedule",
     "Rahatsız Etme Takvimi": "Do Not Disturb Schedule",
     "Rahatsız Etme aktif edilecek": "Do Not Disturb will be turned on",
-    "Rahatsız Etme'yi Kapat": "Turn Off Do Not Disturb",
     "Rahatsız etme modu açıldı": "Do not disturb turned on",
     "Rahatsız etme modu kapatıldı": "Do not disturb turned off",
     Renk: "Color",
@@ -3782,6 +3778,8 @@ window.NEXUS_EN = {
     "Zamanlama tabanlı · Akıllı Priz{0}": "Schedule-based · Smart Plug{0}",
   },
   patterns: [
+    ["^1 saat$", "1 hour"],
+    ["^(\\d+) saat$", "$1 hours"],
     ["^(.+) ve (\\d+) bölüm daha eklendi$", "$1 and $2 more parts added"],
     ["^(\\S+) adresindeki cihazın MAC adresi \\(([0-9a-f:]+)\\) otomatik okundu\\. Bilgisayar ya da TV ise uykudayken uyandırmak için ekleyebilirsin\\. Cihazın ayarlarında Wake-on-LAN açık olmalı\\.$", "The MAC address ($2) of the device at $1 was read automatically. If it is a computer or TV, you can add it to wake it from sleep. Wake-on-LAN must be enabled in the device settings."],
     ["^(.+) eklendi\\. Ana sayfadaki düğme uyandırma paketi gönderir\\.$", "$1 added. The button on the home page sends a wake-up packet."],

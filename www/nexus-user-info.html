@@ -393,7 +393,10 @@
     /* Ülke verileri hazır olduktan sonra kayıtlı verileri yükle (profil sayfasıyla senkron) — gerçek veri yoksa dürüst varsayılanlar */
     (function () {
       var name = nexusGetItem('nexusUserName');
-      document.getElementById('username-value').textContent = name || 'Misafir';
+      var acct = '';
+      try { acct = localStorage.getItem('nexusCurrentUser') || ''; } catch (e) {}
+      // Ad girilmemiş ama oturum açıksa "Misafir" yerine e-posta adı gösterilir.
+      document.getElementById('username-value').textContent = name || (acct.indexOf('@') > 0 ? acct.split('@')[0] : 'Misafir');
       nameInput.value = name || '';
       updateNameCount();
       var avatar = nexusGetItem('nexusAvatar');

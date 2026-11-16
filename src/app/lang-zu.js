@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/ngenyanga", // EN: /mo
     "0 Cihaz": "0 Amadivayisi", // EN: 0 Devices
     "0 cihaz": "0 amadivayisi", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Ungaphazanyiswa amahora angu-1", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "I-scoop engu-1", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Kumnandi empilweni", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Ungaphazanyiswa amahora angu-12", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Kuthatha imizuzu engu-15", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "Ama-scoop ama-2", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Ungaphazanyiswa amahora angu-24", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "Amadivayisi angu-3 avaliwe, izivalo ezi-2 zilinde ukuqinisekiswa.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "Uhlelo lokuzama olunamahora angu-3 nsuku ezintathu mahhala", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Ungaphazanyiswa amahora angu-3", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "Ama-scoop ama-3", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "Iphepha le-3D", // EN: 3D printer
     "4 Cihaz Etkilenecek": "Amadivayisi angu-4 athintekile", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "I-Electric Fireplace", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Isikali Esihlakaniphile", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Amandla okuphefumula", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Ungakhathazeki, sizokusiza ukubuyisa i-akhawunti yakho. Sicela ukhethe indlela.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Amandla", // EN: Energy
     "Enerji Kontrol\u00fc": "Ukulawula Amandla", // EN: Energy Control
     "Enerji Raporlar\u0131": "Imibiko Yamandla", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "UJuicer", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Ihhhavini ye-Microwave", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Imenyu yesicelo esincane", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Vala isicelo esincane", // EN: Close mini app
     "Misafir": "Ivakashi", // EN: Guest
     "Misafir Deneyimi": "Okuhlangenwe nakho Kwevakashi", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Ukufinyelela kweVvakashi", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Igumbi Levakashi 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "I-Wi-Fi Yevakashi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "Lizovela lapha uma inethiwekhi yezivakashi isilungisiwe.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Asikhombisi isimo esilungele ngaphandle kwenethiwekhi yezivakashi noma imininingwane yokufinyelela kwesikhashana.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Dala uhlelo lwesicelo semodi yevakashi olulungiselela umnyango, ukukhanya nemishini esabelwe indawo esabelwe ngokushesha lapho izivakashi zifika. Faka ukukhanya kokwamukela, izaziso ezithule kanye nezinyathelo zokufinyelela kwezakhamuzi.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Ulimi, ukufinyelela kanye nezilungiselelo zendalo ezisetshenziselwa ngokushesha lapho izivakashi zifika.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Lungisa ingangeni, ukukhanya, izindawo ezihlanganyelwe kanye nemishini yokuzijabulisa kuphaneli eyodwa ngaphambi kokufika kwezivakashi. Dala ukuhamba okujabulisayo kodwa okuphephile ekhaya.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Uhlu Lokungaphazanyiswa", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Uhlu Lokungaphazanyiswa", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Ukungaphazanyiswa kuzovalwa", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Vala Ukungaphazanyiswa", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Ukungaphazanyiswa kuvuliwe", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Ukungaphazanyiswa kuvaliwe", // EN: Do not disturb turned off
     "Renk": "Umbala", // EN: Color

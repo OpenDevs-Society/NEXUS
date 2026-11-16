@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/mes", // EN: /mo
     "0 Cihaz": "0 dispositivos", // EN: 0 Devices
     "0 cihaz": "0 dispositivos", // EN: 0 devices
-    "1 saatliğine Rahatsız Etme": "No molestar durante 1 hora", // EN: Do Not Disturb for 1 hour
     "1 ölçek": "1 cucharada", // EN: 1 scoop
     "12 AQI • Sağlıklı": "12 AQI • Saludable", // EN: 12 AQI • Healthy
-    "12 saatliğine Rahatsız Etme": "No molestar durante 12 horas", // EN: Do Not Disturb for 12 hours
     "15 Dakika Sürecek": "Toma 15 minutos", // EN: Takes 15 Minutes
     "2 ölçek": "2 cucharadas", // EN: 2 scoops
-    "24 saatliğine Rahatsız Etme": "No molestar durante 24 horas", // EN: Do Not Disturb for 24 hours
     "3 cihazı açık, 2 kilit onay bekliyor.": "3 dispositivos encendidos, 2 cerraduras pendientes de confirmación.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 gün ücretsiz deneme": "Prueba gratuita de 3 días", // EN: 3-day free trial
-    "3 saatliğine Rahatsız Etme": "No molestar durante 3 horas", // EN: Do Not Disturb for 3 hours
     "3 ölçek": "3 cucharadas", // EN: 3 scoops
     "3D yazıcı": "impresora 3D", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 dispositivos afectados", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli Şömine": "Chimenea eléctrica", // EN: Electric Fireplace
     "Elektronik Akıllı Tartı": "Báscula inteligente", // EN: Smart Scale
     "Emiş gücü": "poder de succión", // EN: Suction power
-    "Endişelenme, hesabını kurtarmana yardımcı olacağız. Lütfen bir yöntem seç.": "No te preocupes, te ayudaremos a recuperar tu cuenta. Por favor elija un método.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Energía", // EN: Energy
     "Enerji Kontrolü": "Control de energía", // EN: Energy Control
     "Enerji Raporları": "Informes energéticos", // EN: Energy Reports
@@ -1965,7 +1960,6 @@ window.NEXUS_LANG = {
     "Meyve Sıkacağı": "exprimidor", // EN: Juicer
     "Mikrodalga Fırın": "Horno Microondas", // EN: Microwave Oven
     "Mini uygulama menüsü": "Menú de miniaplicaciones", // EN: Mini app menu
-    "Mini uygulamayı kapat": "Cerrar miniaplicación", // EN: Close mini app
     "Misafir": "Invitado", // EN: Guest
     "Misafir Deneyimi": "Experiencia del huésped", // EN: Guest Experience
     "Misafir Erişimi": "Acceso de invitados", // EN: Guest Access
@@ -1974,7 +1968,6 @@ window.NEXUS_LANG = {
     "Misafir Odası 22°C": "Habitación de huéspedes 22°C", // EN: Guest Room 22°C
     "Misafir WiFi": "Wi-Fi para invitados", // EN: Guest Wi-Fi
     "Misafir ağı ayarlanınca burada görünür.": "Aparecerá aquí una vez que se configure la red de invitados.", // EN: It will appear here once the guest network is set up.
-    "Misafir ağı veya geçici erişim bilgisi olmadan hazır durum göstermiyoruz.": "No mostramos un estado listo sin red de invitados o detalles de acceso temporal.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldiği anda giriş, aydınlatma ve ortak alan cihazlarını hazırlayan bir misafir modu uygulaması oluştur. Karşılama ışığı, sessiz bildirim ve misafir erişim adımları olsun.": "Cree una aplicación de modo invitado que prepare la entrada, la iluminación y los dispositivos del área compartida tan pronto como lleguen los invitados. Incluya una luz de bienvenida, notificaciones silenciosas y pasos de acceso para invitados.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldiği anda kullanılacak ışık, erişim ve ortam ayarları.": "Configuraciones de luz, acceso y ambiente para usar tan pronto como lleguen los invitados.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden önce giriş, aydınlatma, ortak alan ve eğlence cihazlarını tek panelde hazırla. Ev içinde rahat ama güvenli bir karşılama akışı oluştur.": "Prepare la entrada, la iluminación, las áreas compartidas y los dispositivos de entretenimiento en un panel antes de que lleguen los invitados. Cree un flujo de bienvenida relajado pero seguro en casa.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2225,7 +2218,6 @@ window.NEXUS_LANG = {
     "Rahatsız Etme Programı": "Horario de no molestar", // EN: Do Not Disturb Schedule
     "Rahatsız Etme Takvimi": "Horario de no molestar", // EN: Do Not Disturb Schedule
     "Rahatsız Etme aktif edilecek": "No molestar se activará", // EN: Do Not Disturb will be turned on
-    "Rahatsız Etme'yi Kapat": "Desactivar No molestar", // EN: Turn Off Do Not Disturb
     "Rahatsız etme modu açıldı": "No molestar activado", // EN: Do not disturb turned on
     "Rahatsız etme modu kapatıldı": "No molestar desactivado", // EN: Do not disturb turned off
     "Renk": "Color", // EN: Color

@@ -122,7 +122,7 @@
           box.appendChild(el("p", "nx-empty__title", title));
           box.appendChild(el("p", "nx-empty__text", text));
           if (href) {
-            var a = el("a", "inline-block mt-3 text-sm font-bold text-[#4C7DFF]", label);
+            var a = el("a", "nx-empty__cta", label);
             a.href = href;
             box.appendChild(a);
           }
@@ -196,7 +196,7 @@
         cloud.session().then(function (current) {
           if (!current) {
             status.textContent = "";
-            empty("log-in", nexusT("Önce bulut hesabınla giriş yap", "Sign in with your cloud account first"), nexusT("Ödeme kayıtlarını görmek için giriş gerekir.", "You need to sign in to see payment records."));
+            empty("log-in", nexusT("Önce bulut hesabınla giriş yap", "Sign in with your cloud account first"), nexusT("Ödeme kayıtlarını görmek için giriş gerekir.", "You need to sign in to see payment records."), "nexus-login.html", nexusT("Oturum Aç", "Sign in"));
             return null;
           }
           return cloud.billingAccount("status").then(function (data) {

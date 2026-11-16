@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/mesec", // EN: /mo
     "0 Cihaz": "0 Naprav", // EN: 0 Devices
     "0 cihaz": "0 naprav", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Ne moti za 1 uro", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 merica", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Zdravo", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Ne moti za 12 ur", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Traja 15 minut", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 merici", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Ne moti za 24 ur", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 naprave vklopljene, 2 zaklepa \u010dakata na potrditev.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "3-dnevno brezpla\u010dno preskusno obdobje", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Ne moti za 3 ure", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 merice", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "3D tiskalnik", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 Naprave prizadete", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Elektri\u010dni kamin", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Pametna tehtnica", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Sesalna mo\u010d", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Ne skrbite, pomagali vam bomo obnoviti va\u0161 ra\u010dun. Prosimo, izberite metodo.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Energija", // EN: Energy
     "Enerji Kontrol\u00fc": "Nadzor energije", // EN: Energy Control
     "Enerji Raporlar\u0131": "Poro\u010dila o energiji", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Sokovnik", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Mikrovalovna pe\u010dica", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Meni mini aplikacije", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Zapri mini aplikacijo", // EN: Close mini app
     "Misafir": "Gost", // EN: Guest
     "Misafir Deneyimi": "Gostovska izku\u0161nja", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Dostop za goste", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Gostovska soba 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Gost Wi-Fi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "Pojavil se bo tukaj, ko bo gostovna mre\u017ea vzpostavljena.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Ne prikazujemo pripravljene funkcije brez gostovne mre\u017ee ali za\u010dasnih dostopnih podatkov.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Ustvarite aplikacijo za na\u010din za goste, ki pripravi vhod, razsvetljavo in naprave v skupnih prostorih, takoj ko gosti prispejo. Vklju\u010dite pozdravno lu\u010d, tiha obvestila in korake za dostop gostov.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Nastavitve svetlobe, dostopa in vzdu\u0161ja za uporabo takoj, ko gostje prispejo. Pripravite vhod, razsvetljavo, skupne prostore in zabavne naprave na eni plo\u0161\u010di pred prihodom gostov. Ustvarite spro\u0161\u010den, a varen tok dobrodo\u0161lice doma. Na\u010din za goste Na\u010din za goste ni nastavljen Temperatura v sobi za goste nastavljena na 22 stopinj Pripravite svoj dom z enim dotikom pred prihodom gostov. Na\u010din Vijoli\u010dna Sve\u010da Kuhinja Kuhinjski aparati Potrebna kuhinjska ventilacija Kamera v kuhinji Kuhinjsko okno Kuhinjski procesor Preverite kuhinjske aparate Pripravi primerne kuhinjske naprave z enim dotikom. Kuhinja, dnevna soba, hodnik Odli\u010dno Za\u010detek glasbe Glasbena storitev VLAGA NEXUS - AI Za\u0161\u010dita NEXUS - Pametna aplikacija NEXUS - Takoj\u0161nja obvestila NEXUS - Pomo\u010dnik NEXUS - Nastavitve NEXUS - Glavni nadzor razsvetljave NEXUS - Naprava NEXUS - Dodaj napravo", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Pred prihodom gostov na eni plo\u0161\u010di pripravi vhod, razsvetljavo, skupne prostore in zabavne naprave. Ustvari spro\u0161\u010den, a varen potek sprejema doma.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Razpored Ne moti", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Razpored Ne moti", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Ne moti bo vklopljen", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Izklopi Ne moti", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Ne moti vklopljen", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Ne moti izklopljen", // EN: Do not disturb turned off
     "Renk": "Barva", // EN: Color

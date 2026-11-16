@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/ma\u00f0", // EN: /mo
     "0 Cihaz": "0 T\u00e6ki", // EN: 0 Devices
     "0 cihaz": "0 t\u00e6ki", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Ekki trufla \u00ed 1 klukkustund", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 skei\u00f0", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Heilbrigt", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Ekki trufla \u00ed 12 klukkustundir", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Tekur 15 m\u00edn\u00fatur", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 skei\u00f0", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Ekki trufla \u00ed 24 klukkustundir", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 t\u00e6ki kveikt, 2 l\u00e6singar b\u00ed\u00f0a sta\u00f0festingar.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "3 daga prufu\u00e1skrift", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Ekki trufla \u00ed 3 klukkustundir", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 skei\u00f0", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "3D prentari", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 T\u00e6ki \u00e1hrifa", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Rafmagnseldh\u00fasreitur", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Snjallvigt", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Sogkraftur", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Ekki hafa \u00e1hyggjur, vi\u00f0 munum hj\u00e1lpa \u00fe\u00e9r a\u00f0 endurheimta reikninginn \u00feinn. Vinsamlegast veldu a\u00f0fer\u00f0.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Orka", // EN: Energy
     "Enerji Kontrol\u00fc": "Orkustj\u00f3rnun", // EN: Energy Control
     "Enerji Raporlar\u0131": "Orkusk\u00fdrslur", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Safaristari", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "\u00d6rbylgjuofn", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Mini forritavalmynd", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Loka mini forriti", // EN: Close mini app
     "Misafir": "Gestur", // EN: Guest
     "Misafir Deneyimi": "Gesta upplifun", // EN: Guest Experience
     "Misafir Eri\u015fimi": "A\u00f0gangur gesta", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Gesta herbergi 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Gestanet Wi-Fi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "\u00dea\u00f0 birtist h\u00e9r \u00feegar gestaneti\u00f0 er komi\u00f0 upp.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Vi\u00f0 s\u00fdnum ekki tilb\u00fai\u00f0 \u00e1stand \u00e1n gestanets e\u00f0a t\u00edmabundinna a\u00f0gangsuppl\u00fdsinga.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "B\u00fa\u00f0u til forrit fyrir gestastillingu sem undirb\u00fdr inngang, l\u00fdsingu og sameiginlega sv\u00e6\u00f0isb\u00fana\u00f0 um lei\u00f0 og gestir koma. Innifali\u00f0 eru m\u00f3tt\u00f6kulj\u00f3s, hlj\u00f3\u00f0l\u00e1tar tilkynningar og skref til a\u00f0 f\u00e1 a\u00f0gang gesta.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "L\u00fdsing, a\u00f0gangur og stemningsstillingar sem h\u00e6gt er a\u00f0 nota um lei\u00f0 og gestir koma. Undirb\u00fa\u00f0u inngang, l\u00fdsingu, sameiginleg sv\u00e6\u00f0i og af\u00fereyingart\u00e6ki \u00e1 einum skj\u00e1 \u00e1\u00f0ur en gestir koma. B\u00fa\u00f0u til afslappa\u00f0 en \u00f6ruggt m\u00f3tt\u00f6kuferli heima. Gestahamur Gestahamur ekki stilltur Gestaherbergishiti fastur \u00e1 22 gr\u00e1\u00f0ur Undirb\u00fa\u00f0u heimili\u00f0 \u00feitt me\u00f0 einum smelli \u00e1\u00f0ur en gestir koma. Hamur Fj\u00f3lubl\u00e1r Kertalampi Eldh\u00fas Eldh\u00fasnet\u00e6ki \u00de\u00f6rf \u00e1 loftr\u00e6stingu \u00ed eldh\u00fasi Eldh\u00fasmyndav\u00e9l Eldh\u00fasgluggi Maturvinnsluv\u00e9l Athuga\u00f0u eldh\u00fasnet\u00e6ki Undirb\u00fdr vi\u00f0eigandi eldh\u00fast\u00e6ki me\u00f0 einum smelli. Eldh\u00fas, Stofa, Anddyri Fram\u00farskarandi Byrja t\u00f3nlist T\u00f3nlistar\u00fej\u00f3nusta RAKASTIG NEXUS - Gervigreindarv\u00f6rn NEXUS - Snjallforrit NEXUS - Samt\u00edmatilkynningar NEXUS - A\u00f0sto\u00f0arma\u00f0ur NEXUS - Stillingar NEXUS - L\u00fdsinga-stj\u00f3rn NEXUS - T\u00e6ki NEXUS - B\u00e6ta vi\u00f0 t\u00e6ki", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Undirb\u00fa\u00f0u inngang, l\u00fdsingu, sameiginleg r\u00fdmi og af\u00fereyingart\u00e6ki \u00e1 einu spjaldi \u00e1\u00f0ur en gestir koma. B\u00fa\u00f0u til \u00fe\u00e6gilegt en \u00f6ruggt m\u00f3tt\u00f6kufl\u00e6\u00f0i heima.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Ekki trufla t\u00edmasetningu", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Ekki trufla t\u00edmasetningu", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Ekki trufla ver\u00f0ur virkju\u00f0", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Sl\u00f6kkva \u00e1 Ekki trufla", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Ekki trufla er virk", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Ekki trufla er \u00f3virk", // EN: Do not disturb turned off
     "Renk": "Litur", // EN: Color

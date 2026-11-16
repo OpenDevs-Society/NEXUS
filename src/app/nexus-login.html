@@ -77,12 +77,14 @@
 <!-- BEGIN: LoginForm -->
 <div class="w-full space-y-3 sm:space-y-4" data-purpose="login-inputs">
 <div id="login-fields" class="space-y-3 sm:space-y-3.5">
-  <!-- Email Input -->
+  <!-- Email Input (görünür etiket: yazmaya başlayınca alanın ne olduğu kaybolmasın) -->
+  <label for="login-email" class="nx-field-label">E-posta</label>
   <div class="relative">
     <input class="w-full h-12 sm:h-13 px-5 rounded-2xl border-none bg-white/80 text-slate-900 placeholder-slate-400 text-base soft-shadow focus:ring-2 focus:ring-[#4C7DFF] transition-all" id="login-email" data-enter="doLogin" enterkeyhint="go" placeholder="E-posta" type="email"/>
   </div>
 
   <!-- Password Input -->
+  <label for="login-password" class="nx-field-label">Şifre</label>
   <div class="relative">
     <input class="w-full h-12 sm:h-13 px-5 pr-12 rounded-2xl border-none bg-white/80 text-slate-900 placeholder-slate-400 text-base soft-shadow focus:ring-2 focus:ring-[#4C7DFF] transition-all" id="login-password" data-enter="doLogin" enterkeyhint="go" placeholder="Şifre" type="password"/>
     <!-- Password Toggle Icon -->
@@ -168,7 +170,7 @@
 
 <!-- BEGIN: LinksSection -->
 <div class="mt-4 sm:mt-5 flex flex-col items-center space-y-4 text-xs sm:text-sm" data-purpose="secondary-actions">
-  <a class="nx-tap-t nx-tap-b text-slate-500 font-medium hover:text-[#4C7DFF] transition-colors" href="nexus-register.html">Hesabın yok mu? Yeni Hesap Oluştur</a>
+  <a class="nx-tap-t nx-tap-b nx-text-link font-medium transition-colors" href="nexus-register.html">Hesabın yok mu? Yeni Hesap Oluştur</a>
   <a class="nx-tap-t nx-tap-b text-slate-400 font-medium hover:text-slate-600 transition-colors" href="nexus-forgot-password.html">Şifremi Unuttum</a>
 </div>
 <!-- END: LinksSection -->

@@ -44,26 +44,11 @@
 
   <!-- Gerçek olay akışı (nexusEvents) veya dürüst boş durum -->
   <main class="flex-grow flex flex-col px-5 pt-4 pb-20" id="logs-main">
-    <div class="flex-grow flex flex-col items-center justify-center hidden" id="logs-empty">
-      <div class="flex flex-col items-center relative mb-4 mt-[-100px]">
-
-        <!-- Floating decorative icons (lightbulb & plug) -->
-        <div class="absolute -top-4 -left-6 text-slate-200">
-          <i class="w-5 h-5" data-lucide="lightbulb"></i>
-        </div>
-        <div class="absolute -top-6 -right-4 text-slate-200">
-          <i class="w-5 h-5" data-lucide="plug"></i>
-        </div>
-
-        <!-- Main Box Icon Container with subtle background glow/shadow -->
-        <div class="relative w-32 h-24 flex items-end justify-center mb-6">
-          <div class="absolute bottom-0 w-32 h-10 bg-slate-200/50 rounded-[100%] blur-md"></div>
-          <i class="w-20 h-20 text-slate-300 drop-shadow-sm relative z-10 stroke-[1.5]" data-lucide="package-open"></i>
-        </div>
-
-        <!-- Text -->
-        <p class="text-[15px] font-medium text-slate-400">Günlük Yok</p>
-      </div>
+    <!-- Ortak boş durum bileşeni (.nx-empty): soluk tek ikon + "Günlük Yok" yerine ne zaman dolacağını söyler -->
+    <div class="nx-empty nx-empty--page hidden" id="logs-empty">
+      <div class="nx-empty__icon" aria-hidden="true"><i class="w-7 h-7" data-lucide="scroll-text"></i></div>
+      <p class="nx-empty__title">Günlük Yok</p>
+      <p class="nx-empty__text">Cihaz, enerji ve plan olayları gerçekleştikçe burada listelenir.</p>
     </div>
     <div class="space-y-3" id="logs-list"></div>
   </main>

@@ -107,10 +107,10 @@
       var box = document.getElementById('tab-alerts');
       if (!events.length) {
         box.innerHTML =
-          '<div class="flex flex-col items-center justify-center pt-20 text-center" data-purpose="empty-state">' +
-          '<div class="w-16 h-16 rounded-2xl bg-white flex items-center justify-center text-slate-300 mb-4 menu-container-shadow">' +
-          '<i class="w-8 h-8" data-lucide="bell-off"></i></div>' +
-          '<p class="text-slate-400 font-medium">Bildirim yok</p></div>';
+          '<div class="nx-empty nx-empty--page" data-purpose="empty-state">' +
+          '<div class="nx-empty__icon" aria-hidden="true"><i class="w-7 h-7" data-lucide="bell-off"></i></div>' +
+          '<p class="nx-empty__title">Bildirim yok</p>' +
+          '<p class="nx-empty__text">Cihaz, enerji ve plan olayları gerçekleştikçe burada listelenir.</p></div>';
       } else {
         box.innerHTML = events.map(function (ev) {
           var unread = read.indexOf(ev.id) === -1;

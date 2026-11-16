@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/m\u011bs", // EN: /mo
     "0 Cihaz": "0 Za\u0159\u00edzen\u00ed", // EN: 0 Devices
     "0 cihaz": "0 za\u0159\u00edzen\u00ed", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Neru\u0161it po dobu 1 hodiny", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 odm\u011brka", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Zdrav\u00e9", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Neru\u0161it po dobu 12 hodin", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Trv\u00e1 15 minut", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 odm\u011brky", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Neru\u0161it po dobu 24 hodin", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 za\u0159\u00edzen\u00ed zapnut\u00e1, 2 z\u00e1mky \u010dekaj\u00edc\u00ed na potvrzen\u00ed.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "3denn\u00ed bezplatn\u00e1 zku\u0161ebn\u00ed verze", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Neru\u0161it po dobu 3 hodin", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 odm\u011brky", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "3D tisk\u00e1rna", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 Dot\u010den\u00e1 za\u0159\u00edzen\u00ed", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Elektrick\u00fd krb", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Inteligentn\u00ed v\u00e1ha", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Sac\u00ed v\u00fdkon", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Nem\u011bjte obavy, pom\u016f\u017eeme v\u00e1m obnovit v\u00e1\u0161 \u00fa\u010det.Vyberte pros\u00edm metodu.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Energie", // EN: Energy
     "Enerji Kontrol\u00fc": "\u0158\u00edzen\u00ed energie", // EN: Energy Control
     "Enerji Raporlar\u0131": "Energetick\u00e9 zpr\u00e1vy", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Od\u0161\u0165av\u0148ova\u010d", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Mikrovlnn\u00e1 trouba", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Nab\u00eddka mini aplikac\u00ed", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Zav\u0159ete mini aplikaci", // EN: Close mini app
     "Misafir": "Host", // EN: Guest
     "Misafir Deneyimi": "Zku\u0161enosti hosta", // EN: Guest Experience
     "Misafir Eri\u015fimi": "P\u0159\u00edstup pro hosty", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Pokoj pro hosty 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Wi-Fi pro hosty", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "Zobraz\u00ed se zde, jakmile bude s\u00ed\u0165 pro hosty nastavena.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Bez podrobnost\u00ed o s\u00edti pro hosty nebo do\u010dasn\u00e9ho p\u0159\u00edstupu neukazujeme p\u0159ipraven\u00fd stav.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Vytvo\u0159te aplikaci v re\u017eimu hosta, kter\u00e1 p\u0159iprav\u00ed vstup, osv\u011btlen\u00ed a za\u0159\u00edzen\u00ed sd\u00edlen\u00e9 oblasti, jakmile host\u00e9 doraz\u00ed.Zahr\u0148te uv\u00edtac\u00ed sv\u011btlo, tich\u00e1 ozn\u00e1men\u00ed a kroky pro p\u0159\u00edstup host\u016f.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Nastaven\u00ed sv\u011btla, p\u0159\u00edstupu a prost\u0159ed\u00ed, kter\u00e9 lze pou\u017e\u00edt, jakmile p\u0159ijdou host\u00e9.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "P\u0159ed p\u0159\u00edchodem host\u016f p\u0159ipravte vchod, osv\u011btlen\u00ed, sd\u00edlen\u00e9 prostory a z\u00e1bavn\u00ed za\u0159\u00edzen\u00ed na jednom panelu.Vytvo\u0159te si doma uvoln\u011bnou, ale bezpe\u010dnou uv\u00edtac\u00ed atmosf\u00e9ru.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Pl\u00e1n Neru\u0161it", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Pl\u00e1n Neru\u0161it", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Zapne se re\u017eim Neru\u0161it", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Vypn\u011bte re\u017eim Neru\u0161it", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Neru\u0161it zapnuto", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Re\u017eim Neru\u0161it je vypnut\u00fd", // EN: Do not disturb turned off
     "Renk": "Barva", // EN: Color

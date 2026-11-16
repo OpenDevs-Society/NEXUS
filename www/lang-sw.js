@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/kila mwezi", // EN: /mo
     "0 Cihaz": "Vifaa 0", // EN: 0 Devices
     "0 cihaz": "Vifaa 0", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Usiingiliwe kwa saa 1", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "Kijiko 1", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Afya", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Usiingiliwe kwa saa 12", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Inachukua Dakika 15", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "Vijiko 2", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Usiingiliwe kwa saa 24", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "Vifaa 3 vimewashwa, milango 2 inasubiri uthibitisho.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "Jaribio la siku 3 bila malipo", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Usiingiliwe kwa masaa 3", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "Vijiko 3", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "Printeri ya 3D", // EN: 3D printer
     "4 Cihaz Etkilenecek": "Vifaa 4 Vimeathirika", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Mahali pa Moto pa Umeme", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Mizani Mahiri", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "Nguvu ya kufyonza", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Usijali, tutakusaidia kurejesha akaunti yako. Tafadhali chagua njia.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Nishati", // EN: Energy
     "Enerji Kontrol\u00fc": "Udhibiti wa Nishati", // EN: Energy Control
     "Enerji Raporlar\u0131": "Ripoti za Nishati", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Kichotea Juisi", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Tando ya Microwave", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Menyu ndogo ya programu", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Funga programu ndogo", // EN: Close mini app
     "Misafir": "Mgeni", // EN: Guest
     "Misafir Deneyimi": "Uzoefu wa Mgeni", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Ufikiaji wa Mgeni", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Chumba cha Mgeni 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Wi-Fi ya Mgeni", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "Kitaonekana hapa mara mtandao wa wageni utakapowekwa.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "Hatunaonyesha hali ya tayari bila mtandao wa wageni au maelezo ya upatikanaji wa muda.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Tengeneza programu ya hali ya mgeni inayoiandaa ingizo, taa na vifaa vya eneo la pamoja mara wageni wanapofika. Jumuisha taa ya kuwakaribisha, arifa zisizo na kelele na hatua za ufikiaji wa mgeni.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Mipangilio ya mwanga, upatikanaji na mazingira ya kutumia mara wageni wanapofika.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Andaa mlango, taa, maeneo ya pamoja na vifaa vya burudani kwenye paneli moja kabla wageni hawajafika. Unda mtiririko wa kuwakaribisha nyumbani kwa utulivu lakini salama.", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Ratiba ya Usiokosea", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Ratiba ya Usiokosea", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Usiokosea utawashwa", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Zima Usiokosea", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Usiokosea umewashwa", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Usiokosea umezimwa", // EN: Do not disturb turned off
     "Renk": "Rangi", // EN: Color

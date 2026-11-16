@@ -684,16 +684,12 @@ window.NEXUS_LANG = {
     "/ay": "/m\u0113n", // EN: /mo
     "0 Cihaz": "0 ier\u012bces", // EN: 0 Devices
     "0 cihaz": "0 ier\u012bces", // EN: 0 devices
-    "1 saatli\u011fine Rahats\u0131z Etme": "Netrauc\u0113t 1 stundu", // EN: Do Not Disturb for 1 hour
     "1 \u00f6l\u00e7ek": "1 karote", // EN: 1 scoop
     "12 AQI \u2022 Sa\u011fl\u0131kl\u0131": "12 AQI \u2022 Vesel\u012bgs", // EN: 12 AQI • Healthy
-    "12 saatli\u011fine Rahats\u0131z Etme": "Netrauc\u0113t 12 stundas", // EN: Do Not Disturb for 12 hours
     "15 Dakika S\u00fcrecek": "Aiz\u0146em 15 min\u016btes", // EN: Takes 15 Minutes
     "2 \u00f6l\u00e7ek": "2 karotes", // EN: 2 scoops
-    "24 saatli\u011fine Rahats\u0131z Etme": "Netrauc\u0113t 24 stundas", // EN: Do Not Disturb for 24 hours
     "3 cihaz\u0131 a\u00e7\u0131k, 2 kilit onay bekliyor.": "3 ier\u012bces iesl\u0113gtas, 2 sl\u0113dzenes gaida apstiprin\u0101jumu.", // EN: 3 devices on, 2 locks awaiting confirmation.
     "3 g\u00fcn \u00fccretsiz deneme": "3 dienu bezmaksas izm\u0113\u0123in\u0101jums", // EN: 3-day free trial
-    "3 saatli\u011fine Rahats\u0131z Etme": "Netrauc\u0113t 3 stundas", // EN: Do Not Disturb for 3 hours
     "3 \u00f6l\u00e7ek": "3 karotes", // EN: 3 scoops
     "3D yaz\u0131c\u0131": "3D printeris", // EN: 3D printer
     "4 Cihaz Etkilenecek": "4 skart\u0101s ier\u012bces", // EN: 4 Devices Affected
@@ -1320,7 +1316,6 @@ window.NEXUS_LANG = {
     "Elektrikli \u015e\u00f6mine": "Elektriskais kam\u012bns", // EN: Electric Fireplace
     "Elektronik Ak\u0131ll\u0131 Tart\u0131": "Vied\u0101 svari", // EN: Smart Scale
     "Emi\u015f g\u00fcc\u00fc": "S\u016bk\u0161anas jauda", // EN: Suction power
-    "Endi\u015felenme, hesab\u0131n\u0131 kurtarmana yard\u0131mc\u0131 olaca\u011f\u0131z. L\u00fctfen bir y\u00f6ntem se\u00e7.": "Neuztraucieties, m\u0113s pal\u012bdz\u0113sim atg\u016bt j\u016bsu kontu. L\u016bdzu, izv\u0113lieties metodi.", // EN: Don't worry, we'll help you recover your account. Please choose a method.
     "Enerji": "Ener\u0123ija", // EN: Energy
     "Enerji Kontrol\u00fc": "Ener\u0123ijas p\u0101rvald\u012bba", // EN: Energy Control
     "Enerji Raporlar\u0131": "Ener\u0123ijas atskaites", // EN: Energy Reports
@@ -1964,7 +1959,6 @@ window.NEXUS_LANG = {
     "Meyve S\u0131kaca\u011f\u0131": "Sulas spiede", // EN: Juicer
     "Mikrodalga F\u0131r\u0131n": "Mikrovi\u013c\u0146u kr\u0101sns", // EN: Microwave Oven
     "Mini uygulama men\u00fcs\u00fc": "Mini lietotnes izv\u0113lne", // EN: Mini app menu
-    "Mini uygulamay\u0131 kapat": "Aizv\u0113rt mini lietotni", // EN: Close mini app
     "Misafir": "Viesis", // EN: Guest
     "Misafir Deneyimi": "Viesu pieredze", // EN: Guest Experience
     "Misafir Eri\u015fimi": "Viesu piek\u013cuve", // EN: Guest Access
@@ -1973,7 +1967,6 @@ window.NEXUS_LANG = {
     "Misafir Odas\u0131 22\u00b0C": "Viesu istaba 22\u00b0C", // EN: Guest Room 22°C
     "Misafir WiFi": "Viesu Wi-Fi", // EN: Guest Wi-Fi
     "Misafir a\u011f\u0131 ayarlan\u0131nca burada g\u00f6r\u00fcn\u00fcr.": "Tas par\u0101d\u012bsies \u0161eit, kad tiks izveidots viesu t\u012bkls.", // EN: It will appear here once the guest network is set up.
-    "Misafir a\u011f\u0131 veya ge\u00e7ici eri\u015fim bilgisi olmadan haz\u0131r durum g\u00f6stermiyoruz.": "M\u0113s ner\u0101d\u0101m gatav\u012bbas st\u0101vokli bez viesu t\u012bkla vai pagaidu piek\u013cuves datiem.", // EN: We don't show a ready state without guest network or temporary access details.
     "Misafir geldi\u011fi anda giri\u015f, ayd\u0131nlatma ve ortak alan cihazlar\u0131n\u0131 haz\u0131rlayan bir misafir modu uygulamas\u0131 olu\u015ftur. Kar\u015f\u0131lama \u0131\u015f\u0131\u011f\u0131, sessiz bildirim ve misafir eri\u015fim ad\u0131mlar\u0131 olsun.": "Izveidojiet viesu re\u017e\u012bma lietotni, kas sagatavo ieeju, apgaismojumu un koplieto\u0161anas zonas ier\u012bces tikl\u012bdz viesi ierodas. Iek\u013caujiet sagaid\u012b\u0161anas gaismu, klusas pazi\u0146ojumus un viesu piek\u013cuves so\u013cus.", // EN: Create a guest mode app that prepares the entrance, lighting and shared-area devices as soon as guests arrive. Include a welcome light, quiet notifications and guest access steps.
     "Misafir geldi\u011fi anda kullan\u0131lacak \u0131\u015f\u0131k, eri\u015fim ve ortam ayarlar\u0131.": "Gaismas, piek\u013cuves un noska\u0146as iestat\u012bjumi, ko izmantot t\u016bl\u012bt, kad ierodas viesi. Sagatavojiet ieeju, apgaismojumu, koplieto\u0161anas zonas un izklaides ier\u012bces vien\u0101 pane\u013ca pirms viesu iera\u0161an\u0101s. Izveidojiet m\u0101j\u0101s relaks\u0113tu, bet dro\u0161u sagaid\u012b\u0161anas pl\u016bsmu.", // EN: Light, access and ambience settings to use as soon as guests arrive.
     "Misafir gelmeden \u00f6nce giri\u015f, ayd\u0131nlatma, ortak alan ve e\u011flence cihazlar\u0131n\u0131 tek panelde haz\u0131rla. Ev i\u00e7inde rahat ama g\u00fcvenli bir kar\u015f\u0131lama ak\u0131\u015f\u0131 olu\u015ftur.": "Viesu re\u017e\u012bms", // EN: Prepare the entrance, lighting, shared areas and entertainment devices on one panel before guests arrive. Create a relaxed but secure welcome flow at home.
@@ -2224,7 +2217,6 @@ window.NEXUS_LANG = {
     "Rahats\u0131z Etme Program\u0131": "Netrauc\u0113t grafiks", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme Takvimi": "Netrauc\u0113t grafiks", // EN: Do Not Disturb Schedule
     "Rahats\u0131z Etme aktif edilecek": "Netrauc\u0113t tiks iesl\u0113gts", // EN: Do Not Disturb will be turned on
-    "Rahats\u0131z Etme'yi Kapat": "Izsl\u0113gt Netrauc\u0113t", // EN: Turn Off Do Not Disturb
     "Rahats\u0131z etme modu a\u00e7\u0131ld\u0131": "Netrauc\u0113t iesl\u0113gts", // EN: Do not disturb turned on
     "Rahats\u0131z etme modu kapat\u0131ld\u0131": "Netrauc\u0113t izsl\u0113gts", // EN: Do not disturb turned off
     "Renk": "Kr\u0101sa", // EN: Color
