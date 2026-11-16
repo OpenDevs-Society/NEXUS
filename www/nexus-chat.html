@@ -684,6 +684,35 @@
   <!-- Önceden burada chip satırı scrollLeft ile ortalanıyordu; bu, ilk öneri çiplerini
        ekranın soluna taşıp erişilemez kılıyordu (telefon/tablette "Film Modu" kesik görünüyordu).
        Satır artık doğal başlangıcında (scrollLeft 0) duruyor; sağdaki kesik kenarı nx-fade-x yumuşatıyor. -->
+<script data-purpose="desktop-chat-history">
+  // Masaüstü: solda 260 px sohbet geçmişi paneli (gerçek nexusChatHistory kaydından). Telefonda gizli (CSS);
+  // telefonda geçmiş, başlıktaki geçmiş simgesiyle açılan ekranda kalır.
+  (function () {
+    var T = window.nexusT || function (tr) { return tr; };
+    var esc = function (v) { return String(v == null ? '' : v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
+    var cur = new URLSearchParams(location.search).get('chat') || '';
+    var list = [];
+    try { list = JSON.parse(nexusGetItem('nexusChatHistory') || '[]') || []; } catch (e) {}
+    list = list.filter(function (c) { return c && c.messages && c.messages.length; });
+    list.sort(function (a, b) { return (b.updatedAt || 0) - (a.updatedAt || 0); });
+    var aside = document.createElement('aside');
+    aside.id = 'nx-chat-hist';
+    aside.className = 'nx-chat-hist';
+    aside.setAttribute('aria-label', T('Sohbet geçmişi', 'Chat history'));
+    var fmt = function (ts) {
+      try { return new Date(ts).toLocaleDateString(window.nexusLocale || 'tr-TR', { day: 'numeric', month: 'short' }); } catch (e) { return ''; }
+    };
+    aside.innerHTML = '<a href="nexus-chat.html" class="nx-chat-hist__new">+ ' + esc(T('Yeni sohbet', 'New chat')) + '</a>' +
+      '<p class="nx-chat-hist__label">' + esc(T('Geçmiş', 'History')) + '</p>' +
+      (list.length
+        ? list.slice(0, 50).map(function (c) {
+            return '<a href="nexus-chat.html?chat=' + encodeURIComponent(c.id) + '" class="nx-chat-hist__item' + (c.id === cur ? ' is-active' : '') + '" data-no-i18n>' +
+              '<span>' + esc(c.title || T('Sohbet', 'Chat')) + '</span><small>' + esc(fmt(c.updatedAt)) + '</small></a>';
+          }).join('')
+        : '<p class="nx-chat-hist__empty">' + esc(T('Asistanla konuşmaya başladığında sohbetlerin burada listelenir.', 'Your chats appear here once you start talking to the assistant.')) + '</p>');
+    document.body.appendChild(aside);
+  })();
+</script>
 </body>
 </html>
 

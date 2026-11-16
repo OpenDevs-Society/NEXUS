@@ -1017,7 +1017,7 @@ html.dark body .product-tile img.catalog-img { background: #F1F5F9 !important; b
 .nx-code-icon { width: 72px; height: 72px; border-radius: 22px; display: flex; align-items: center; justify-content: center; background: var(--nx-primary-soft, #ECF1FF); color: var(--nx-primary, #3366F0); }
 .nx-code-icon svg { width: 34px; height: 34px; }
 html.dark .nx-code-icon { background: rgba(51,102,240,.18); color: #8FB0FF; }
-#digit-boxes .digit { width: clamp(30px, 8.4vw, 38px) !important; height: 52px !important; }
+#digit-boxes .digit { width: clamp(30px, 9vw, 40px) !important; height: 52px !important; }
 #digit-boxes .digit:nth-child(4) { margin-right: 10px; }
 
 /* 19) QR Tarama: fener desteklenmiyorsa (gizli) boş sütun kalmasın; iki buton eşit genişlikte. */
@@ -1045,8 +1045,8 @@ html.dark .nx-notice:not([class*="nx-notice--"]) { color: #CBD5E1; }
 .nx-notice:not([class*="nx-notice--"]) a { color: var(--nx-n-fg); }
 
 /* 23) Cihazı Seç (enerji): seçili sayısı çipin içinde rozet olarak; "Aydınlatma 0" yanlış okunmasın. */
-#device-count { display: inline-flex; min-width: 20px; height: 20px; padding: 0 6px; margin-left: 4px; border-radius: 9999px; align-items: center; justify-content: center; font-size: 12px; background: rgba(15,23,42,.08); }
-html.dark #device-count { background: rgba(255,255,255,.14); }
+.nx-sel-badge { display: inline-flex; height: 22px; padding: 0 8px; margin-left: 6px; border-radius: 9999px; align-items: center; gap: 3px; font-size: 12px; background: rgba(255,255,255,.22); }
+html.dark .nx-sel-badge { background: rgba(255,255,255,.14); }
 
 /* 24) Alt CTA bantları: sayfadan farklı tonda düz şerit oluşturuyordu (açık ve koyu temada).
        Bant kaldırılır; içerik ile buton arasında yalnızca yumuşak bir geçiş kalır. */
@@ -1112,3 +1112,158 @@ html.nx-desk[data-nx-page="pair"] section.grid > a[href="nexus-scan.html"] { ord
 
 /* 33) Masaüstü ayar listeleri: etiket ile anahtar arası göz takibini koparmasın; ayar türü sayfalar 720 px. */
 html.nx-desk:not(.nx-desk-wide):not(.nx-desk-auth):is([data-nx-page="settings"], [data-nx-page="account-security"], [data-nx-page="instant-notifications"], [data-nx-page="privacy-mode"], [data-nx-page="dnd"]) { --page-max: 720px; }
+
+/* 34) Ev: üst durum şeridi ve oda başlıkları */
+.nx-status-strip { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 -20px 20px; padding: 0 20px; -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); }
+.nx-status-strip[hidden] { display: none; }
+.nx-status-strip::-webkit-scrollbar { display: none; }
+.nx-status-chip { flex: none; display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 14px; border-radius: 9999px; background: #fff; color: #334155; font-size: 14px; font-weight: 600; box-shadow: 0 1px 2px rgba(15,23,42,.06); white-space: nowrap; }
+.nx-status-chip i { width: 8px; height: 8px; border-radius: 9999px; background: #94A3B8; }
+.nx-status-chip.is-on i { background: var(--nx-primary); }
+.nx-status-chip.is-warn i { background: #F59E0B; }
+html.dark .nx-status-chip { background: #1E293B; color: #E2E8F0; }
+html.nx-desk .nx-status-strip { margin-left: 0; margin-right: 0; padding: 0; -webkit-mask-image: none; mask-image: none; flex-wrap: wrap; }
+.nx-room-head { display: flex; align-items: center; gap: 8px; margin: 8px 2px -4px; font-size: 13px; font-weight: 700; color: #475569; letter-spacing: .01em; }
+.nx-room-head:first-child { margin-top: 0; }
+.nx-room-head span { font-size: 12px; font-weight: 600; color: #64748B; background: rgba(15,23,42,.06); border-radius: 9999px; padding: 1px 8px; }
+html.dark .nx-room-head { color: #CBD5E1; }
+html.dark .nx-room-head span { color: #CBD5E1; background: rgba(255,255,255,.1); }
+
+/* 35) Masaüstü iki bölmeli ayarlar: solda bölüm listesi (yapışkan), sağda en fazla ~720 px içerik. */
+.nx-pane-nav { display: none; }
+html.nx-desk.nx-two-pane:not(.nx-desk-wide):not(.nx-desk-auth) { --page-max: 1000px; }
+html.nx-desk.nx-two-pane main { display: grid !important; grid-template-columns: 220px minmax(0, 720px); column-gap: 32px; align-items: start; justify-content: center; }
+html.nx-desk.nx-two-pane main > * { grid-column: 2; }
+html.nx-desk.nx-two-pane main > * + * { margin-top: 16px; }
+html.nx-desk.nx-two-pane .nx-pane-nav { display: flex; flex-direction: column; gap: 2px; grid-column: 1; grid-row: 1 / span 40; position: sticky; top: 16px; margin-top: 0 !important; align-self: start; }
+.nx-pane-nav a { display: block; padding: 9px 14px; border-radius: 12px; font-size: 15px; font-weight: 500; color: #334155; text-decoration: none; }
+.nx-pane-nav a:hover { background: rgba(15,23,42,.05); }
+.nx-pane-nav a.is-active { background: #fff; color: var(--nx-primary); font-weight: 600; box-shadow: 0 1px 2px rgba(15,23,42,.06); }
+.nx-pane-nav a[hidden] { display: none; }
+html.dark .nx-pane-nav a { color: #CBD5E1; }
+html.dark .nx-pane-nav a:hover { background: rgba(255,255,255,.06); }
+html.dark .nx-pane-nav a.is-active { background: #1E293B; color: #fff; }
+
+/* 36) Masaüstü sohbet geçmişi paneli (260 px, kenar menünün sağında) */
+.nx-chat-hist { display: none; }
+html.nx-desk[data-nx-page="chat"] .nx-chat-hist {
+  display: flex; flex-direction: column; gap: 2px; position: fixed; top: 0; bottom: 0; left: var(--side); width: 260px; z-index: 30;
+  padding: 20px 12px; overflow-y: auto; box-sizing: border-box; background: rgba(255,255,255,.55); border-right: 1px solid rgba(148,163,184,.22);
+}
+html.nx-desk.dark[data-nx-page="chat"] .nx-chat-hist { background: rgba(15,23,42,.6); border-right-color: rgba(148,163,184,.14); }
+html.nx-desk:not(.nx-desk-auth)[data-nx-page="chat"] body { padding-left: calc(var(--side) + 260px) !important; }
+html.nx-desk:not(.nx-desk-auth)[data-nx-page="chat"] .nx-desk-top, html.nx-desk:not(.nx-desk-auth)[data-nx-page="chat"] .nx-desk-bottom { left: calc(var(--side) + 260px) !important; }
+.nx-chat-hist__new { display: flex; align-items: center; justify-content: center; height: 40px; margin-bottom: 14px; border-radius: 12px; background: var(--nx-primary); color: #fff; font-size: 14px; font-weight: 600; text-decoration: none; }
+html:not([style*="--nx-accent"]) .nx-chat-hist__new { background: var(--nx-fill); }
+.nx-chat-hist__label { margin: 0 10px 6px; font-size: 12px; font-weight: 600; color: #475569; }
+.nx-chat-hist__item { display: flex; flex-direction: column; gap: 1px; padding: 8px 10px; border-radius: 10px; text-decoration: none; color: #0F172A; }
+.nx-chat-hist__item span { font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nx-chat-hist__item small { font-size: 12px; color: #64748B; }
+.nx-chat-hist__item:hover { background: rgba(15,23,42,.05); }
+.nx-chat-hist__item.is-active { background: #fff; box-shadow: 0 1px 2px rgba(15,23,42,.06); }
+.nx-chat-hist__empty { margin: 4px 10px; font-size: 13px; line-height: 1.45; color: #64748B; }
+html.dark .nx-chat-hist__item { color: #E2E8F0; }
+html.dark .nx-chat-hist__item.is-active { background: #1E293B; }
+html.dark .nx-chat-hist__label, html.dark .nx-chat-hist__empty, html.dark .nx-chat-hist__item small { color: #94A3B8; }
+
+/* 37) Satır içi hedef sıcaklık: − değer + (Oda Konforu, Gece Hazırlığı) */
+.nx-temp-row { flex-basis: 100%; display: flex; justify-content: flex-end; padding-top: 10px; margin-top: 2px; border-top: 1px solid rgba(148,163,184,.18); }
+.nx-temp { display: inline-flex; align-items: center; gap: 6px; }
+.nx-temp__label { font-size: 13px; font-weight: 600; color: #475569; margin-right: 4px; }
+.nx-temp__btn { width: 40px; height: 40px; border-radius: 9999px; background: rgba(15,23,42,.06); color: #0F172A; font-size: 20px; font-weight: 600; line-height: 1; display: inline-flex; align-items: center; justify-content: center; }
+.nx-temp__btn:active { transform: scale(.92); }
+.nx-temp__btn:disabled { opacity: .35; }
+.nx-temp__val { min-width: 64px; text-align: center; font-size: 17px; font-weight: 700; color: #0F172A; font-variant-numeric: tabular-nums; }
+html.dark .nx-temp__label { color: #CBD5E1; }
+html.dark .nx-temp__btn { background: rgba(255,255,255,.1); color: #F8FAFC; }
+html.dark .nx-temp__val { color: #F8FAFC; }
+
+/* 38) Keşfet: kategori başına yatay kaydırmalı satır (telefonda) ve tek stil ikon karosu
+       (44 px, açık renkli zemin, renkli çizgi ikon). Masaüstünde satırlar ızgaraya döner. */
+.nx-disc-row { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 -20px; padding: 2px 20px 10px; scrollbar-width: none; }
+.nx-disc-row::-webkit-scrollbar { display: none; }
+.nx-disc-row > a { flex: 0 0 82%; max-width: 320px; scroll-snap-align: start; min-height: 112px; box-sizing: border-box; }
+.nx-disc-row > a h2 { font-size: 17px !important; }
+.nx-disc-row > a > svg:last-child { display: none; }
+html.nx-desk .nx-disc-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); overflow: visible; margin: 0; padding: 0; }
+html.nx-desk .nx-disc-row > a { max-width: none; }
+.nx-disc-tile { --t: #3366F0; width: 44px !important; height: 44px !important; border-radius: 14px !important; margin-right: 14px !important; color: var(--t) !important; background-color: #EEF2FF !important; background-color: color-mix(in srgb, var(--t) 13%, #fff) !important; }
+html.dark .nx-disc-tile { background-color: color-mix(in srgb, var(--t) 24%, #0F172A) !important; color: color-mix(in srgb, var(--t) 60%, #fff) !important; }
+.nx-disc-tile > svg, .nx-disc-tile > i, .nx-disc-tile > svg.lucide { width: 24px !important; height: 24px !important; color: inherit !important; }
+.nx-disc-tile svg[stroke="white"], .nx-disc-tile svg [stroke="white"] { stroke: currentColor; }
+.nx-disc-tile svg[fill="white"], .nx-disc-tile svg [fill="white"] { fill: currentColor; }
+.nx-disc-tile .text-white { color: inherit !important; }
+.nx-disc-tile.bg-amber-500 { --t: #D97706; } .nx-disc-tile.bg-blue-500 { --t: #2563EB; } .nx-disc-tile.bg-cyan-400 { --t: #0891B2; }
+.nx-disc-tile.bg-emerald-400, .nx-disc-tile.bg-emerald-500 { --t: #059669; } .nx-disc-tile.bg-green-400 { --t: #16A34A; }
+.nx-disc-tile.bg-indigo-500 { --t: #4F46E5; } .nx-disc-tile.bg-orange-400 { --t: #EA580C; } .nx-disc-tile.bg-purple-500 { --t: #9333EA; }
+.nx-disc-tile.bg-red-500 { --t: #DC2626; } .nx-disc-tile.bg-rose-500 { --t: #E11D48; } .nx-disc-tile.bg-sky-500 { --t: #0284C7; }
+.nx-disc-tile.bg-slate-700, .nx-disc-tile.bg-slate-900 { --t: #334155; } .nx-disc-tile.bg-yellow-400 { --t: #CA8A04; }
+
+/* 39) Ev Ağı: durum adın altında renkli nokta + kısa etiket */
+.net-dot { display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 12px; font-weight: 600; color: #475569; }
+.net-dot::before { content: ""; width: 8px; height: 8px; border-radius: 9999px; background: #94A3B8; flex: none; }
+.net-dot--ok { color: #047857; } .net-dot--ok::before { background: #10B981; }
+.net-dot--fail { color: #B91C1C; } .net-dot--fail::before { background: #EF4444; }
+.net-dot--busy::before { background: var(--nx-primary); animation: nx-dot-pulse 1s ease-in-out infinite; }
+@keyframes nx-dot-pulse { 50% { opacity: .35; } }
+html.dark .net-dot { color: #CBD5E1; } html.dark .net-dot--ok { color: #6EE7B7; } html.dark .net-dot--fail { color: #FCA5A5; }
+
+/* 40) Cihaz Güncellemesi: simge düğme ve listenin başında tek ortak not */
+.nx-upd-btn--icon { width: 40px; height: 40px; padding: 0 !important; min-height: 40px; }
+.nx-upd-note { margin: 0 4px 4px; font-size: 13px; line-height: 1.45; color: #475569; }
+html.dark .nx-upd-note { color: #CBD5E1; }
+.nx-notice--row { align-items: center; }
+.nx-notice__link { flex: none; margin-left: 8px; font-size: 14px; font-weight: 700; color: var(--nx-primary); text-decoration: underline; text-underline-offset: 3px; }
+
+/* 41) Giriş / Kayıt (telefon): form dikeyde ~%40 noktasına (optik merkez); şifre kuralı sağlanınca yeşil tik */
+@media (min-height: 700px) {
+  html:not(.nx-desk) main:is([data-purpose="login-form-container"], [data-purpose="registration-container"]) { position: relative; top: -5vh; }
+}
+.nx-pw-ok::before { content: "✓"; display: inline-block; margin-right: 5px; font-weight: 800; color: #059669; }
+
+/* 42) Program Ekle: input type=time yedeği (fare/klavye ve masaüstü; dokunmatikte tekerlekler yeterli) */
+.nx-time-fallback { display: none; align-items: center; justify-content: center; gap: 12px; margin-top: 12px; color: #64748b; }
+@media (pointer: fine) { .nx-time-fallback { display: flex; } }
+html.nx-desk .nx-time-fallback { display: flex; }
+.nx-time-input { min-height: 44px; padding: 0 12px; border: 1px solid #cbd5e1; border-radius: 12px; background: #fff; color: #0f172a; font: inherit; font-size: 16px; font-weight: 600; }
+.nx-time-input:focus-visible { outline: 2px solid var(--nx-primary, #4C7DFF); outline-offset: 2px; }
+html.dark .nx-time-input { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.18); color: #f1f5f9; color-scheme: dark; }
+
+/* 43) Enerji: ölçüm yokken tek boş durum; masaüstünde üstte 3 metrik karosu, solda geçmiş, sağda plan ve stratejiler */
+html.nx-energy-empty[data-nx-page="energy"] main > :is([data-purpose="savings-summary"], [data-purpose="energy-history"]) { display: none !important; }
+.nx-energy-metrics { display: none; }
+html.nx-desk:not(.nx-energy-empty)[data-nx-page="energy"] .nx-energy-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 24px; }
+.nx-metric { padding: 18px 20px; border-radius: 20px; background: #fff; border: 1px solid rgba(148,163,184,.25); }
+.nx-metric__label { margin: 0; font-size: 13px; font-weight: 600; color: #64748b; }
+.nx-metric__value { margin: 6px 0 0; font-size: 28px; line-height: 1.1; font-weight: 800; color: #0f172a; }
+.nx-metric__value span { font-size: 15px; font-weight: 700; color: #94a3b8; }
+html.dark .nx-metric { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.1); }
+html.dark .nx-metric__value { color: #f1f5f9; }
+html.dark .nx-metric__label { color: #94a3b8; }
+/* Masaüstü yerleşim (bölüm 29'un yerini alır): anlık özet karosu metriklerde olduğu için gizlenir */
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main:has(> [data-purpose="savings-summary"]) {
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); column-gap: 24px; align-items: start;
+  grid-template-areas: "h h" "s s" "m m" "hist plan" "hist sh" "hist sl" "exp sl" "fb fb";
+}
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > h1 { grid-area: h; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > h1 + p { grid-area: s; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="energy-metrics"] { grid-area: m; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="savings-summary"] { display: none; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="energy-history"] { grid-area: hist; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="energy-export"] { grid-area: exp; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="plan-card"] { grid-area: plan; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > h2 { grid-area: sh; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="strategy-list"] { grid-area: sl; }
+html.nx-desk[data-nx-page="energy"]:not(.nx-energy-empty) main > [data-purpose="feedback-link"] { grid-area: fb; }
+/* Boş durumda masaüstü: boş kart solda, plan sağda; stratejiler altta tam genişlik */
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main:has(> [data-purpose="savings-summary"]) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "h h" "s s" "e plan" "sh sh" "sl sl" "fb fb";
+}
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > h1 { grid-area: h; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > h1 + p { grid-area: s; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > [data-purpose="energy-empty"] { grid-area: e; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > [data-purpose="plan-card"] { grid-area: plan; grid-row: auto; grid-column: auto; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > h2 { grid-area: sh; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > [data-purpose="strategy-list"] { grid-area: sl; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > [data-purpose="feedback-link"] { grid-area: fb; }
+html.nx-desk.nx-energy-empty[data-nx-page="energy"] main > [data-purpose="energy-export"] { display: none !important; }

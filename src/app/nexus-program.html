@@ -134,6 +134,12 @@
 </div>
 </div>
 </div>
+<!-- Klavye / fare yedeği: tekerleklerle iki yönlü eşlenen saat alanları (ince işaretçili cihazlarda görünür) -->
+<div class="nx-time-fallback" data-purpose="time-inputs">
+<input type="time" step="300" id="time-start" aria-label="Başlangıç" class="nx-time-input">
+<span aria-hidden="true">–</span>
+<input type="time" step="300" id="time-end" aria-label="Bitiş" class="nx-time-input">
+</div>
 </section>
 <!-- END: Time Selection Card -->
 <!-- BEGIN: Settings Card -->
@@ -231,6 +237,33 @@
     buildWheel(document.getElementById('wheel-sm'), 60, 5);
     buildWheel(document.getElementById('wheel-eh'), 24, 1);
     buildWheel(document.getElementById('wheel-em'), 60, 5);
+
+    /* ---------- input type=time yedeği: tekerleklerle iki yönlü eşleme ---------- */
+    (function () {
+      var pairs = [
+        { input: document.getElementById('time-start'), h: document.getElementById('wheel-sh'), m: document.getElementById('wheel-sm') },
+        { input: document.getElementById('time-end'), h: document.getElementById('wheel-eh'), m: document.getElementById('wheel-em') }
+      ];
+      function pad(v) { return String(v).padStart(2, '0'); }
+      pairs.forEach(function (p) {
+        if (!p.input || !p.h || !p.m) return;
+        function fromWheels() { p.input.value = pad(wheelValue(p.h)) + ':' + pad(wheelValue(p.m)); }
+        fromWheels();
+        var t = 0;
+        [p.h, p.m].forEach(function (w) {
+          w.addEventListener('scroll', function () { clearTimeout(t); t = setTimeout(fromWheels, 120); });
+        });
+        p.input.addEventListener('change', function () {
+          var m = /^(\d{1,2}):(\d{2})/.exec(p.input.value || '');
+          if (!m) return;
+          var hh = Math.min(23, parseInt(m[1], 10));
+          var mm = Math.min(55, Math.round(parseInt(m[2], 10) / 5) * 5);
+          p.h.scrollTop = hh * 40; highlight(p.h);
+          p.m.scrollTop = (mm / 5) * 40; highlight(p.m);
+          fromWheels();
+        });
+      });
+    })();
 
     // Initialize day pills styling
     quickRepeat([0, 1, 2, 3, 4]);

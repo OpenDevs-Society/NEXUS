@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Kui alarmis\u00fcsteemi olek muutub", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Aktiveeri alarmis\u00fcsteem", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Albumi skannimine eba\u00f5nnestus.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Skanni albumist", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Alamsideme eellas", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Vigane alamv\u00f5rgu prefiks. N\u00e4ide: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "K\u00fcttelaud", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Taastamismeetodid", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Taastamisteave salvestatud \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Seadistuskood", // EN: Setup Code
-    "Kurulum Kodu Girin": "Sisesta seadistuskood", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Lisa seadistuskoodiga", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Silla versioon", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Sild peab olema samas Wi-Fi v\u00f5rgus kui teie iOS-seade. Sidumine j\u00e4\u00e4b kehtima seni, kuni teie arvuti on aktiivne (tugib salve/taustal t\u00f6\u00f6tamist).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Tolmuimejad ja p\u00f5randahooldus seadmed", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "P\u00f5randak\u00fctte radiaator", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Versioon", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "Versiooni info on seadme rakenduses", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Ei \u00f5nnestunud versiooni lugeda", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Piimamasin", // EN: Milk Maker
     "S\u0131cak": "Soe", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Saadab teate.", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "See stsenaarium ei m\u00f5juta \u00fchtegi teie praegust seadet. Selle toimimiseks lisage sobiv seade (nt tuli, kardina v\u00f5i tolmuimeja).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Loo uus kodu v\u00f5i liitu olemasolevaga, kasutades teile saadetud kutsekoodi.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "Te ei ole sisse logitud. Kodu andmed on salvestatud ainult sellele seadmele. Sisse logimiseks ja liikmete kutsumiseks, koduga liitumiseks ning perevestluse kasutamiseks logige sisse.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM l\u00fcliti", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 riba", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T temperatuuri- ja niiskussensor", // EN: Shelly H&T Temperature & Humidity Sensor

@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Ke\u010f sa zmen\u00ed stav poplachov\u00e9ho syst\u00e9mu", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Zapnite popla\u0161n\u00fd syst\u00e9m", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Skenovanie albumu zlyhalo.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Skenova\u0165 z albumu", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Predpona podsiete", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Neplatn\u00e1 predpona podsiete.Pr\u00edklad: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "Vyhrievan\u00fd st\u00f4l", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Met\u00f3dy obnovy", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Inform\u00e1cie na obnovenie boli ulo\u017een\u00e9 \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "K\u00f3d nastavenia", // EN: Setup Code
-    "Kurulum Kodu Girin": "Zadajte k\u00f3d nastavenia", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Pridajte k\u00f3d nastavenia", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Verzia mosta", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Most mus\u00ed by\u0165 pripojen\u00fd k rovnakej sieti Wi-Fi ako va\u0161e zariadenie so syst\u00e9mom iOS.P\u00e1rovanie zost\u00e1va platn\u00e9, k\u00fdm je v\u00e1\u0161 po\u010d\u00edta\u010d v pohotovostnom re\u017eime (podporuje sa z\u00e1sobn\u00edk/oper\u00e1cia na pozad\u00ed).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Vys\u00e1va\u010de a pr\u00edstroje na o\u0161etrovanie podl\u00e1h", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Elektrick\u00fd ohrieva\u010d z\u00e1kladnej dosky", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Verzia", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "Inform\u00e1cie o verzii s\u00fa vo vlastnej aplik\u00e1cii zariadenia", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Verziu sa nepodarilo pre\u010d\u00edta\u0165", // EN: Couldn't read the version
     "S\u00fct Makinesi": "V\u00fdrobn\u00edk mlieka", // EN: Milk Maker
     "S\u0131cak": "Tepl\u00fd", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Odo\u0161le upozornenie", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "Tento scen\u00e1r neovplyv\u0148uje \u017eiadne z va\u0161ich s\u00fa\u010dasn\u00fdch zariaden\u00ed.Aby to fungovalo, pridajte vhodn\u00e9 zariadenie (napr. svetlo, z\u00e1ves alebo vys\u00e1va\u010d).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Vytvorte si nov\u00fa dom\u00e1cnos\u0165 alebo sa k nej pripojte pomocou poz\u00fdvacieho k\u00f3du, ktor\u00fd v\u00e1m bol zaslan\u00fd.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "Nie ste prihl\u00e1sen\u00fd/-\u00e1. Dom\u00e1cnosti s\u00fa ulo\u017een\u00e9 iba v tomto zariaden\u00ed.Ak chcete pozva\u0165 \u010dlenov, pripoji\u0165 sa k dom\u00e1cnosti a pou\u017e\u00edva\u0165 rodinn\u00fd \u010det, prihl\u00e1ste sa.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1/1PM rel\u00e9", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "P\u00e1ska Shelly RGBW2", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Senzor teploty a vlhkosti Shelly H&T", // EN: Shelly H&T Temperature & Humidity Sensor

@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Nuair a athra\u00edonn st\u00e1das c\u00f3ras al\u00e1raim", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Arm an c\u00f3ras al\u00e1raim", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Theip ar scanadh albam.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Scan\u00e1il \u00f3n Albam", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "R\u00e9amhtheideal subnet", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Forl\u00edon\u00e1n fo-l\u00edonra neamhdhleathach. Sampla: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "T\u00e1bla Te", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Modhanna Aisghabh\u00e1la", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Eolas aisghabh\u00e1la coinnithe \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "C\u00f3d Socraithe", // EN: Setup Code
-    "Kurulum Kodu Girin": "Cuir C\u00f3d Socraithe isteach", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Cuir leis an gc\u00f3d socraithe", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Leagan Droichead", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Caithfidh an droichead a bheith ar an bhf\u00edse\u00e1n Wi-Fi c\u00e9anna le do ghl\u00e9as iOS. Fanann an p\u00e9ire\u00e1il bail\u00ed chomh fada agus a bh\u00edonn do r\u00edomhaire ar si\u00fal (taca\u00edocht do oibri\u00fa sa mhias/tr\u00e1cht c\u00falra).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Fol\u00fasghlanta\u00ed agus gl\u00e9asanna c\u00faraim url\u00e1ir", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Teasair\u00ed Leictreach Bonnair\u00ed", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Leagan", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "T\u00e1 eolas faoin leagan i bhfeidhmchl\u00e1r f\u00e9in an ghl\u00e9is", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "N\u00edorbh fh\u00e9idir an leagan a l\u00e9amh", // EN: Couldn't read the version
     "S\u00fct Makinesi": "D\u00e9ant\u00f3ir Bainne", // EN: Milk Maker
     "S\u0131cak": "Te", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Seolann s\u00e9 f\u00f3gra", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "N\u00ed th\u00e9ann an c\u00e1s seo i bhfeidhm ar aon cheann de do ghl\u00e9asanna reatha. Chun go n-oibreoidh s\u00e9, cuir gl\u00e9as oiri\u00fanach leis (m.sh. solas, imbhalla n\u00f3 fol\u00fas).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Cruthaigh teach nua, n\u00f3 b\u00ed p\u00e1irteach i gceann leis an gc\u00f3d cuireadh a sheoladh chugat.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "N\u00edl t\u00fa s\u00ednithe isteach. Coinn\u00edtear tithe ar an ngl\u00e9as seo amh\u00e1in. S\u00ednigh isteach chun cuireadh a thabhairt do bhaill, p\u00e1irt a ghlacadh i dteach agus \u00fas\u00e1id a bhaint as an gcomhr\u00e1 teaghlaigh.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM Seala\u00edocht", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Str\u00e1ice Shelly RGBW2", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Braiteoir Teochta & Taise Shelly H & T", // EN: Shelly H&T Temperature & Humidity Sensor

@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Kad main\u0101s trauksmes sist\u0113mas statuss", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Aktiviz\u0113t trauksmes sist\u0113mu", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Albumu sken\u0113\u0161ana neizdev\u0101s.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Sken\u0113t no albuma", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Apak\u0161t\u012bkla prefikss", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Neder\u012bgs apak\u0161t\u012bkla prefikss. Piem\u0113rs: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "Sild\u0101m\u0101 galds", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Atg\u016b\u0161anas metodes", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Atg\u016b\u0161anas inform\u0101cija saglab\u0101ta \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Uzst\u0101d\u012b\u0161anas kods", // EN: Setup Code
-    "Kurulum Kodu Girin": "Ievadiet uzst\u0101d\u012b\u0161anas kodu", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Pievienot ar uzst\u0101d\u012b\u0161anas kodu", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Tilta versija", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Tilta ier\u012bcei j\u0101b\u016bt savienotai ar to pa\u0161u Wi-Fi, ko izmanto j\u016bsu iOS ier\u012bce. Savienojums paliek der\u012bgs, kam\u0113r dators ir aktiviz\u0113ts (atbalst\u012bta darb\u012bba fona re\u017e\u012bm\u0101/ikontray).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Putek\u013cs\u016bc\u0113ji un gr\u012bdas kop\u0161anas ier\u012bces", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Gr\u012bdas pl\u012btas elektriskais sild\u012bt\u0101js", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Versija", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "Versijas inform\u0101cija ir ier\u012bces pa\u0161a lietotn\u0113", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Neizdev\u0101s nolas\u012bt versiju", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Piena pagatavot\u0101js", // EN: Milk Maker
     "S\u0131cak": "Silts", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Nos\u016bta pazi\u0146ojumu", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "\u0160is scen\u0101rijs neietekm\u0113 nevienu no j\u016bsu pa\u0161reiz\u0113jiem ier\u012bc\u0113m. Lai tas darbotos, pievienojiet atbilsto\u0161u ier\u012bci (piem., gaismu, aizkaru vai putek\u013cs\u016bc\u0113ju).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Izveidojiet jaunu m\u0101ju vai pievienojieties tai, izmantojot jums nos\u016bt\u012bto uzaicin\u0101juma kodu.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "J\u016bs neesat pierakst\u012bjies. M\u0101jas tiek glab\u0101tas tikai \u0161aj\u0101 ier\u012bc\u0113. Pierakstieties, lai aicin\u0101tu dal\u012bbniekus, pievienotos m\u0101jai un lietotu \u0123imenes t\u0113rz\u0113\u0161anu.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM Relejs", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 Lente", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T Temperat\u016bras un Mitruma Sensors", // EN: Shelly H&T Temperature & Humidity Sensor

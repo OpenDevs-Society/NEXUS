@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Saat status sistem alarm berubah", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Aktifkan sistem alarm", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Pemindaian album gagal.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Pindai dari Album", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Awalan subnet", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Awalan subnet tidak valid. Contoh: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "Meja Pemanas", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Metode Pemulihan", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Info pemulihan tersimpan \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Kode Setup", // EN: Setup Code
-    "Kurulum Kodu Girin": "Masukkan Kode Setup", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Tambah dengan kode setup", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Versi Bridge", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Jembatan harus berada pada Wi-Fi yang sama dengan perangkat iOS Anda. Pemadanan tetap valid selama komputer Anda tetap aktif (mendukung operasi tray/latar belakang).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Vakum dan perangkat perawatan lantai", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Pemanas Listrik Papan Alas", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Versi", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "Informasi versi ada di aplikasi perangkat itu sendiri", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Tidak bisa membaca versi", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Pembuat Susu", // EN: Milk Maker
     "S\u0131cak": "Hangat", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Mengirim notifikasi", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "Skenario ini tidak memengaruhi perangkat Anda saat ini. Agar berfungsi, tambahkan perangkat yang sesuai (mis. lampu, tirai, atau penyedot debu).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Buat rumah baru, atau bergabung dengan rumah menggunakan kode undangan yang dikirim kepada Anda.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "Anda belum masuk. Rumah hanya disimpan di perangkat ini. Masuk untuk mengundang anggota, bergabung dengan rumah, dan menggunakan obrolan keluarga.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM Relay", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 Strip", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T Sensor Suhu & Kelembaban", // EN: Shelly H&T Temperature & Humidity Sensor

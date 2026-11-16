@@ -309,7 +309,7 @@
       if (el.id === "nx-side" || el.closest("#nx-side")) return;
       var cs = getComputedStyle(el);
       if (cs.position !== "fixed") return;
-      if (el.classList.contains("nexus-ai-fab")) return;
+      if (el.classList.contains("nexus-ai-fab") || el.classList.contains("nx-chat-hist")) return;
       var navLike = el.matches('nav[data-purpose="bottom-nav"]') ||
         (el.tagName === "NAV" && el.querySelector('a[href="nexus-home.html"]') && el.querySelector('a[href="nexus-profile.html"]'));
       if (navLike) { el.classList.add("nx-desk-hide"); return; }
@@ -433,11 +433,71 @@
     document.head.appendChild(s);
   }
 
+  // Ayar türü uzun listeler masaüstünde iki bölmeli: solda bölüm listesi (sayfadaki gerçek başlıklardan),
+  // sağda içerik. Bölüme tıklayınca oraya kayar; kaydırdıkça etkin bölüm vurgulanır. Telefonda gizlidir (CSS).
+  var TWO_PANE = ["nexus-settings.html", "nexus-account-security.html", "nexus-instant-notifications.html"];
+  function buildPaneNav() {
+    if (TWO_PANE.indexOf(page) === -1) return;
+    var main = document.querySelector("main");
+    if (!main || main.querySelector(".nx-pane-nav")) return;
+    var items = [];
+    Array.prototype.forEach.call(main.children, function (el, n) {
+      if (/^(SCRIPT|STYLE)$/.test(el.tagName)) return;
+      var h = el.querySelector("h2, h3");
+      if (!h) return;
+      var label = String(h.textContent || "").replace(/\s+/g, " ").trim();
+      if (!label) return;
+      if (!el.id) el.id = "nx-pane-" + n;
+      items.push({ el: el, label: label });
+    });
+    if (items.length < 3) return;
+    var nav = document.createElement("nav");
+    nav.className = "nx-pane-nav";
+    nav.setAttribute("aria-label", window.nexusT ? window.nexusT("Bölümler", "Sections") : "Bölümler");
+    items.forEach(function (it) {
+      var a = document.createElement("a");
+      a.href = "#" + it.el.id;
+      a.textContent = it.label;
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        it.el.scrollIntoView({ behavior: "smooth", block: "start" });
+        mark(a);
+      });
+      it.link = a;
+      nav.appendChild(a);
+    });
+    function mark(a) {
+      Array.prototype.forEach.call(nav.children, function (x) { x.classList.toggle("is-active", x === a); });
+    }
+    mark(items[0].link);
+    main.insertBefore(nav, main.firstChild);
+    root.classList.add("nx-two-pane");
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          var hit = items.filter(function (it) { return it.el === en.target; })[0];
+          if (hit) mark(hit.link);
+        });
+      }, { rootMargin: "-20% 0px -70% 0px" });
+      items.forEach(function (it) { io.observe(it.el); });
+    }
+    // Gizli bölümler (ör. web'de Masaüstü Uygulaması, aramada eşleşmeyenler) listede de gizlenir
+    function syncHidden() {
+      items.forEach(function (it) { it.link.hidden = it.el.classList.contains("hidden") || it.el.hidden || getComputedStyle(it.el).display === "none"; });
+    }
+    syncHidden();
+    window.addEventListener("load", syncHidden);
+    var search = document.getElementById("settings-search");
+    if (search) search.addEventListener("input", function () { setTimeout(syncHidden, 0); });
+  }
+
   function init() {
     applyMode();
     if (isDesk()) ensureIcons(buildSidebar);
     classifyFixed();
     transferBackground();
+    try { buildPaneNav(); } catch (e) { /* iki bölmeli düzen isteğe bağlı */ }
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

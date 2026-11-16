@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Amikor a riaszt\u00f3rendszer \u00e1llapota megv\u00e1ltozik", // EN: When the alarm system status changes
     "Alarm sistemini kur": "\u00c9les\u00edtse a riaszt\u00f3rendszert", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Az album beolvas\u00e1sa nem siker\u00fclt.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Szkennel\u00e9s az albumb\u00f3l", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Alh\u00e1l\u00f3zati el\u0151tag", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "\u00c9rv\u00e9nytelen alh\u00e1l\u00f3zati el\u0151tag.P\u00e9lda: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "F\u0171t\u00f6tt asztal", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Helyre\u00e1ll\u00edt\u00e1si m\u00f3dszerek", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "A helyre\u00e1ll\u00edt\u00e1si adatok mentve \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Be\u00e1ll\u00edt\u00e1si k\u00f3d", // EN: Setup Code
-    "Kurulum Kodu Girin": "\u00cdrja be a be\u00e1ll\u00edt\u00e1si k\u00f3dot", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Hozz\u00e1ad\u00e1s be\u00e1ll\u00edt\u00e1si k\u00f3ddal", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Bridge verzi\u00f3", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "A h\u00eddnak ugyanazon a Wi-Fi-n kell lennie, mint az iOS-eszk\u00f6z\u00e9nek.A p\u00e1ros\u00edt\u00e1s mindaddig \u00e9rv\u00e9nyben marad, am\u00edg a sz\u00e1m\u00edt\u00f3g\u00e9p \u00e9bren marad (a t\u00e1lca/h\u00e1tt\u00e9r m\u0171k\u00f6d\u00e9se t\u00e1mogatott).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Porsz\u00edv\u00f3k \u00e9s padl\u00f3\u00e1pol\u00f3 k\u00e9sz\u00fcl\u00e9kek", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Alaplap elektromos f\u0171t\u00e9s", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Verzi\u00f3", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "A verzi\u00f3 inform\u00e1ci\u00f3 az eszk\u00f6z saj\u00e1t alkalmaz\u00e1s\u00e1ban tal\u00e1lhat\u00f3", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Nem siker\u00fclt elolvasni a verzi\u00f3t", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Tejk\u00e9sz\u00edt\u0151", // EN: Milk Maker
     "S\u0131cak": "Meleg", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "\u00c9rtes\u00edt\u00e9st k\u00fcld", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "Ez a forgat\u00f3k\u00f6nyv egyetlen jelenlegi eszk\u00f6z\u00e9t sem \u00e9rinti.A m\u0171k\u00f6d\u00e9shez adjon hozz\u00e1 megfelel\u0151 eszk\u00f6zt (p\u00e9ld\u00e1ul l\u00e1mp\u00e1t, f\u00fcgg\u00f6nyt vagy porsz\u00edv\u00f3t).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Hozzon l\u00e9tre egy \u00faj otthont, vagy csatlakozzon egyhez a kapott megh\u00edv\u00f3k\u00f3ddal.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "Nincs bejelentkezve. Az otthonokat csak ezen az eszk\u00f6z\u00f6n t\u00e1roljuk.Jelentkezzen be tagok megh\u00edv\u00e1s\u00e1hoz, csatlakozzon egy otthonhoz, \u00e9s haszn\u00e1lja a csal\u00e1di cseveg\u00e9st.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1/1PM Rel\u00e9", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 szalag", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T h\u0151m\u00e9rs\u00e9klet \u00e9s p\u00e1ratartalom \u00e9rz\u00e9kel\u0151", // EN: Shelly H&T Temperature & Humidity Sensor

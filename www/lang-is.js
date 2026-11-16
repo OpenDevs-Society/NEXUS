@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "\u00deegar \u00e1stand \u00f6ryggiskerfis breytist", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Virkja\u00f0u \u00f6ryggiskerfi\u00f0", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Skjalasafn sk\u00f6nnun mist\u00f3kst.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Skanna \u00far alb\u00fami", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Undirnet forskeyti", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "\u00d3gild subnet forskeyti. D\u00e6mi: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "Heita bor\u00f0", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Endurheimtara\u00f0fer\u00f0ir", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Endurheimtaruppl\u00fdsingar vista\u00f0ar \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Uppsetningark\u00f3\u00f0i", // EN: Setup Code
-    "Kurulum Kodu Girin": "Sl\u00e1\u00f0u inn uppsetningark\u00f3\u00f0a", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "B\u00e6ta vi\u00f0 me\u00f0 uppsetningark\u00f3\u00f0a", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Br\u00faar\u00fatg\u00e1fa", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Br\u00fain ver\u00f0ur a\u00f0 vera \u00e1 sama Wi-Fi og iOS t\u00e6ki\u00f0 \u00feitt. Samtenging helst gild \u00fear til t\u00f6lvan er vakandi (stutt tray/bakgrunnsstarfsemi er studd).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Ryksugur og g\u00f3lfhreinsit\u00e6ki", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Rafmagnsgrunnhitari", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "\u00datg\u00e1fa", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "Uppl\u00fdsingar um \u00fatg\u00e1fu eru \u00ed eigin forriti t\u00e6kisins", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Gat ekki lesi\u00f0 \u00fatg\u00e1fu", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Mj\u00f3lkurframlei\u00f0andi", // EN: Milk Maker
     "S\u0131cak": "Heitt", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Sendir tilkynningu", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "\u00deetta senar\u00ed hefur ekki \u00e1hrif \u00e1 nein af n\u00faverandi t\u00e6kjum \u00fe\u00ednum. Til a\u00f0 l\u00e1ta \u00fea\u00f0 virka, b\u00e6ttu vi\u00f0 vi\u00f0eigandi t\u00e6ki (t.d. lj\u00f3s, gard\u00ednu e\u00f0a ryksugu).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "B\u00fa\u00f0u til n\u00fdtt heimili, e\u00f0a skr\u00e1\u00f0u \u00feig inn \u00ed eitt me\u00f0 bo\u00f0sk\u00f3\u00f0anum sem \u00fe\u00fa f\u00e9kkst.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "\u00de\u00fa ert ekki skr\u00e1\u00f0ur inn. Heimili eru geymd a\u00f0eins \u00e1 \u00feessum t\u00e6kjum. Skr\u00e1\u00f0u \u00feig inn til a\u00f0 bj\u00f3\u00f0a me\u00f0limi, skr\u00e1 \u00feig \u00ed heimili og nota fj\u00f6lskylduspjall.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM Relay", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 Strip", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T hitastig- og rakastigsskynjari", // EN: Shelly H&T Temperature & Humidity Sensor

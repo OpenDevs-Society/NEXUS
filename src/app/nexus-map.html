@@ -58,6 +58,12 @@
 </div>
 <!-- Search status (arama sırasında / hata durumunda görünür) -->
 <p class="hidden text-xs font-medium text-slate-500 mt-2 px-1" id="search-status"></p>
+<!-- Konum izni kartı: izin reddedilince arama kutusunun altında ikonlu kart ve "İzin ver" (izni yeniden ister) -->
+<div class="nx-notice nx-notice--warn nx-notice--row nx-notice--own-icon hidden mt-2" id="loc-perm-card" role="status" aria-live="polite">
+  <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+  <span class="min-w-0 flex-1" id="loc-perm-text"></span>
+  <button type="button" class="nx-notice__btn nx-notice__btn--primary shrink-0" id="loc-perm-btn">İzin ver</button>
+</div>
 <!-- Offline / harita karolarına ulaşılamıyor uyarısı (adres girme yolu her zaman açık) -->
 <p class="nx-notice nx-notice--warn hidden mt-2" id="offline-note" data-no-i18n role="status" aria-live="polite"></p>
 </header>
@@ -172,7 +178,14 @@
     addressInput.addEventListener('keydown', function (e) {
       if (e.key === 'Enter') { e.preventDefault(); searchAddress(); }
     });
+    function showPermCard(msg) {
+      var card = document.getElementById('loc-perm-card');
+      if (!card) return;
+      document.getElementById('loc-perm-text').textContent = msg || '';
+      card.classList.toggle('hidden', !msg);
+    }
     function setStatus(msg) {
+      if (msg) showPermCard('');
       var el = document.getElementById('search-status');
       el.textContent = msg || '';
       el.classList.toggle('hidden', !msg);
@@ -272,6 +285,8 @@
     function isNative() {
       return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
     }
+    var permBtn = document.getElementById('loc-perm-btn');
+    if (permBtn) permBtn.addEventListener('click', function () { showPermCard(''); locateMe(false); });
     async function locateMe(silent) {
       setStatus('Konumun bulunuyor...');
       try {
@@ -284,7 +299,8 @@
             perm = await geo.requestPermissions();
           }
           if (perm.location !== 'granted' && perm.coarseLocation !== 'granted') {
-            setStatus(silent ? '' : 'Konum izni verilmedi. Uygulama ayarlarından izin verebilirsin.');
+            setStatus('');
+            if (!silent) showPermCard('Konum izni verilmedi. Uygulama ayarlarından izin verebilirsin.');
             return;
           }
           const position = await geo.getCurrentPosition({ enableHighAccuracy: true, timeout: 15000 });
@@ -316,7 +332,8 @@
         else if (e && e.code === 2) msg = 'Konum belirlenemedi. Cihazın konum (GPS) servisi kapalı olabilir.';
         else if (e && e.code === 3) msg = 'Konum araması zaman aşımına uğradı, tekrar dene.';
         else if (raw.toLowerCase().indexOf('location services') !== -1 || raw.toLowerCase().indexOf('disabled') !== -1) msg = 'Cihazın konum (GPS) servisi kapalı. Açıp tekrar dene.';
-        setStatus(silent && !(e && e.code === 1) ? '' : msg);
+        if (e && e.code === 1) { setStatus(''); showPermCard(msg); }
+        else setStatus(silent ? '' : msg);
       }
     }
 

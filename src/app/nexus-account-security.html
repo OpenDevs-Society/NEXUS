@@ -203,7 +203,7 @@
       if (/Linux/i.test(ua)) return 'Linux';
       return 'Bu Cihaz';
     }
-
+    function getCurrentClientLabel() { var ua = navigator.userAgent || ''; if (window.nexusDesktop || /Electron/i.test(ua)) return 'NEXUS Desktop'; if (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()) return 'NEXUS'; var m = [['Edge', /Edg\//], ['Opera', /OPR\//], ['Firefox', /Firefox\//], ['Chrome', /Chrome\/|CriOS/], ['Safari', /Safari\//]].find(function (b) { return b[1].test(ua); }); return m ? m[0] : 'Web'; } // alt satır da UA'dan (platform ham "Linux x86_64" verir)
     function sessionIcon(name) {
       var label = String(name || '');
       if (/iPad|tablet/i.test(label)) return 'tablet';
@@ -216,7 +216,7 @@
       const current = {
         id: 'current-device',
         name: getCurrentDeviceLabel(),
-        meta: (navigator.platform || 'Web') + ' • Yerel oturum',
+        meta: getCurrentClientLabel() + ' • Yerel oturum',
         current: true
       };
       let sessions = [];

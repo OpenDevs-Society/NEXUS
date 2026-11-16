@@ -117,14 +117,15 @@
     // ---- bulut durumu / dürüst boş durumlar ----------------------------------------
     function renderBanner() {
       var el = document.getElementById("cloud-banner");
-      var text = "", action = "";
+      var text = "", action = "", inline = "";
       if (cloudState.reason === "pending") {
         // henüz sorgulanıyor: uyarı gösterme
       } else if (!cloudState.ok && cloudState.reason === "cloud-off") {
         text = "Bulut bağlantısı bu sürümde kapalı. Evler yalnızca bu cihazda tutulur; üye daveti ve aile sohbeti kullanılamaz.";
       } else if (!cloudState.ok) {
-        text = "Oturum açık değil. Evler yalnızca bu cihazda tutulur. Üye davet etmek, bir eve katılmak ve aile sohbeti için oturum aç.";
-        action = '<button class="mt-3 inline-flex items-center gap-2 rounded-xl bg-[#4C7DFF] px-4 py-2 text-sm font-bold text-white" onclick="location.href=\'nexus-login.html\'"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><path d="m10 17 5-5-5-5"/><path d="M15 12H3"/></svg>Oturum Aç</button>';
+        // Tek satırlık bilgi şeridi: kısa açıklama + sağda "Oturum Aç" bağlantısı
+        text = "Oturum açık değil: evler yalnızca bu cihazda.";
+        inline = '<a class="nx-notice__link" href="nexus-login.html">Oturum Aç</a>';
       } else if (!refreshInfo.ok) {
         text = refreshInfo.reason === "offline"
           ? "Sunucuya ulaşılamıyor (çevrimdışı olabilirsin). Son bilinen veriler gösteriliyor; değişiklikler şu an yapılamaz."
@@ -133,7 +134,7 @@
       }
       if (!text) { el.classList.add("hidden"); el.innerHTML = ""; return; }
       el.classList.remove("hidden");
-      el.innerHTML = '<div class="nx-notice nx-notice--warn" role="status"><span class="min-w-0 flex-1"><span class="block">' + esc(text) + '</span>' + (action ? '<span class="block">' + action + '</span>' : '') + '</span></div>';
+      el.innerHTML = '<div class="nx-notice nx-notice--warn' + (inline ? ' nx-notice--row' : '') + '" role="status"><span class="min-w-0 flex-1"><span class="block">' + esc(text) + '</span>' + (action ? '<span class="block">' + action + '</span>' : '') + '</span>' + inline + '</div>';
     }
     function reloadCloud() {
       if (!HC) return Promise.resolve();

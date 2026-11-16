@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "\u5f53\u62a5\u8b66\u7cfb\u7edf\u72b6\u6001\u53d1\u751f\u53d8\u5316\u65f6", // EN: When the alarm system status changes
     "Alarm sistemini kur": "\u5e03\u9632\u8b66\u62a5\u7cfb\u7edf", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "\u76f8\u518c\u626b\u63cf\u5931\u8d25\u3002", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "\u4ece\u76f8\u518c\u626b\u63cf", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "\u5b50\u7f51\u524d\u7f00", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "\u5b50\u7f51\u524d\u7f00\u65e0\u6548\u3002\u793a\u4f8b\uff1a192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "\u52a0\u70ed\u53f0", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "\u6062\u590d\u65b9\u6cd5", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "\u5df2\u4fdd\u5b58\u6062\u590d\u4fe1\u606f \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "\u8bbe\u7f6e\u4ee3\u7801", // EN: Setup Code
-    "Kurulum Kodu Girin": "\u8f93\u5165\u8bbe\u7f6e\u4ee3\u7801", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "\u6dfb\u52a0\u8bbe\u7f6e\u4ee3\u7801", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "\u6865\u63a5\u7248\u672c", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "\u6865\u63a5\u5668\u5fc5\u987b\u4e0e\u60a8\u7684 iOS \u8bbe\u5907\u4f4d\u4e8e\u540c\u4e00 Wi-Fi \u4e0a\u3002\u53ea\u8981\u60a8\u7684\u8ba1\u7b97\u673a\u4fdd\u6301\u5524\u9192\u72b6\u6001\uff08\u652f\u6301\u6258\u76d8/\u540e\u53f0\u64cd\u4f5c\uff09\uff0c\u914d\u5bf9\u5c31\u4f1a\u4fdd\u6301\u6709\u6548\u3002", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "\u5438\u5c18\u5668\u548c\u5730\u677f\u62a4\u7406\u8bbe\u5907", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "\u5e95\u677f\u7535\u52a0\u70ed\u5668", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "\u7248\u672c", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "\u7248\u672c\u4fe1\u606f\u4f4d\u4e8e\u8bbe\u5907\u81ea\u5df1\u7684\u5e94\u7528\u7a0b\u5e8f\u4e2d", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "\u65e0\u6cd5\u8bfb\u53d6\u7248\u672c", // EN: Couldn't read the version
     "S\u00fct Makinesi": "\u725b\u5976\u673a", // EN: Milk Maker
     "S\u0131cak": "\u6e29\u6696", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "\u53d1\u9001\u901a\u77e5", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "\u8fd9\u79cd\u60c5\u51b5\u4e0d\u4f1a\u5f71\u54cd\u60a8\u5f53\u524d\u7684\u4efb\u4f55\u8bbe\u5907\u3002\u4e3a\u4e86\u4f7f\u5176\u53d1\u6325\u4f5c\u7528\uff0c\u8bf7\u6dfb\u52a0\u5408\u9002\u7684\u8bbe\u5907\uff08\u4f8b\u5982\u706f\u3001\u7a97\u5e18\u6216\u771f\u7a7a\u5438\u5c18\u5668\uff09\u3002", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "\u521b\u5efa\u4e00\u4e2a\u65b0\u5bb6\u5ead\uff0c\u6216\u4f7f\u7528\u53d1\u9001\u7ed9\u60a8\u7684\u9080\u8bf7\u7801\u52a0\u5165\u4e00\u4e2a\u65b0\u5bb6\u5ead\u3002", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "\u60a8\u5c1a\u672a\u767b\u5f55\u3002\u4e3b\u9875\u4ec5\u4fdd\u7559\u5728\u6b64\u8bbe\u5907\u4e0a\u3002\u767b\u5f55\u4ee5\u9080\u8bf7\u6210\u5458\u3001\u52a0\u5165\u5bb6\u5ead\u5e76\u4f7f\u7528\u5bb6\u5ead\u804a\u5929\u3002", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "\u96ea\u8389 1 / 1PM \u63a5\u529b\u8d5b", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 \u706f\u5e26", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T \u6e29\u6e7f\u5ea6\u4f20\u611f\u5668", // EN: Shelly H&T Temperature & Humidity Sensor

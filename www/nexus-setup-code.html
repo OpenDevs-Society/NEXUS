@@ -210,9 +210,12 @@
     caret-color: transparent;
   }
 
+  .paste-hint { margin: 14px auto 0; max-width: 300px; text-align: center; font-size: 12px; line-height: 1.45; color: #64748b; position: relative; z-index: 10; }
+  html.dark .paste-hint { color: rgba(255,255,255,0.65); }
+
   /* ---------- Button Area ---------- */
   .button-area {
-    margin-top: 40px; /* Moved directly below the code input */
+    margin-top: 28px; /* Moved directly below the code input */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -315,6 +318,8 @@
       <input type="text" class="code-input" id="setup-code-input" enterkeyhint="go" inputmode="numeric" maxlength="8" autocomplete="one-time-code" spellcheck="false" autocorrect="off" aria-label="Kurulum kodu">
     </div>
 
+    <p class="paste-hint">Kodu kopyaladıysan yapıştırabilirsin; boşluk ve tireler yok sayılır.</p>
+
     <!-- Buttons moved up here -->
     <div class="button-area">
       <button class="verify-btn" id="verify-btn" onclick="confirmSetupCode()">Cihazı Doğrula</button>
@@ -389,6 +394,17 @@
 
       // Auto focus slightly after load for UX
       setTimeout(function () { input.focus(); }, 400);
+
+      // Yapıştırma: "1234-5678" gibi biçimli kodlar maxlength'e takılmadan rakamlara indirgenir.
+      input.addEventListener('paste', function (event) {
+        var text = (event.clipboardData || window.clipboardData);
+        text = text && text.getData ? text.getData('text') : '';
+        if (!text) return;
+        event.preventDefault();
+        var digits = text.replace(/\D/g, '').slice(0, 8);
+        input.value = digits;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      });
 
       // Submit on enter
       input.addEventListener('keydown', function (event) {

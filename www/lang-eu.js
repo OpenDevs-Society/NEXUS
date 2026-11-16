@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Alarma-sistemaren egoera aldatzen denean", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Aktibatu alarma-sistema", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Albamaren eskaneatzeak huts egin du.", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Eskaneatu Albameatik", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Azpinetako aurreizena", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Subnet aurrekoa baliogabea. Adibidea: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "Berotutako Mahaia", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "Berreskuratzeko Metodoak", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Berreskuratzeko informazioa gorde da \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Konfigurazio Kodea", // EN: Setup Code
-    "Kurulum Kodu Girin": "Sartu Konfigurazio Kodea", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Gehitu konfigurazio kodearekin", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Zubia Bertsioa", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "Zubiak zure iOS gailuarekin Wi-Fi berdinean egon behar du. Bikotekidea baliozkoa da zure ordenagailua esnatu bitartean (tray/atzean funtzionatzea onartzen du).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Huts-hodiak eta solairuaren zaintza gailuak", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Oinzeko berogailu elektrikoa", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Bertsioa", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "Bertsioaren informazioa gailuaren aplikazioan dago", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "Ezin izan da bertsioa irakurri", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Esne-egilea", // EN: Milk Maker
     "S\u0131cak": "Berotik", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Jakinarazpen bat bidaltzen du", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "Eszenatoki honek ez du eragiten zure gailuetan oraingoz. Funtzionatzeko, gehitu egokia den gailu bat (adibidez, argi bat, gortina edo aspiradora).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Etxe berri bat sortu edo bidalitako gonbidapen kodearekin bat egin.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "Ez zaude saio batean. Etxeak gailu honetan bakarrik gordetzen dira. Saioa hasi kideak gonbidatzeko, etxe batean sartzeko eta familiako txat-a erabiltzeko.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM Relay", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 Strip", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T Tenperatura eta Hezetasun Sentsorea", // EN: Shelly H&T Temperature & Humidity Sensor

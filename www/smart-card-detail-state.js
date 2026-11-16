@@ -259,13 +259,72 @@
       '<p class="text-xs font-medium text-slate-500 dark:text-slate-400">' + esc(r.text) + '</p></div></div>';
   }
 
+  // Satır içi iklim kontrolleri (Home Assistant tarzı): yalnızca cihazın gerçekten sahip olduğu yetenekler.
+  // Anahtar yeteneği varsa aç/kapat, hedef sıcaklık özelliği varsa − / değer / +.
+  var PWR_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3v8"/><path d="M6.4 6.6a8 8 0 1 0 11.2 0"/></svg>';
+  function tempRange(NX, d) { return NX.kindOf(d) === 'thermostat' ? { min: 5, max: 30, step: 0.5, def: 21 } : { min: 16, max: 30, step: 1, def: 22 }; }
+  function inlineControls(d, i) {
+    var NX = window.NX; var st = NX.stateOf(d) || {}; var html = '';
+    if (NX.hasPower && NX.hasPower(d)) {
+      var on = st.switch === true;
+      html += '<button type="button" class="nx-pwr nx-pwr--inline' + (on ? ' is-on' : '') + '" data-nx-power="' + i + '" aria-pressed="' + on + '" aria-label="Aç / Kapat">' + PWR_SVG + '</button>';
+    }
+    var stepper = '';
+    if (NX.hasFeature && NX.hasFeature(d, 'target')) {
+      var r = tempRange(NX, d);
+      var t = NX.clamp ? NX.clamp(st.target, r.min, r.max, r.def) : (typeof st.target === 'number' ? st.target : r.def);
+      stepper = '<div class="nx-temp" role="group" aria-label="Hedef sıcaklık">' +
+        '<span class="nx-temp__label">Hedef</span>' +
+        '<button type="button" class="nx-temp__btn" data-nx-temp="' + i + '" data-step="-1" aria-label="Sıcaklığı azalt"' + (t <= r.min ? ' disabled' : '') + '>−</button>' +
+        '<span class="nx-temp__val" data-no-i18n>' + esc(NX.fmtTemp(t)) + '</span>' +
+        '<button type="button" class="nx-temp__btn" data-nx-temp="' + i + '" data-step="1" aria-label="Sıcaklığı artır"' + (t >= r.max ? ' disabled' : '') + '>+</button></div>';
+    }
+    return { right: html, below: stepper };
+  }
+  function controlRowHtml(r) {
+    var c = inlineControls(r.d, r.i);
+    var row = sceneRowHtml(r);
+    if (c.right) row = row.replace(/<\/div>$/, c.right + '</div>');
+    if (c.below) row = row.replace(/^<div class="([^"]*)">/, '<div class="$1 flex-wrap">').replace(/<\/div>$/, '<div class="nx-temp-row">' + c.below + '</div></div>');
+    return row;
+  }
+  function bindInlineControls(main, rerender) {
+    if (main.__nxInlineBound || typeof main.addEventListener !== 'function') return;
+    main.__nxInlineBound = true;
+    main.addEventListener('click', function (e) {
+      var NX = window.NX;
+      if (!NX || typeof NX.setField !== 'function' || !e.target.closest) return;
+      var pwr = e.target.closest('[data-nx-power]');
+      var tmp = e.target.closest('[data-nx-temp]');
+      if (!pwr && !tmp) return;
+      e.preventDefault();
+      // setField izin denetimini kendisi yapar (izin yoksa null döner, durum değişmez).
+      if (pwr) {
+        var on = pwr.getAttribute('aria-pressed') === 'true';
+        if (NX.setField(Number(pwr.getAttribute('data-nx-power')), 'switch', !on)) rerender();
+        return;
+      }
+      var idx = Number(tmp.getAttribute('data-nx-temp'));
+      var d = NX.readDevices()[idx]; if (!d) return;
+      var r = tempRange(NX, d); var st = NX.stateOf(d) || {};
+      var cur = NX.clamp ? NX.clamp(st.target, r.min, r.max, r.def) : r.def;
+      var next = Math.min(r.max, Math.max(r.min, cur + Number(tmp.getAttribute('data-step')) * r.step));
+      if (next !== cur && NX.setField(idx, 'target', next)) rerender();
+    });
+  }
+
   function renderSleepPrep() {
     var main = document.querySelector('main'); if (!main) return;
+    var NX = window.NX;
     var rows = sceneRows('sleep-prep');
-    // Başlık zaten üst çubukta; sayfada ikinci kez tekrarlanmaz.
+    // Başlık zaten üst çubukta; sayfada ikinci kez tekrarlanmaz. İklim cihazında satır içi kontroller vardır.
     main.innerHTML = '<div class="text-center mt-2 mb-4">' +
       '<p class="text-sm font-medium text-slate-500 dark:text-slate-400">Hazırlığı bitirdiğinde şu cihazlara uygulanır.</p></div>' +
-      '<div class="space-y-3">' + rows.map(sceneRowHtml).join('') + '</div>';
+      '<div class="space-y-3">' + rows.map(function (r) {
+        var k = NX.kindOf(r.d);
+        return (k === 'ac' || k === 'thermostat') ? controlRowHtml(r) : sceneRowHtml(r);
+      }).join('') + '</div>';
+    bindInlineControls(main, renderSleepPrep);
   }
 
   function renderRoomComfort() {
@@ -279,29 +338,12 @@
       if (num(st.temperature)) parts.push('Isı ' + NX.fmtTemp(st.temperature));
       if (num(st.humidity)) parts.push('Nem %' + st.humidity);
       if (num(st.pm25)) parts.push('PM2.5 ' + st.pm25);
-      var row = sceneRowHtml({ d: d, text: parts.join(' · ') });
-      // Satır içi aç/kapat: yalnızca cihaz gerçekten açılıp kapanabiliyorsa (anahtar yeteneği varsa).
-      if (NX.hasPower && NX.hasPower(d)) {
-        var on = st.switch === true;
-        row = row.replace(/<\/div>$/, '<button type="button" class="nx-pwr nx-pwr--inline' + (on ? ' is-on' : '') + '" data-nx-power="' + i + '" aria-pressed="' + on + '" aria-label="Aç / Kapat">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3v8"/><path d="M6.4 6.6a8 8 0 1 0 11.2 0"/></svg></button></div>');
-      }
-      rows.push(row);
+      rows.push(controlRowHtml({ d: d, i: i, text: parts.join(' · ') }));
     });
     main.innerHTML = '<div class="text-center mt-2 mb-4">' +
       '<p class="text-sm font-medium text-slate-500 dark:text-slate-400">İklim cihazlarının son bilinen durumu ve okunan ölçümler.</p></div>' +
       '<div class="space-y-3">' + rows.join('') + '</div>';
-    if (!main.__nxPowerBound && typeof main.addEventListener === 'function') {
-      main.__nxPowerBound = true;
-      main.addEventListener('click', function (e) {
-        var btn = e.target.closest && e.target.closest('[data-nx-power]');
-        if (!btn || !window.NX || typeof window.NX.setField !== 'function') return;
-        e.preventDefault();
-        var on = btn.getAttribute('aria-pressed') === 'true';
-        // setField izin denetimini kendisi yapar (izin yoksa null döner, durum değişmez).
-        if (window.NX.setField(Number(btn.getAttribute('data-nx-power')), 'switch', !on)) renderRoomComfort();
-      });
-    }
+    bindInlineControls(main, renderRoomComfort);
     // "Tümünü Optimize Et" yalnızca senaryonun uygulayacağı bir cihaz varsa gösterilir.
     if (NX.sceneAffected('comfort-room') <= 0) Array.prototype.forEach.call(document.querySelectorAll('footer'), function (f) { f.remove(); });
   }

@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu değiştiğinde": "Cuando el estado del sistema de alarma cambia", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Armar el sistema de alarma", // EN: Arm the alarm system
     "Albüm taraması başarısız.": "Error al escanear el álbum.", // EN: Album scan failed.
-    "Albümden Tara": "Escanear desde el álbum", // EN: Scan from Album
     "Alt ağ ön eki": "Prefijo de subred", // EN: Subnet prefix
     "Alt ağ öneki geçersiz. Örnek: 192.168.1": "Prefijo de subred no válido. Ejemplo: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Isıtmalı Masa": "Mesa calefactada", // EN: Heated Table
@@ -1896,7 +1895,6 @@ window.NEXUS_LANG = {
     "Kurtarma Yöntemleri": "Métodos de recuperación", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi ✓": "Información de recuperación guardada ✓", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Código de configuración", // EN: Setup Code
-    "Kurulum Kodu Girin": "Ingrese el código de configuración", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Agregar con código de configuración", // EN: Add with setup code
     "Köprü Sürümü": "Versión puente", // EN: Bridge Version
     "Köprü, iOS cihazınla aynı Wi-Fi'da olmalı. Bilgisayar açık kaldıkça eşleşme geçerli kalır (tepsi/arka plan çalışması destekler).": "El puente debe estar en el mismo Wi-Fi que su dispositivo iOS. El emparejamiento sigue siendo válido mientras su computadora permanezca activa (se admite operación en bandeja/en segundo plano).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2359,7 +2357,6 @@ window.NEXUS_LANG = {
     "Süpürge ve zemin bakım cihazları": "Aspiradoras y dispositivos para el cuidado de pisos.", // EN: Vacuums and floor care devices
     "Süpürgelik Tipi Elektirikli Soba": "Calentador eléctrico de zócalo", // EN: Baseboard Electric Heater
     "Sürüm": "Versión", // EN: Version
-    "Sürüm bilgisi cihazın kendi uygulamasında": "La información de la versión está en la propia aplicación del dispositivo.", // EN: Version info is in the device's own app
     "Sürüm okunamadı": "No se pudo leer la versión.", // EN: Couldn't read the version
     "Süt Makinesi": "fabricante de leche", // EN: Milk Maker
     "Sıcak": "Cálido", // EN: Warm
@@ -3215,7 +3212,6 @@ window.NEXUS_LANG = {
     "Bildirim gönderir": "Envía una notificación", // EN: Sends a notification
     "Bu senaryo mevcut cihazlarını etkilemiyor. Senaryonun çalışması için uygun bir cihaz (ör. ışık, perde, süpürge) eklemelisin.": "Este escenario no afecta a ninguno de sus dispositivos actuales. Para que funcione, agregue un dispositivo adecuado (por ejemplo, una luz, una cortina o una aspiradora).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev oluştur ya da sana gönderilen davet koduyla bir eve katıl.": "Crea una nueva casa o únete a una con el código de invitación que te enviaron.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum açık değil. Evler yalnızca bu cihazda tutulur. Üye davet etmek, bir eve katılmak ve aile sohbeti için oturum aç.": "No has iniciado sesión. Las casas se guardan únicamente en este dispositivo. Inicie sesión para invitar miembros, unirse a una casa y utilizar el chat familiar.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM Röle": "Shelly 1/1PM Relevo", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 Şerit": "Tira Shelly RGBW2", // EN: Shelly RGBW2 Strip
     "Shelly H&T Sıcaklık ve Nem Sensörü": "Sensor de temperatura y humedad Shelly H&T", // EN: Shelly H&T Temperature & Humidity Sensor

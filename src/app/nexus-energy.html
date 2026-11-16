@@ -63,6 +63,19 @@
 <!-- Title (AI feature: NEXUS AI naming allowed; sayfa üstü başlık ortalanmış) -->
 <h1 class="text-[28px] font-bold leading-tight tracking-tight mb-1 text-center">AI Enerji Tasarrufu</h1>
 <p class="text-slate-500 text-sm mb-6 text-center">Cihazlarına dair içgörüler edin, stratejilerle otomatik tasarruf et.</p>
+<!-- Ölçüm yokken tek boş durum: anlık tüketim ve geçmiş kartlarının yerine tek "Ölçen priz ekle" kartı -->
+<section class="bg-white rounded-3xl card-shadow p-5 mb-6 text-center" data-purpose="energy-empty" id="energy-empty" hidden>
+<div class="w-12 h-12 mx-auto rounded-2xl bg-[#4C7DFF]/10 text-[#4C7DFF] flex items-center justify-center"><i class="w-6 h-6" data-lucide="plug-zap"></i></div>
+<h2 class="text-lg font-bold mt-3">Henüz ölçüm yok</h2>
+<p class="text-sm text-slate-500 mt-1">Güç ölçen bir priz ya da sayaç eklediğinde anlık tüketim ve geçmiş burada görünür.</p>
+<a class="nx-tap inline-flex items-center justify-center gap-2 mt-4 px-5 min-h-[44px] rounded-full bg-[#4C7DFF] text-white text-sm font-bold" href="nexus-pair.html"><i class="w-4 h-4" data-lucide="plus"></i>Ölçen priz ekle</a>
+</section>
+<!-- Masaüstü metrik karoları: yalnızca gerçek ölçümlerden; değer yoksa "—" -->
+<section class="nx-energy-metrics" data-purpose="energy-metrics" id="energy-metrics" aria-label="Özet">
+<div class="nx-metric"><p class="nx-metric__label">Anlık Tüketim</p><p class="nx-metric__value"><b id="m-live">—</b> <span>W</span></p></div>
+<div class="nx-metric"><p class="nx-metric__label">Bugün</p><p class="nx-metric__value"><b id="m-today">—</b> <span>kWh</span></p></div>
+<div class="nx-metric"><p class="nx-metric__label">Son 7 gün</p><p class="nx-metric__value"><b id="m-week">—</b> <span>kWh</span></p></div>
+</section>
 <!-- Anlık tüketim özeti: gerçek ölçüm; güç ölçen cihaz yoksa dürüst boş durum.
      Aylık kWh tasarrufu uydurulmaz (ölçüm sayaç entegrasyonu yok). -->
 <section class="bg-white rounded-3xl card-shadow p-5 mb-6 flex items-center justify-between" data-purpose="savings-summary">
@@ -529,5 +542,33 @@
       document.querySelectorAll('.sheet').forEach(function (s) { s.classList.remove('open'); });
     }
   </script>
+<script data-purpose="energy-empty-and-metrics">
+  // Tek boş durum ve masaüstü metrikleri: mevcut gerçek değerleri yansıtır, kendi verisi yoktur.
+  (function () {
+    function txt(id) { var el = document.getElementById(id); return el ? (el.textContent || '').trim() : ''; }
+    function sync() {
+      var live = txt('live-power') || '—', today = txt('eh-today') || '—', week = txt('eh-week') || '—';
+      var hist = document.getElementById('eh-body');
+      var hasHistory = !!(hist && hist.style.display !== 'none');
+      var meters = false;
+      try {
+        var ds = JSON.parse(nexusGetItem('nexusPairedDevices') || '[]') || [];
+        meters = !!(window.NX && ds.some(function (d) { return NX.hasPower(d); }));
+      } catch (e) {}
+      var empty = !meters && !hasHistory;
+      var card = document.getElementById('energy-empty');
+      if (card) card.hidden = !empty;
+      document.documentElement.classList.toggle('nx-energy-empty', empty);
+      var set = function (id, v) { var el = document.getElementById(id); if (el) el.textContent = v; };
+      set('m-live', live); set('m-today', hasHistory ? today : '—'); set('m-week', hasHistory ? week : '—');
+    }
+    sync();
+    ['live-power', 'eh-today', 'eh-week'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el && window.MutationObserver) new MutationObserver(sync).observe(el, { childList: true, characterData: true, subtree: true });
+    });
+    setTimeout(sync, 0);
+  })();
+</script>
 </body></html>
 

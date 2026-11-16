@@ -865,7 +865,6 @@ window.NEXUS_LANG = {
     "Alarm sistemi durumu de\u011fi\u015fti\u011finde": "Activar el sistema d'alarma", // EN: When the alarm system status changes
     "Alarm sistemini kur": "Escaneig d'\u00e0lbum fallit.", // EN: Arm the alarm system
     "Alb\u00fcm taramas\u0131 ba\u015far\u0131s\u0131z.": "Escanejar des de l'\u00e0lbum", // EN: Album scan failed.
-    "Alb\u00fcmden Tara": "Prefix de subxarxa", // EN: Scan from Album
     "Alt a\u011f \u00f6n eki": "Prefix de subxarxa", // EN: Subnet prefix
     "Alt a\u011f \u00f6neki ge\u00e7ersiz. \u00d6rnek: 192.168.1": "Prefix de subxarxa inv\u00e0lid. Exemple: 192.168.1", // EN: Invalid subnet prefix. Example: 192.168.1
     "Alttan Is\u0131tmal\u0131 Masa": "Taula calefactada", // EN: Heated Table
@@ -1895,7 +1894,6 @@ window.NEXUS_LANG = {
     "Kurtarma Y\u00f6ntemleri": "M\u00e8todes de recuperaci\u00f3", // EN: Recovery Methods
     "Kurtarma bilgileri kaydedildi \u2713": "Informaci\u00f3 de recuperaci\u00f3 desada \u2713", // EN: Recovery info saved ✓
     "Kurulum Kodu": "Codi de configuraci\u00f3", // EN: Setup Code
-    "Kurulum Kodu Girin": "Introdueix el codi de configuraci\u00f3", // EN: Enter Setup Code
     "Kurulum koduyla ekle": "Afegeix amb el codi de configuraci\u00f3", // EN: Add with setup code
     "K\u00f6pr\u00fc S\u00fcr\u00fcm\u00fc": "Versi\u00f3 del pont", // EN: Bridge Version
     "K\u00f6pr\u00fc, iOS cihaz\u0131nla ayn\u0131 Wi-Fi'da olmal\u0131. Bilgisayar a\u00e7\u0131k kald\u0131k\u00e7a e\u015fle\u015fme ge\u00e7erli kal\u0131r (tepsi/arka plan \u00e7al\u0131\u015fmas\u0131 destekler).": "El pont ha d'estar en la mateixa Wi-Fi que el teu dispositiu iOS. L'aparellament es mant\u00e9 v\u00e0lid mentre l'ordinador estigui actiu (s'admet operaci\u00f3 en segon pla/banda de sistema).", // EN: The bridge has to be on the same Wi-Fi as your iOS device. The pairing stays valid as long as your computer stays awake (tray/background operation supported).
@@ -2358,7 +2356,6 @@ window.NEXUS_LANG = {
     "S\u00fcp\u00fcrge ve zemin bak\u0131m cihazlar\u0131": "Aspiradores i dispositius de cura del s\u00f2l", // EN: Vacuums and floor care devices
     "S\u00fcp\u00fcrgelik Tipi Elektirikli Soba": "Radiador el\u00e8ctric de rodapi\u00e9", // EN: Baseboard Electric Heater
     "S\u00fcr\u00fcm": "Versi\u00f3", // EN: Version
-    "S\u00fcr\u00fcm bilgisi cihaz\u0131n kendi uygulamas\u0131nda": "La informaci\u00f3 de la versi\u00f3 es troba a l'aplicaci\u00f3 pr\u00f2pia del dispositiu", // EN: Version info is in the device's own app
     "S\u00fcr\u00fcm okunamad\u0131": "No s'ha pogut llegir la versi\u00f3", // EN: Couldn't read the version
     "S\u00fct Makinesi": "Fabricador de Llet", // EN: Milk Maker
     "S\u0131cak": "Calent", // EN: Warm
@@ -3213,7 +3210,6 @@ window.NEXUS_LANG = {
     "Bildirim g\u00f6nderir": "Envia una notificaci\u00f3", // EN: Sends a notification
     "Bu senaryo mevcut cihazlar\u0131n\u0131 etkilemiyor. Senaryonun \u00e7al\u0131\u015fmas\u0131 i\u00e7in uygun bir cihaz (\u00f6r. \u0131\u015f\u0131k, perde, s\u00fcp\u00fcrge) eklemelisin.": "Aquest escenari no afecta cap dels teus dispositius actuals. Per fer-lo funcionar, afegeix un dispositiu adequat (per exemple, un llum, cortina o aspiradora).", // EN: This scenario doesn't affect any of your current devices. To make it work, add a suitable device (e.g. a light, curtain or vacuum).
     "Yeni bir ev olu\u015ftur ya da sana g\u00f6nderilen davet koduyla bir eve kat\u0131l.": "Crea una nova llar, o uneix-te a una amb el codi d\u2019invitaci\u00f3 que se t\u2019ha enviat.", // EN: Create a new home, or join one with the invite code sent to you.
-    "Oturum a\u00e7\u0131k de\u011fil. Evler yaln\u0131zca bu cihazda tutulur. \u00dcye davet etmek, bir eve kat\u0131lmak ve aile sohbeti i\u00e7in oturum a\u00e7.": "No has iniciat sessi\u00f3. Les llars es mantenen nom\u00e9s en aquest dispositiu. Inicia sessi\u00f3 per convidar membres, unir-te a una llar i utilitzar el xat familiar.", // EN: You're not signed in. Homes are kept on this device only. Sign in to invite members, join a home and use the family chat.
     "Shelly 1 / 1PM R\u00f6le": "Shelly 1 / 1PM Relay", // EN: Shelly 1 / 1PM Relay
     "Shelly RGBW2 \u015eerit": "Shelly RGBW2 Strip", // EN: Shelly RGBW2 Strip
     "Shelly H&T S\u0131cakl\u0131k ve Nem Sens\u00f6r\u00fc": "Shelly H&T Sensor de Temperatura i Humitat", // EN: Shelly H&T Temperature & Humidity Sensor

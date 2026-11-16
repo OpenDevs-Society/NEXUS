@@ -1429,9 +1429,12 @@ function renderDevices() {
         </div>`;
     } else {
         const hidden = getHiddenDeviceIds();
+        // Odalara göre gruplama: her kart ayrı toplanır, en az iki farklı oda varsa oda başlıklarıyla dizilir.
+        const roomCards = [];
         
         devices.forEach(device => {
             if (hidden.includes(device.id)) return;
+            const htmlBefore = html;
             
             // Icon logic
             let iconSvg = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>'; // Default power icon
@@ -1507,7 +1510,10 @@ function renderDevices() {
             </${tag}>
             `;
             }
+            roomCards.push({ room: String(device.room || '').trim(), card: html.slice(htmlBefore.length) });
+            html = htmlBefore;
         });
+        html += groupCardsByRoom(roomCards);
     }
     
     grids.forEach(grid => {
@@ -1527,6 +1533,60 @@ function renderDevices() {
             });
         }
     });
+    renderStatusStrip();
 }
+
+// Kartları odaya göre sıralar; evde en az iki farklı oda varsa her grubun üstüne oda başlığı koyar.
+// Tek oda ya da hiç oda yoksa kartlar eskisi gibi düz ızgarada kalır (gereksiz başlık yok).
+function groupCardsByRoom(cards) {
+    const T = window.nexusT || function (tr) { return tr; };
+    const order = [];
+    cards.forEach(c => { if (order.indexOf(c.room) === -1) order.push(c.room); });
+    const named = order.filter(r => r);
+    if (named.length < 2) return cards.map(c => c.card).join('');
+    // Odası olmayanlar en sona
+    const sorted = named.concat(order.indexOf('') !== -1 ? [''] : []);
+    const esc = v => String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return sorted.map(room => {
+        const group = cards.filter(c => c.room === room);
+        const label = room ? esc(room) : T('Oda atanmamış', 'No room');
+        return `<p class="nx-room-head" style="grid-column: 1 / -1;"${room ? ' data-no-i18n' : ''}>${label}<span>${group.length}</span></p>` + group.map(c => c.card).join('');
+    }).join('');
+}
+
+// Ev üst durum şeridi: yalnızca evde gerçekten bulunan türler için, cihazlardan okunan durumla.
+// (Işıklar kaç tane açık, iklim cihazı ve hedef sıcaklık, bağlantı bekleyen cihaz sayısı.)
+function renderStatusStrip() {
+    const host = document.getElementById('nx-status-strip');
+    if (!host) return;
+    const NX = window.NX;
+    if (!NX || typeof NX.readDevices !== 'function' || typeof NX.statusOf !== 'function') { host.hidden = true; return; }
+    const T = window.nexusT || function (tr) { return tr; };
+    let devs = [];
+    try { devs = NX.readDevices() || []; } catch (e) { devs = []; }
+    let lights = 0, lightsOn = 0, climate = null, waiting = 0;
+    devs.forEach((d, i) => {
+        if (!d) return;
+        let st;
+        try { st = NX.statusOf(d, i); } catch (e) { return; }
+        if (st && st.badge === 'warn') { waiting++; return; }
+        const kind = NX.kindOf(d);
+        const s = NX.stateOf(d) || {};
+        if (kind === 'light') { lights++; if (s.switch === true) lightsOn++; }
+        else if ((kind === 'ac' || kind === 'thermostat') && !climate) climate = s;
+    });
+    const chips = [];
+    if (lights) chips.push({ on: lightsOn > 0, text: lightsOn ? T('Işıklar: ' + lightsOn + ' açık', 'Lights: ' + lightsOn + ' on') : T('Işıklar kapalı', 'Lights off') });
+    if (climate) {
+        const on = climate.switch === true;
+        const t = typeof climate.target === 'number' && isFinite(climate.target) && NX.fmtTemp ? NX.fmtTemp(climate.target) : '';
+        chips.push({ on, text: on ? (t ? T('İklim: ' + t, 'Climate: ' + t) : T('İklim açık', 'Climate on')) : T('İklim kapalı', 'Climate off') });
+    }
+    if (waiting) chips.push({ warn: true, text: T(waiting + ' cihaz bağlı değil', waiting + ' not connected') });
+    if (!chips.length) { host.hidden = true; host.innerHTML = ''; return; }
+    host.hidden = false;
+    host.innerHTML = chips.map(c => `<span class="nx-status-chip${c.on ? ' is-on' : ''}${c.warn ? ' is-warn' : ''}"><i aria-hidden="true"></i>${c.text}</span>`).join('');
+}
+window.renderNexusStatusStrip = renderStatusStrip;
 
 window.renderNexusDevices = renderDevices;

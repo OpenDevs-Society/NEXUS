@@ -180,13 +180,17 @@
       var REFRESH_SVG = '<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36L21 8"/><path d="M21 3v5h-5"/></svg>';
       function checkButton(index) {
         var busy = !!BUSY[index];
+        // Simge düğme: adı ve satırı daraltmaz; erişilebilir adı aria-label/title ile verilir.
         return '<button type="button" onclick="runCheck(' + index + ')"' + (busy ? ' disabled aria-busy="true"' : '') +
-          ' class="nx-upd-btn shrink-0 min-h-[40px] px-4 py-2 inline-flex items-center gap-1.5 rounded-full text-xs font-bold">' +
-          REFRESH_SVG.replace('class="', 'class="' + (busy ? 'nx-upd-spin ' : '')) +
-          '<span>' + (busy ? 'Kontrol ediliyor…' : 'Kontrol Et') + '</span></button>';
+          ' aria-label="' + (busy ? 'Kontrol ediliyor…' : 'Kontrol Et') + '" title="' + (busy ? 'Kontrol ediliyor…' : 'Kontrol Et') + '"' +
+          ' class="nx-upd-btn nx-upd-btn--icon shrink-0 inline-flex items-center justify-center rounded-full">' +
+          REFRESH_SVG.replace('class="w-3.5 h-3.5', 'class="w-5 h-5').replace('class="', 'class="' + (busy ? 'nx-upd-spin ' : '')) + '</button>';
       }
+      // Sürüm okunamayan cihazların ortak notu listenin başında bir kez söylenir; satırda kısa "Sürüm bilgisi yok" kalır.
+      var noFw = devices.filter(function (d, i) { return !supportsFirmware(d) && !LAST[i]; }).length;
+      var head = noFw ? '<p class="nx-upd-note">Sürüm bilgisi yalnızca destekleyen cihazlardan okunur; diğerlerinde güncellemeyi cihazın kendi uygulaması yapar.</p>' : '';
       // Ana sayfadaki cihaz kartıyla aynı görsel kimliği: satırda ürün görseli de görünsün
-      list.innerHTML = devices.map((device, index) => (
+      list.innerHTML = head + devices.map((device, index) => (
         '<div class="bg-white rounded-3xl p-5 shadow-nexus border border-slate-50">' +
           '<div class="flex items-center justify-between gap-3">' +
             '<div class="min-w-0 flex items-center gap-3">' +
@@ -194,16 +198,17 @@
               '<div class="min-w-0">' +
                 '<h4 class="font-bold leading-tight line-clamp-2 break-words">' + escapeHtml(device.name || ('Cihaz ' + (index + 1))) + '</h4>' +
                 '<p class="text-xs text-slate-500 mt-0.5 dark:text-slate-300">' + escapeHtml(device.host && device.protocol ? 'Yerel ağ · ' + device.protocol : 'Katalogdan eklendi') + '</p>' +
+                ((!supportsFirmware(device) && !LAST[index]) ? '<p class="text-xs text-slate-500 mt-0.5 dark:text-slate-300">Sürüm bilgisi yok</p>' : '') +
               '</div>' +
             '</div>' +
             (supportsFirmware(device) ? checkButton(index) : '') +
           '</div>' +
           // Aynı "Kontrol Et ile sürüm cihazdan okunur" notu her kartta tekrarlanmasın: yalnızca gerçek bir sonuç
           // (yükleniyor durumu düğmede görünür) ya da düğmesiz bir durum varsa gösterilir.
-          (((LAST[index] && !BUSY[index]) || !supportsFirmware(device)) ?
+          ((LAST[index] && !BUSY[index]) ?
           '<div class="mt-3 pt-3 border-t border-slate-50 flex items-center gap-2 text-xs text-slate-500">' +
             '<svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4m0-4h.01" stroke-linecap="round"></path></svg>' +
-            '<span class="truncate">' + escapeHtml((!BUSY[index] && LAST[index]) || (device.host && device.protocol ? 'Bu cihaz sürüm bilgisi paylaşmıyor' : 'Sürüm bilgisi cihazın kendi uygulamasında')) + '</span>' +
+            '<span class="truncate">' + escapeHtml(LAST[index]) + '</span>' +
           '</div>' : '') +
         '</div>'
       )).join('');
