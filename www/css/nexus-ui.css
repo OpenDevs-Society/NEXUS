@@ -1090,3 +1090,25 @@ html.nx-desk[data-nx-page="chat"] #assistant-modes { max-width: 760px; margin-le
 
 /* 28) Plus (masaüstü): plan kartları ve özellik kartı aynı genişlikte, planlar önce. */
 html.nx-desk[data-nx-page="plus"] :is([data-purpose="subscription-plans"], [data-purpose="features-card"], [data-purpose="footer-navigation"]) { width: 100%; max-width: 560px !important; margin-left: auto; margin-right: auto; }
+
+/* 29) Enerji (masaüstü): kartlar alt alta mobil liste gibi dizilmesin. Üstte anlık tüketim ve izleme planı
+       yan yana, altında tam genişlik geçmiş grafiği ve strateji listesi. */
+html.nx-desk[data-nx-page="energy"] main:has(> [data-purpose="savings-summary"]) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; align-items: stretch;
+}
+html.nx-desk[data-nx-page="energy"] main:has(> [data-purpose="savings-summary"]) > * { grid-column: 1 / -1; }
+html.nx-desk[data-nx-page="energy"] main > [data-purpose="savings-summary"] { grid-column: 1; grid-row: 3; }
+html.nx-desk[data-nx-page="energy"] main > [data-purpose="plan-card"] { grid-column: 2; grid-row: 3; }
+html.nx-desk[data-nx-page="energy"] main > [data-purpose="plan-card"] .w-full { max-width: none; }
+
+/* 30) Cihaz Ekle (masaüstü): bilgisayarda kamera ile QR en az kullanılan yol; "Kurulum Kodu" önce gelir. */
+html.nx-desk[data-nx-page="pair"] section.grid > a[href="nexus-scan.html"] { order: 2; }
+
+/* 31) Anlık Bildirimler: sessiz saat seçicileri en az 44 px dokunma yüksekliği. */
+#quiet-start, #quiet-end { min-height: 44px; }
+
+/* 32) Oda Konforu: iklim cihazı satırında satır içi aç/kapat (yalnızca anahtar yeteneği olan cihazlarda). */
+.nx-pwr.nx-pwr--inline { position: relative; top: auto; right: auto; flex: none; width: 40px; height: 40px; }
+
+/* 33) Masaüstü ayar listeleri: etiket ile anahtar arası göz takibini koparmasın; ayar türü sayfalar 720 px. */
+html.nx-desk:not(.nx-desk-wide):not(.nx-desk-auth):is([data-nx-page="settings"], [data-nx-page="account-security"], [data-nx-page="instant-notifications"], [data-nx-page="privacy-mode"], [data-nx-page="dnd"]) { --page-max: 720px; }

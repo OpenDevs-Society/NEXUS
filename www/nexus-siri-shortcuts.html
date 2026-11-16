@@ -42,7 +42,7 @@
     <!-- Hero Section -->
     <div class="text-center mb-10 mt-4">
       <div class="w-20 h-20 mx-auto flex items-center justify-center mb-2">
-        <img src="siri-logo.png" class="w-16 h-16 object-contain drop-shadow-md transform scale-125" alt="Siri" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=&quot;w-16 h-16 rounded-full bg-gradient-to-br from-[#4C7DFF] via-[#22D3EE] to-[#FF4FD8] flex items-center justify-center text-white font-extrabold text-2xl shadow-lg&quot;>S</div>';">
+        <img src="siri-logo.png" class="w-20 h-20 object-contain drop-shadow-md transform scale-125" alt="Siri" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=&quot;w-16 h-16 rounded-full bg-gradient-to-br from-[#4C7DFF] via-[#22D3EE] to-[#FF4FD8] flex items-center justify-center text-white font-extrabold text-2xl shadow-lg&quot;>S</div>';">
       </div>
       <h2 class="text-[22px] font-extrabold text-slate-900 tracking-tight">Siri'ye Ekle</h2>
       <p class="text-[14px] text-slate-500 mt-2 max-w-[260px] mx-auto leading-relaxed">NEXUS senaryolarınızı Siri komutlarıyla saniyeler içinde sesle çalıştırın.</p>
@@ -96,12 +96,11 @@
 
       if (!clickruns || clickruns.length === 0) {
         scenarioList.innerHTML = `
-          <div class="bg-white rounded-[1.5rem] p-6 text-center shadow-sm">
-            <div class="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center mx-auto mb-3 text-slate-400">
-              <i class="w-6 h-6" data-lucide="zap-off"></i>
-            </div>
-            <h4 class="text-[15px] font-bold text-slate-800 mb-1">Senaryo Bulunamadı</h4>
-            <p class="text-[13px] text-slate-500 leading-relaxed px-2">Siri'ye ekleyebilmek için önce uygulamanızda yeni bir "Tıkla ve Çalıştır" senaryosu oluşturmalısınız.</p>
+          <div class="nx-empty bg-white rounded-[1.5rem] shadow-sm">
+            <div class="nx-empty__icon"><i data-lucide="zap"></i></div>
+            <p class="nx-empty__title">Senaryo Bulunamadı</p>
+            <p class="nx-empty__text">Siri'ye ekleyebilmek için önce uygulamanızda yeni bir "Tıkla ve Çalıştır" senaryosu oluşturmalısınız.</p>
+            <a class="nx-empty__cta" href="nexus-smart.html?tab=tab-clickrun">Senaryo Oluştur</a>
           </div>
         `;
         lucide.createIcons();

@@ -865,6 +865,8 @@ window.NEXUS_EN = {
     "Kamera eklediğinde gizlilik modu her kamera için burada görünür.":
       "Once you add a camera, its privacy mode appears here.",
     "Bu senaryoyu uygulayacak uygun cihaz yok": "No suitable device to run this scenario",
+    "Bugün {0}/{1} yanıt kaldı": "{0}/{1} replies left today",
+    "Bu ay {0}/{1} yanıt kaldı": "{0}/{1} replies left this month",
     "Canlı görüntü cihaz uygulamasında": "Live view is in the device's own app",
     "Yönet": "Manage",
     "Ne yapacak": "What it will do",

@@ -170,7 +170,12 @@
       <!-- Hesabımı Sil (issue #11): bulut hesabı + veriler; iki adımlı onay -->
       <section class="space-y-3">
         <h3 class="px-2 text-[10px] font-bold text-slate-500 uppercase tracking-[0.15em]">Hesabım</h3>
-        <div class="bg-white dark:bg-slate-900 rounded-3xl nexus-shadow border border-transparent dark:border-slate-800 px-5 py-5">
+        <!-- Tehlikeli işlemler tek kartta: önce oturumları kapat, ayraçtan sonra hesabı sil -->
+        <div class="bg-white dark:bg-slate-900 rounded-3xl nexus-shadow border border-red-100 dark:border-slate-800 px-5 py-5">
+          <button type="button" onclick="signOutOtherSessions()" class="w-full flex items-center gap-3 pb-4 mb-4 border-b border-slate-100 dark:border-slate-800 text-red-600 font-semibold text-base text-left active:scale-[0.98] transition-transform">
+            <i data-lucide="log-out" class="w-6 h-6 text-red-400"></i>
+            Diğer Oturumları Kapat
+          </button>
           <div class="flex items-start gap-3">
             <i data-lucide="trash-2" class="w-6 h-6 text-red-400 mt-0.5"></i>
             <div class="min-w-0">
@@ -182,9 +187,6 @@
         </div>
       </section>
 
-      <button type="button" onclick="signOutOtherSessions()" class="w-full flex items-center justify-center gap-2 py-4 text-red-500 font-bold text-sm active:scale-95 transition-transform">        <i data-lucide="log-out" class="w-5 h-5"></i>
-        Diğer Oturumları Kapat
-      </button>
     </main>
   </div>
   <script src="js/lucide.js"></script>

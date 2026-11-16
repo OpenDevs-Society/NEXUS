@@ -279,11 +279,29 @@
       if (num(st.temperature)) parts.push('Isı ' + NX.fmtTemp(st.temperature));
       if (num(st.humidity)) parts.push('Nem %' + st.humidity);
       if (num(st.pm25)) parts.push('PM2.5 ' + st.pm25);
-      rows.push(sceneRowHtml({ d: d, text: parts.join(' · ') }));
+      var row = sceneRowHtml({ d: d, text: parts.join(' · ') });
+      // Satır içi aç/kapat: yalnızca cihaz gerçekten açılıp kapanabiliyorsa (anahtar yeteneği varsa).
+      if (NX.hasPower && NX.hasPower(d)) {
+        var on = st.switch === true;
+        row = row.replace(/<\/div>$/, '<button type="button" class="nx-pwr nx-pwr--inline' + (on ? ' is-on' : '') + '" data-nx-power="' + i + '" aria-pressed="' + on + '" aria-label="Aç / Kapat">' +
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3v8"/><path d="M6.4 6.6a8 8 0 1 0 11.2 0"/></svg></button></div>');
+      }
+      rows.push(row);
     });
     main.innerHTML = '<div class="text-center mt-2 mb-4">' +
       '<p class="text-sm font-medium text-slate-500 dark:text-slate-400">İklim cihazlarının son bilinen durumu ve okunan ölçümler.</p></div>' +
       '<div class="space-y-3">' + rows.join('') + '</div>';
+    if (!main.__nxPowerBound && typeof main.addEventListener === 'function') {
+      main.__nxPowerBound = true;
+      main.addEventListener('click', function (e) {
+        var btn = e.target.closest && e.target.closest('[data-nx-power]');
+        if (!btn || !window.NX || typeof window.NX.setField !== 'function') return;
+        e.preventDefault();
+        var on = btn.getAttribute('aria-pressed') === 'true';
+        // setField izin denetimini kendisi yapar (izin yoksa null döner, durum değişmez).
+        if (window.NX.setField(Number(btn.getAttribute('data-nx-power')), 'switch', !on)) renderRoomComfort();
+      });
+    }
     // "Tümünü Optimize Et" yalnızca senaryonun uygulayacağı bir cihaz varsa gösterilir.
     if (NX.sceneAffected('comfort-room') <= 0) Array.prototype.forEach.call(document.querySelectorAll('footer'), function (f) { f.remove(); });
   }

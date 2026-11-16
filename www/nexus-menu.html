@@ -75,7 +75,7 @@
 <div class="flex justify-between items-center gap-2 mb-6">
 <div class="min-w-0">
 <h2 class="text-[16px] max-[359px]:text-[14px] sm:text-xl text-text-primary mb-1 font-extrabold leading-tight whitespace-nowrap tracking-tight">NEXUS AI Puanları</h2>
-<p class="text-[13px] max-[359px]:text-[12px] sm:text-base text-text-secondary font-medium whitespace-nowrap" id="points-label">Günlük sıfırlama 30/30</p>
+<p class="text-[13px] max-[359px]:text-[12px] sm:text-base text-text-secondary font-medium whitespace-nowrap" id="points-label">Bugün 30/30 yanıt kaldı</p>
 </div>
 <a href="nexus-plus.html" class="gradient-button text-white px-4 max-[359px]:px-3 py-2.5 rounded-full text-[13px] max-[359px]:text-xs sm:text-sm font-semibold shadow-md active:scale-95 transition-transform flex-shrink-0 whitespace-nowrap">
           Daha fazla al
@@ -122,7 +122,11 @@
     var P = window.nexusPoints;
     var LIMIT = P.limit();
     var left = P.left();
-    document.getElementById('points-label').textContent = P.resetNote() + ' ' + left + '/' + LIMIT;
+    // Ne kaldığı ve ne zaman yenileneceği açık yazılır ("Günlük sıfırlama 30/30" belirsizdi)
+    var T = window.nexusT || function (tr) { return tr; };
+    document.getElementById('points-label').textContent = P.isPlus()
+      ? T('Bu ay ' + left + '/' + LIMIT + ' yanıt kaldı', left + '/' + LIMIT + ' replies left this month')
+      : T('Bugün ' + left + '/' + LIMIT + ' yanıt kaldı', left + '/' + LIMIT + ' replies left today');
     document.getElementById('points-bar').style.width = Math.round((left / LIMIT) * 100) + '%';
   })();
 
