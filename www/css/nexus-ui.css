@@ -972,3 +972,121 @@ html.dark .nx-field-label { color: #CBD5E1; }
 .nx-text-link { color: var(--nx-primary) !important; text-decoration: underline; text-decoration-color: rgba(var(--nx-accent-rgbc,51,102,240),.35); text-underline-offset: 3px; }
 html:not([style*="--nx-accent"]) .nx-text-link { color: var(--nx-fill) !important; }
 html.dark .nx-text-link { color: #8FB0FF !important; }
+
+/* 14) Akıllı: "Uygulama Yok" boş kartı ekranın yarısını kaplıyor, Önerilen aşağıda kalıyordu.
+       Tek satırlık bir CTA kartına iner (simge | başlık + alt metin | Oluştur). */
+#tab-smart > [data-purpose="empty-state-card"] {
+  display: grid !important; grid-template-columns: 48px minmax(0,1fr) auto; column-gap: 14px; row-gap: 0;
+  align-items: center; padding: 16px 18px !important; margin-bottom: 24px !important; text-align: left;
+}
+#tab-smart > [data-purpose="empty-state-card"] > div:first-child { grid-row: 1 / span 2; margin: 0 !important; width: 48px; height: 48px; border-radius: 14px; background: var(--nx-primary-soft, #ECF1FF); display: flex; align-items: center; justify-content: center; }
+#tab-smart > [data-purpose="empty-state-card"] > div:first-child svg { width: 28px !important; height: 28px !important; color: var(--nx-primary) !important; }
+#tab-smart > [data-purpose="empty-state-card"] h2 { font-size: 16px !important; margin: 0 !important; align-self: end; }
+#tab-smart > [data-purpose="empty-state-card"] p { font-size: 13px !important; margin: 0 !important; align-self: start; }
+#tab-smart > [data-purpose="empty-state-card"] button { grid-column: 3; grid-row: 1 / span 2; padding: 10px 18px !important; }
+html.dark #tab-smart > [data-purpose="empty-state-card"] > div:first-child { background: rgba(51,102,240,.18); }
+
+/* 15) Sohbet: karşılama başlığı dar ekranda 4 satıra çıkmasın; mod çiplerinde devamı olduğunu gösteren geçiş. */
+.nx-greeting { font-size: clamp(22px, 6.2vw, 30px) !important; }
+#assistant-modes {
+  -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 32px), transparent 100%);
+  mask-image: linear-gradient(90deg, #000 calc(100% - 32px), transparent 100%);
+}
+html:not([style*="--nx-accent"]) .nx-mode.is-on { background: var(--nx-fill); border-color: var(--nx-fill); }
+
+/* 16) Cihaz Ekle: radar süsü üst yarıyı kaplıyordu; yöntem kartları ilk ekrana çıksın diye küçültülür. */
+#lan-scan-section { padding-top: 4px !important; padding-bottom: 4px !important; }
+#lan-scan-section > .relative.w-64.h-64 { width: 152px !important; height: 152px !important; margin-top: 18px; }
+#lan-scan-section > .relative.w-64.h-64 > .z-10 { width: 72px !important; height: 72px !important; }
+#lan-scan-section > .relative.w-64.h-64 > .z-10 > div { width: 44px !important; height: 44px !important; }
+#lan-scan-section > .relative.w-64.h-64 > .absolute.top-4 { top: -18px !important; left: 50% !important; transform: translateX(-50%); }
+#lan-scan-section > .text-center.mt-4 { margin-top: 10px !important; }
+#lan-scan-section > .text-center.mt-4 h2 { font-size: 20px !important; }
+
+/* 17) Cihaz Kataloğu: arama "Manuel Olarak Ekle" başlığıyla aynı satıra sıkışıyordu; tam genişlik ayrı satır.
+       Ürün adları 10,5–11 px yerine 12 px; koyu temada beyaz kare zeminli görseller tek tip açık karoda durur. */
+html body .catalog-toolbar > .flex { flex-wrap: wrap; row-gap: 12px; }
+html body .catalog-toolbar > .flex > .relative { width: 100% !important; max-width: none !important; flex: 1 0 100%; }
+html body .product-name { font-size: 12px !important; line-height: 1.2 !important; font-weight: 600 !important; }
+html.dark body .product-tile img.catalog-img { background: #F1F5F9 !important; border-radius: 18px; padding: 6px; box-sizing: border-box; filter: none !important; }
+@media (min-width: 760px) {
+  html body .product-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)) !important; }
+}
+
+/* 18) Cihaz Kurulumu: dev logo yerine konu simgesi; 8 haneli kod 4-4 gruplanır (okunur ve kontrol edilir). */
+.nx-code-icon { width: 72px; height: 72px; border-radius: 22px; display: flex; align-items: center; justify-content: center; background: var(--nx-primary-soft, #ECF1FF); color: var(--nx-primary, #3366F0); }
+.nx-code-icon svg { width: 34px; height: 34px; }
+html.dark .nx-code-icon { background: rgba(51,102,240,.18); color: #8FB0FF; }
+#digit-boxes .digit { width: clamp(30px, 8.4vw, 38px) !important; height: 52px !important; }
+#digit-boxes .digit:nth-child(4) { margin-right: 10px; }
+
+/* 19) QR Tarama: fener desteklenmiyorsa (gizli) boş sütun kalmasın; iki buton eşit genişlikte. */
+.grid:has(> #torch-button[style*="visibility:hidden"]) { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+#torch-button[style*="visibility:hidden"] { display: none !important; }
+
+/* 20) Aydınlatma Ustası: "Canlı Önizleme" kartın içinde ikinci bir kart ve ekranın üçte biriydi; tek seviye kompakt kart. */
+section.glass-surface.hero-shadow[class*="aspect-[4/3]"] { aspect-ratio: auto !important; }
+section.glass-surface.hero-shadow[class*="aspect-[4/3]"] > .absolute.inset-0.opacity-80 { position: relative !important; inset: auto !important; opacity: 1 !important; }
+section.glass-surface.hero-shadow[class*="aspect-[4/3]"] > .absolute.inset-0.opacity-80 > .absolute:not(.bottom-8) { opacity: .8; }
+section.glass-surface.hero-shadow[class*="aspect-[4/3]"] > .absolute.inset-0.opacity-80 > .absolute.bottom-8 {
+  position: relative !important; inset: auto !important; border: 0 !important; background: transparent !important;
+  -webkit-backdrop-filter: none !important; backdrop-filter: none !important; padding: 20px !important;
+}
+
+/* 21) Film Modu / Eve Geldim: "N cihaz etkilenecek" camgöbeği 11 px okunmuyordu. */
+[data-device-count] { color: #475569 !important; font-size: 12px !important; }
+html.dark [data-device-count] { color: #CBD5E1 !important; }
+
+/* 22) Bilgi bandı (.nx-notice, bilgi türü): tüm metin kalın ve mavi okunması zor; normal kalınlık, ikincil metin rengi.
+       Uyarı/hata türleri kendi renklerini korur. */
+.nx-notice:not([class*="nx-notice--"]) { color: #334155; font-weight: 500; }
+html.dark .nx-notice:not([class*="nx-notice--"]) { color: #CBD5E1; }
+.nx-notice:not([class*="nx-notice--"])::before { background: var(--nx-n-fg); }
+.nx-notice:not([class*="nx-notice--"]) a { color: var(--nx-n-fg); }
+
+/* 23) Cihazı Seç (enerji): seçili sayısı çipin içinde rozet olarak; "Aydınlatma 0" yanlış okunmasın. */
+#device-count { display: inline-flex; min-width: 20px; height: 20px; padding: 0 6px; margin-left: 4px; border-radius: 9999px; align-items: center; justify-content: center; font-size: 12px; background: rgba(15,23,42,.08); }
+html.dark #device-count { background: rgba(255,255,255,.14); }
+
+/* 24) Alt CTA bantları: sayfadan farklı tonda düz şerit oluşturuyordu (açık ve koyu temada).
+       Bant kaldırılır; içerik ile buton arasında yalnızca yumuşak bir geçiş kalır. */
+footer.shrink-0[class*="pb-[34px]"] {
+  background: linear-gradient(to top, rgba(255,255,255,.55), rgba(255,255,255,0)) !important;
+  border-top-color: transparent !important;
+  -webkit-backdrop-filter: none !important; backdrop-filter: none !important;
+}
+html.dark footer.shrink-0[class*="pb-[34px]"] { background: linear-gradient(to top, rgba(2,6,23,.45), rgba(2,6,23,0)) !important; }
+
+/* ===== Masaüstü (≥1024 px, html.nx-desk) ===== */
+/* 25) Giriş / Kayıt / Şifremi Unuttum: mobil form 1440 px'lik boş zeminin ortasında küçük kalıyordu.
+       Bölünmüş düzen: solda marka paneli, sağda en fazla 400–460 px form. */
+html.nx-desk.nx-desk-auth:is([data-nx-page="login"], [data-nx-page="register"], [data-nx-page="forgot-password"]) body {
+  padding-left: 42vw !important;
+}
+html.nx-desk.nx-desk-auth:is([data-nx-page="login"], [data-nx-page="register"], [data-nx-page="forgot-password"]) body::before {
+  content: ""; position: fixed; inset: 0 auto 0 0; width: 42vw; z-index: 0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='3' y='3' width='94' height='94' rx='26' fill='%23ffffff' fill-opacity='.16' stroke='%23ffffff' stroke-opacity='.4' stroke-width='2'/%3E%3Cpath d='M34 70V30l32 40V30' fill='none' stroke='%23ffffff' stroke-width='9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center 46% / 112px 112px no-repeat,
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,.18), transparent 45%),
+    radial-gradient(circle at 80% 85%, rgba(34,211,238,.35), transparent 50%),
+    linear-gradient(140deg, #3366F0 0%, #2448B8 55%, #0E7FA6 100%);
+}
+
+/* 26) Masaüstü yapışkan CTA'lar: ~1100 px'lik dev düğme yerine sağa hizalı, 240–340 px düğme
+       (İptal + birincil varsa İptal solda, birincil sağda). */
+html.nx-desk footer.shrink-0[class*="pb-[34px]"] { padding-bottom: 20px !important; display: flex !important; flex-direction: column; align-items: flex-end !important; }
+html.nx-desk footer.shrink-0[class*="pb-[34px]"] > div.flex { align-self: stretch; }
+html.nx-desk footer.shrink-0[class*="pb-[34px]"] > :is(button, a).w-full {
+  width: auto !important; min-width: 240px; max-width: 340px; margin-left: auto !important; margin-right: 0 !important; padding-left: 28px; padding-right: 28px;
+}
+html.nx-desk footer.shrink-0[class*="pb-[34px]"] > div.flex { justify-content: flex-end; }
+html.nx-desk footer.shrink-0[class*="pb-[34px]"] > div.flex > button { flex: 0 0 auto !important; min-width: 160px; padding-left: 24px; padding-right: 24px; }
+html.nx-desk footer.shrink-0[class*="pb-[34px]"] > div.flex > button:last-child { min-width: 240px; }
+
+/* 27) Masaüstü sohbet: konuşma ve yazma kutusu okunur 760 px sütunda (1100 px'lik giriş yerine). */
+html.nx-desk[data-nx-page="chat"] #chat-messages { padding-left: max(16px, calc((100% - 760px) / 2)) !important; padding-right: max(16px, calc((100% - 760px) / 2)) !important; }
+html.nx-desk[data-nx-page="chat"] .nx-chat-card,
+html.nx-desk[data-nx-page="chat"] #assistant-modes { max-width: 760px; margin-left: auto !important; margin-right: auto !important; }
+
+/* 28) Plus (masaüstü): plan kartları ve özellik kartı aynı genişlikte, planlar önce. */
+html.nx-desk[data-nx-page="plus"] :is([data-purpose="subscription-plans"], [data-purpose="features-card"], [data-purpose="footer-navigation"]) { width: 100%; max-width: 560px !important; margin-left: auto; margin-right: auto; }

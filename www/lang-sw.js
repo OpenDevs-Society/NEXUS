@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Badili Hali", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Mipangilio ya Hali", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Hali Haipatikaniki", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Maandalizi ya Hali", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "Tengeneza Hali", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "Hali haikupatikana.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "Hali bado haiko tayari", // EN: Scene not ready

@@ -129,7 +129,7 @@
               <i data-lucide="thermometer" class="text-xl"></i>
               <span class="font-bold">Renk Sıcaklığı</span>
             </div>
-            <span id="warmth-label" class="text-sm font-bold text-slate-500 dark:text-slate-300">Sıcak</span>
+            <span class="text-sm font-bold text-slate-500 dark:text-slate-300"><span id="warmth-label">Sıcak</span> · <span id="warmth-k" data-no-i18n>4000 K</span></span>
           </div>
           <div class="relative h-2 w-full rounded-lg bg-gradient-to-r from-blue-200 via-orange-100 to-orange-400">
             <input id="warmth-slider" type="range" min="2000" max="6500" value="4000" aria-label="Renk Sıcaklığı" class="slider-thumb absolute -top-3 left-0 h-2 w-full cursor-pointer appearance-none bg-transparent"/>
@@ -306,6 +306,8 @@
     });
     document.getElementById("warmth-slider").addEventListener("input", function (event) {
       var val = Number(event.target.value);
+      var warmthK = document.getElementById("warmth-k");
+      if (warmthK) warmthK.textContent = val + " K";
       if(val < 3000) warmthLabel.textContent = "Çok Sıcak";
       else if(val < 4500) warmthLabel.textContent = "Sıcak";
       else if(val < 5500) warmthLabel.textContent = "Nötr";

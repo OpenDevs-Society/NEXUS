@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Jelenet kapcsol\u00f3", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Jelenet be\u00e1ll\u00edt\u00e1sok", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Jelenet nem tal\u00e1lhat\u00f3", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Jelenet el\u0151k\u00e9sz\u00edt\u00e9se", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "Jelenet l\u00e9trehoz\u00e1sa", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "A jelenet nem tal\u00e1lhat\u00f3.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "A jelenet nincs k\u00e9szen", // EN: Scene not ready

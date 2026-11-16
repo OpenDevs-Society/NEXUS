@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Scenebryter", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Sceneinnstillinger", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Scene ikke funnet", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Sceneforberedelse", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "Lag scene", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "Scene ikke funnet.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "Scenen er ikke klar", // EN: Scene not ready

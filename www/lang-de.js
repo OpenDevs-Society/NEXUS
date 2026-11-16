@@ -2268,7 +2268,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtarı": "Szenenwechsel", // EN: Scene Switch
     "Senaryo Ayarları": "Szeneneinstellungen", // EN: Scene Settings
     "Senaryo Bulunamadı": "Szene nicht gefunden", // EN: Scene Not Found
-    "Senaryo Hazırlığı": "Szenenvorbereitung", // EN: Scene Preparation
     "Senaryo Oluştur": "Szene erstellen", // EN: Create Scene
     "Senaryo bulunamadı.": "Szene nicht gefunden.", // EN: Scene not found.
     "Senaryo hazır değil": "Szene nicht bereit", // EN: Scene not ready

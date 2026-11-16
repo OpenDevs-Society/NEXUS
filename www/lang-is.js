@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Svi\u00f0rofi", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Svi\u00f0sstillingar", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Svi\u00f0 ekki fundi\u00f0", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Undirb\u00faningur svi\u00f0s", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "B\u00faa til svi\u00f0", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "Svi\u00f0 ekki fundi\u00f0.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "Svi\u00f0 ekki tilb\u00fai\u00f0", // EN: Scene not ready

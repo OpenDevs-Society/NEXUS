@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Toneelskakelaar", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Toneelinstellings", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Toneel nie gevind nie", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Voorbereiding van Toneel", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "Skep Toneel", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "Toneel nie gevind nie.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "Toneel nie gereed nie", // EN: Scene not ready

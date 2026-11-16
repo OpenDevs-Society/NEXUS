@@ -49,9 +49,10 @@
     <section id="cloud-banner" class="mb-4 hidden" aria-live="polite"></section>
     <section id="invites-inbox" class="mb-4 hidden space-y-3"></section>
     <section id="homes-list" class="space-y-4"></section>
-    <section class="mt-8 space-y-3">
-      <button class="w-full rounded-2xl bg-[#4C7DFF] py-4 text-lg font-bold text-white shadow-md active:scale-[0.98] transition-transform flex items-center justify-center gap-2" onclick="openInputSheet('create')"><i class="w-5 h-5" data-lucide="plus"></i>Yeni Ev Oluştur</button>
-      <button class="w-full rounded-2xl border border-slate-200 bg-white py-4 text-lg font-bold text-slate-800 active:scale-[0.98] transition-transform dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 flex items-center justify-center gap-2" onclick="openInputSheet('join')"><i class="w-5 h-5" data-lucide="door-open"></i>Bir Eve Katıl</button>
+    <!-- Birincil: ev oluştur; ikincil (daha hafif): davet koduyla katıl -->
+    <section class="mt-6 space-y-2">
+      <button class="w-full rounded-2xl bg-[#4C7DFF] py-4 text-base font-bold text-white shadow-md active:scale-[0.98] transition-transform flex items-center justify-center gap-2" onclick="openInputSheet('create')"><i class="w-5 h-5" data-lucide="plus"></i>Yeni Ev Oluştur</button>
+      <button class="nx-text-link w-full rounded-2xl py-3 text-base font-bold active:scale-[0.98] transition-transform flex items-center justify-center gap-2" onclick="openInputSheet('join')"><i class="w-5 h-5" data-lucide="door-open"></i>Bir Eve Katıl</button>
     </section>
   </main>
 

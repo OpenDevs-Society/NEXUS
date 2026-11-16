@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "\u0633\u0648\u0626\u06cc\u0686 \u0635\u062d\u0646\u0647", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "\u062a\u0646\u0638\u06cc\u0645\u0627\u062a \u0635\u062d\u0646\u0647", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "\u0635\u062d\u0646\u0647 \u067e\u06cc\u062f\u0627 \u0646\u0634\u062f", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "\u0622\u0645\u0627\u062f\u0647 \u0633\u0627\u0632\u06cc \u0635\u062d\u0646\u0647", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "\u0627\u06cc\u062c\u0627\u062f \u0635\u062d\u0646\u0647", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "\u0635\u062d\u0646\u0647 \u067e\u06cc\u062f\u0627 \u0646\u0634\u062f", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "\u0635\u062d\u0646\u0647 \u0622\u0645\u0627\u062f\u0647 \u0646\u06cc\u0633\u062a", // EN: Scene not ready

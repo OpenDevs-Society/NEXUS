@@ -35,6 +35,10 @@
       min-height: 100dvh;
     }
   </style>
+  <script>
+    // Masaüstü uygulamasının içindeyken "masaüstü uygulamasını kullan" ekranı anlamsız: Ayarlar'a dön.
+    if (window.nexusDesktop || location.protocol === "nexus:") location.replace("nexus-settings.html");
+  </script>
   <script src="auth.js"></script>
   <script src="theme.js"></script>
 <script src="data.js"></script>

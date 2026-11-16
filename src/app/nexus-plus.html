@@ -92,11 +92,29 @@
   <rect x="1.5" y="1.5" width="29" height="29" rx="8.5" fill="none" stroke="#ffffff" stroke-opacity="0.22"/>
   <path d="M10.5 22.5V10.5L21.5 22.5V10.5" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg></div>
-<h1 class="text-5xl font-extrabold text-black dark:text-white dark:text-white mb-2">NEXUS AI Plus</h1>
+<h1 class="text-[28px] leading-tight font-extrabold text-black dark:text-white mb-2">NEXUS AI Plus</h1>
 <p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 font-medium text-lg mb-2">7 gün ücretsiz deneyin</p>
 <p class="text-3xl font-extrabold text-[#4C7DFF]">Ayda 2000 kredi kazanın</p>
 </section>
 <!-- END: Header Content -->
+<!-- BEGIN: Pricing Plans -->
+<section class="w-full max-w-md grid grid-cols-2 gap-4 mb-8" data-purpose="subscription-plans">
+<!-- Annual Plan (Highlighted) -->
+<div role="button" tabindex="0" id="plan-annual" onclick="selectPlan('Yıllık')" class="bg-white dark:bg-slate-800 dark:bg-slate-800 border-2 border-nexus-purple rounded-3xl p-5 text-center flex flex-col justify-center shadow-sm relative cursor-pointer ring-2 ring-nexus-purple transition-all" data-plan="Yıllık">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#4C7DFF] text-white text-xs font-bold px-3 py-1 rounded-full">Popüler</div>
+<h3 class="text-xl font-bold text-black dark:text-white dark:text-white">Yıllık</h3>
+<p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 text-sm mb-2">7 gün ücretsiz deneme</p>
+<div class="text-2xl font-bold text-black dark:text-white dark:text-white" id="pa-price">₺3999.99</div>
+<div class="text-gray-400 text-sm" id="pa-sub">₺333.33/ay</div>
+</div>
+<!-- Monthly Plan -->
+<div role="button" tabindex="0" id="plan-monthly" onclick="selectPlan('Aylık')" class="bg-white dark:bg-slate-800 dark:bg-slate-800 border-2 border-gray-100 rounded-3xl p-5 text-center flex flex-col justify-center shadow-sm cursor-pointer transition-all" data-plan="Aylık">
+<h3 class="text-xl font-bold text-black dark:text-white dark:text-white">Aylık</h3>
+<p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 text-sm mb-2">3 gün ücretsiz deneme</p>
+<div class="text-2xl font-bold text-black dark:text-white dark:text-white" id="pm-price">₺499.99</div>
+<div class="text-gray-400 text-sm" id="pm-sub">/ay</div>
+</div>
+</section>
 <!-- BEGIN: Feature List Card -->
 <section class="w-full max-w-md bg-white dark:bg-slate-800 dark:bg-slate-800 rounded-3xl p-6 shadow-md mb-8" data-purpose="features-card">
 <ul class="space-y-5">
@@ -148,24 +166,6 @@
 </ul>
 </section>
 <!-- END: Feature List Card -->
-<!-- BEGIN: Pricing Plans -->
-<section class="w-full max-w-md grid grid-cols-2 gap-4 mb-8" data-purpose="subscription-plans">
-<!-- Annual Plan (Highlighted) -->
-<div role="button" tabindex="0" id="plan-annual" onclick="selectPlan('Yıllık')" class="bg-white dark:bg-slate-800 dark:bg-slate-800 border-2 border-nexus-purple rounded-3xl p-5 text-center flex flex-col justify-center shadow-sm relative cursor-pointer ring-2 ring-nexus-purple transition-all" data-plan="Yıllık">
-<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#4C7DFF] text-white text-xs font-bold px-3 py-1 rounded-full">Popüler</div>
-<h3 class="text-xl font-bold text-black dark:text-white dark:text-white">Yıllık</h3>
-<p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 text-sm mb-2">7 gün ücretsiz deneme</p>
-<div class="text-2xl font-bold text-black dark:text-white dark:text-white" id="pa-price">₺3999.99</div>
-<div class="text-gray-400 text-sm" id="pa-sub">₺333.33/ay</div>
-</div>
-<!-- Monthly Plan -->
-<div role="button" tabindex="0" id="plan-monthly" onclick="selectPlan('Aylık')" class="bg-white dark:bg-slate-800 dark:bg-slate-800 border-2 border-gray-100 rounded-3xl p-5 text-center flex flex-col justify-center shadow-sm cursor-pointer transition-all" data-plan="Aylık">
-<h3 class="text-xl font-bold text-black dark:text-white dark:text-white">Aylık</h3>
-<p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 text-sm mb-2">3 gün ücretsiz deneme</p>
-<div class="text-2xl font-bold text-black dark:text-white dark:text-white" id="pm-price">₺499.99</div>
-<div class="text-gray-400 text-sm" id="pm-sub">/ay</div>
-</div>
-</section>
 <!-- END: Pricing Plans -->
 <!-- BEGIN: Footer Actions -->
 <footer class="w-full max-w-md flex flex-col items-center gap-4 mt-auto mb-6" data-purpose="footer-navigation">

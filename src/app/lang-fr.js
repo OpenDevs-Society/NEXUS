@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Changement de sc\u00e8ne", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Param\u00e8tres de sc\u00e8ne", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Sc\u00e8ne introuvable", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Pr\u00e9paration de la sc\u00e8ne", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "Cr\u00e9er une sc\u00e8ne", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "Sc\u00e8ne introuvable.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "La sc\u00e8ne n'est pas pr\u00eate", // EN: Scene not ready

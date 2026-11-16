@@ -71,7 +71,7 @@
       ["smart", "Akıllı", "nexus-smart.html", "layout-grid"],
       ["discover", "Keşfet", "nexus-discover.html", "compass"]
     ] },
-    { group: "Ev", items: [
+    { group: "Yönet", items: [
       ["pair", "Cihaz Ekle", "nexus-pair.html", "circle-plus"],
       ["energy", "AI Enerji Tasarrufu", "nexus-energy.html", "zap"],
       ["household", "Aile", "nexus-household.html", "users"],

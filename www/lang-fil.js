@@ -2267,7 +2267,6 @@ window.NEXUS_LANG = {
     "Senaryo Anahtar\u0131": "Paglipat ng Scene", // EN: Scene Switch
     "Senaryo Ayarlar\u0131": "Mga Setting ng Scene", // EN: Scene Settings
     "Senaryo Bulunamad\u0131": "Scene Hindi Natagpuan", // EN: Scene Not Found
-    "Senaryo Haz\u0131rl\u0131\u011f\u0131": "Paghahanda ng Scene", // EN: Scene Preparation
     "Senaryo Olu\u015ftur": "Gumawa ng Scene", // EN: Create Scene
     "Senaryo bulunamad\u0131.": "Hindi natagpuan ang scene.", // EN: Scene not found.
     "Senaryo haz\u0131r de\u011fil": "Hindi pa handa ang scene", // EN: Scene not ready

@@ -865,6 +865,8 @@ window.NEXUS_EN = {
     "Kamera eklediğinde gizlilik modu her kamera için burada görünür.":
       "Once you add a camera, its privacy mode appears here.",
     "Bu senaryoyu uygulayacak uygun cihaz yok": "No suitable device to run this scenario",
+    "Canlı görüntü cihaz uygulamasında": "Live view is in the device's own app",
+    "Yönet": "Manage",
     "Ne yapacak": "What it will do",
     "Endişelenme, hesabını kurtarmana yardımcı olacağız. E-posta adresine bir sıfırlama bağlantısı gönderelim.": "Don't worry, we'll help you recover your account. We'll send a reset link to your email address.",
     "Şifre tekrarı": "Confirm password",
@@ -2585,7 +2587,6 @@ window.NEXUS_EN = {
     "Senaryo Anahtarı": "Scene Switch",
     "Senaryo Ayarları": "Scene Settings",
     "Senaryo Bulunamadı": "Scene Not Found",
-    "Senaryo Hazırlığı": "Scene Preparation",
     "Senaryo Oluştur": "Create Scene",
     "Senaryo bulunamadı.": "Scene not found.",
     "Senaryo hazır değil": "Scene not ready",
