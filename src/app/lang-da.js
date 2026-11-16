@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Indstillinger", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "V\u00e6lg en hjemmeplacering i Indstillinger", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Gem indstillinger", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Tjen 2000 kreditter om m\u00e5neden", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Belysning", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Belysning atmosf\u00e6re", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Ingen belysningsenheder", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Andre enheder", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Andre sessioner logget ud \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Tandb\u00f8rste", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Tryk for at k\u00f8re", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Touch Switch (1 gang)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Touch Switch (2 Gang)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Touch Switch (3 Gang)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Indstillinger", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Lighting Master", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Enhed", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Tilf\u00f8j enhed", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - Enhedscenter", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - Enhedsopdateringer", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Enhedsops\u00e6tning", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Opdag", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 V\u00e6lg Placering", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Brugeroplysninger", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Menu", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Beskedcenter", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 NEXUS AI Desktop", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profil", // EN: NEXUS — Profile

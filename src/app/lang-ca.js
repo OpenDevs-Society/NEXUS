@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Configuraci\u00f3", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Tria una ubicaci\u00f3 de casa a Configuraci\u00f3", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Desa Configuraci\u00f3", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Guanya 2000 cr\u00e8dits al mes", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Il\u00b7luminaci\u00f3", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Ambient d'il\u00b7luminaci\u00f3", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Cap dispositiu d'il\u00b7luminaci\u00f3", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Altres dispositius", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Sessions d'altres tancades \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Raspall de Dents", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Tocar per Executar", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Interruptor T\u00e0ctil (1 Bot\u00f3)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Interruptor T\u00e0ctil (2 Botons)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Interruptor T\u00e0ctil (3 Botons)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Configuraci\u00f3", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Mestre d'il\u00b7luminaci\u00f3", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Dispositiu", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Afegir dispositiu", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - Centre de dispositius", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - Actualitzacions de dispositius", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Configuraci\u00f3 de dispositius", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Descobreix", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Tria Ubicaci\u00f3", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Informaci\u00f3 de l'Usuari", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Men\u00fa", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Centre de Missatges", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 Escriptori NEXUS AI", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Perfil", // EN: NEXUS — Profile

@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "\u1787\u17d2\u179a\u17be\u179f\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1795\u17d2\u1791\u17c7\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "\u179a\u1780\u17d2\u179f\u17b6\u1791\u17bb\u1780\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "\u179a\u1780\u1794\u17d2\u179a\u17b6\u1780\u17cb\u1785\u17c6\u178e\u17c1\u1789 \u17e2\u17e0\u17e0\u17e0 \u1782\u17d2\u179a\u17b8\u178c\u17b8\u178f\u1780\u17d2\u1793\u17bb\u1784\u1798\u17bd\u1799\u1781\u17c2", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "\u1796\u1793\u17d2\u179b\u17ba", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1796\u1793\u17d2\u179b\u17ba", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "\u1782\u17d2\u1798\u17b6\u1793\u17a7\u1794\u1780\u179a\u178e\u17cd\u1796\u1793\u17d2\u179b\u17ba", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "\u17a7\u1794\u1780\u179a\u178e\u17cd\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "\u179f\u1798\u17d0\u1799\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f\u1794\u17b6\u1793\u1785\u17b6\u1780\u1785\u17c1\u1789 \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "\u1785\u17d2\u179a\u17b6\u179f\u1792\u17d2\u1798\u17c1\u1789", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "\u1785\u17bb\u1785\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u17be\u1780", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "\u179f\u17d2\u179c\u17ca\u17b8\u1785\u1794\u17c9\u17c7 (1 \u1795\u17d2\u179b\u17bc\u179c)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "\u179f\u17d2\u179c\u17ca\u17b8\u1785\u1794\u17c9\u17c7 (2 \u1795\u17d2\u179b\u17bc\u179c)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "\u179f\u17d2\u179c\u17ca\u17b8\u1785\u1794\u17c9\u17c7 (3 \u1795\u17d2\u179b\u17bc\u179c)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - \u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - \u1780\u17c6\u1796\u17bc\u179b\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1796\u1793\u17d2\u179b\u17ba", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - \u17a7\u1794\u1780\u179a\u178e\u17cd", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - \u1794\u1793\u17d2\u1790\u17c2\u1798\u17a7\u1794\u1780\u179a\u178e\u17cd", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - \u1798\u1787\u17d2\u1788\u1798\u178e\u17d2\u178c\u179b\u17a7\u1794\u1780\u179a\u178e\u17cd", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - \u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u17a7\u1794\u1780\u179a\u178e\u17cd\u1791\u17b6\u1793\u17cb\u179f\u1798\u17d0\u1799", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - \u1780\u17b6\u179a\u178f\u1798\u17d2\u179b\u17be\u1784\u17a7\u1794\u1780\u179a\u178e\u17cd", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 \u179a\u1780\u1783\u17be\u1789", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 \u1787\u17d2\u179a\u17be\u179f\u1791\u17b8\u178f\u17b6\u17c6\u1784", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 \u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17be", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 \u1798\u17b8\u1793\u17bb\u1799", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 \u1798\u1787\u17d2\u1788\u1798\u178e\u17d2\u178c\u179b\u179f\u17b6\u179a", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 \u1791\u17c6\u1796\u17d0\u179a\u178a\u17c1\u179f\u1780\u1790\u17b6\u178f\u17c2 NEXUS AI", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 \u179f\u1780\u1798\u17d2\u1798\u1797\u17b6\u1796\u1795\u17d2\u1791\u17b6\u179b\u17cb\u1781\u17d2\u179b\u17bd\u1793", // EN: NEXUS — Profile

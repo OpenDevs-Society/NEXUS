@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Nastavenia", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "V Nastaveniach vyberte miesto domova", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Ulo\u017ei\u0165 nastavenia", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Z\u00edskajte 2000 kreditov mesa\u010dne", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Osvetlenie", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Osvetlenie", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "\u017diadne osvet\u013eovacie zariadenia", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "In\u00e9 zariadenia", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Ostatn\u00e9 rel\u00e1cie s\u00fa odhl\u00e1sen\u00e9 \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Zubn\u00e1 kefka", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Klepnut\u00edm spust\u00edte", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Touch Switch (1 Gang)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Touch Switch (2 Gang)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Touch Switch (3 Gang)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS \u2013 Nastavenia", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - majster osvetlenia", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS \u2013 Zariadenie", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS \u2013 Prida\u0165 zariadenie", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS \u2013 Centrum zariaden\u00ed", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS \u2013 Aktualiz\u00e1cie zariadenia", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS \u2013 Nastavenie zariadenia", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Objavte", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Vyberte umiestnenie", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Inform\u00e1cie pre pou\u017e\u00edvate\u013ea", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Menu", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Centrum spr\u00e1v", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 NEXUS AI Desktop", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profil", // EN: NEXUS — Profile

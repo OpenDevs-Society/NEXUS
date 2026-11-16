@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Seaded", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Vali avalehe asukoht seadetes", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Salvesta seaded", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Teeni 2000 krediiti kuus", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Valgustus", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Valgustuse meeleolu", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Valgustusseadmeid pole", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Muud seadmed", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Teised sessioonid logiti v\u00e4lja \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Hambahari", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Puudutage, et k\u00e4ivitada", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Puudutusl\u00fcliti (1 grupp)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Puudutusl\u00fcliti (2 gruppi)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Puudutusl\u00fcliti (3 gruppi)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Seaded", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Valgustusmeister", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Seade", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Lisa seade", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - Seadmete Keskus", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - Seadmete Uuendused", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Seadmete H\u00e4\u00e4lestus", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Avastamine", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Vali Asukoht", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Kasutaja teave", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Men\u00fc\u00fc", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 S\u00f5numite keskus", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 NEXUS AI T\u00f6\u00f6lauarakendus", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profiil", // EN: NEXUS — Profile

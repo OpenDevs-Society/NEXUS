@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Socruithe", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Roghnaigh Su\u00edomh Baile i Socruithe", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "S\u00e1bh\u00e1il Socruithe", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Faigh 2000 creidmheas sa mh\u00ed", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Soilsi\u00fa", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Atmaisf\u00e9ar Soilsi\u00fach\u00e1in", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Gan Gl\u00e9asanna Soilsi\u00fach\u00e1in", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Gl\u00e9asanna eile", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Seisi\u00fain eile log\u00e1ilte amach \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Fiacla Br\u00e9ag\u00e1n", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Tap chun Rith", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Lasca Teagmh\u00e1la (1 Gang)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Lasca Teagmh\u00e1la (2 Gang)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Lasca Teagmh\u00e1la (3 Gang)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Socruithe", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - M\u00e1istir Solais", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Gl\u00e9as", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Cuir Gl\u00e9as Leis", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - L\u00e1rionad Gl\u00e9as", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - Nuashonruithe Gl\u00e9as", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Socr\u00fa Gl\u00e9as", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Faigh amach", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Roghnaigh Su\u00edomh", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Eolas \u00das\u00e1ideora", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Roghchl\u00e1r", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Ionad Teachtaireachta\u00ed", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 Deasca NEXUS AI", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Pr\u00f3if\u00edl", // EN: NEXUS — Profile

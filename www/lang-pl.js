@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Ustawienia", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Wybierz lokalizacj\u0119 domow\u0105 w Ustawieniach", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Zapisz ustawienia", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Zdob\u0105d\u017a 2000 kredyt\u00f3w miesi\u0119cznie", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "O\u015bwietlenie", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "O\u015bwietlenie otoczenia", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Brak urz\u0105dze\u0144 o\u015bwietleniowych", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Inne urz\u0105dzenia", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Inne sesje wylogowane \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Szczoteczka do z\u0119b\u00f3w", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Kliknij, aby uruchomi\u0107", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Prze\u0142\u0105cznik dotykowy (1 grupa)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Prze\u0142\u0105cznik dotykowy (2-krotny)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Prze\u0142\u0105cznik dotykowy (3-krotny)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS \u2013 Ustawienia", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS \u2013 Mistrz O\u015bwietlenia", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS \u2013 urz\u0105dzenie", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS \u2013 Dodaj urz\u0105dzenie", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS \u2013 Centrum urz\u0105dze\u0144", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS \u2013 aktualizacje urz\u0105dzenia", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS \u2013 konfiguracja urz\u0105dzenia", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 odkryj", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 wybierz lokalizacj\u0119", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Informacje o u\u017cytkowniku", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 menu", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Centrum wiadomo\u015bci", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 komputer stacjonarny NEXUS AI", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profil", // EN: NEXUS — Profile

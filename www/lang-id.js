@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Pengaturan", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Pilih Lokasi Rumah di Pengaturan", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Simpan Pengaturan", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Dapatkan 2000 kredit per bulan", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Pencahayaan", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Suasana Pencahayaan", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Tidak ada Perangkat Pencahayaan", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Perangkat lain", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Sesi lain telah keluar \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Sikat Gigi", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Ketuk untuk Jalankan", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Sakelar Sentuh (1 Gang)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Sakelar Sentuh (2 Gang)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Saklar Sentuh (3 Gang)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Pengaturan", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Master Pencahayaan", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Perangkat", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Tambah Perangkat", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - Pusat Perangkat", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - Pembaruan Perangkat", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Pengaturan Perangkat", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Temukan", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Pilih Lokasi", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Informasi Pengguna", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Menu", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Pusat Pesan", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 Desktop AI NEXUS", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profil", // EN: NEXUS — Profile

@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Nustatymai", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Pasirinkite nam\u0173 viet\u0105 nustatymuose", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "I\u0161saugoti nustatymus", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "U\u017edirbkite 2000 kredit\u0173 per m\u0117nes\u012f", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Ap\u0161vietimas", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Ap\u0161vietimo atmosfera", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "N\u0117ra ap\u0161vietimo \u012frengini\u0173", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Kiti \u012frenginiai", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Kitos sesijos atsijung\u0117 \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Dant\u0173 \u0161epet\u0117lis", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Bakstel\u0117kite, kad paleistum\u0117te", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Jutiklinis jungiklis (1 grup\u0117)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Jutiklinis jungiklis (2 grup\u0117s)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Jutiklinis jungiklis (3 grup\u0117s)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Nustatymai", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Ap\u0161vietimo meistras", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - \u012erenginys", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Prid\u0117ti \u012frengin\u012f", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - \u012erengini\u0173 centras", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - \u012erengini\u0173 naujiniai", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - \u012erengini\u0173 nustatymas", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Atrasti", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Pasirinkti viet\u0105", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Vartotojo informacija", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Meniu", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Prane\u0161im\u0173 centras", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 NEXUS AI darbalaukis", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profilis", // EN: NEXUS — Profile

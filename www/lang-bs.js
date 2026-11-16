@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Postavke", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "Odaberite Po\u010detnu Lokaciju u Postavkama", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Sa\u010duvajte Postavke", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Zaradite 2000 kredita mjese\u010dno", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Rasvjeta", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Ambijent Rasvjete", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Nema Rasvjetnih Ure\u0111aja", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Ostali ure\u0111aji", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "Ostale sesije su odjavljene \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "\u010cetkica za zube", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Dodirni za pokretanje", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "Dodirni prekida\u010d (1 modul)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "Dodirni prekida\u010d (2 modula)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "Dodirni prekida\u010d (3 modula)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Postavke", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Glavna rasvjeta", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Ure\u0111aj", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Dodaj ure\u0111aj", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - Centar za ure\u0111aje", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS - A\u017euriranja ure\u0111aja", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Postavljanje ure\u0111aja", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Otkrij", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 Odaberite Lokaciju", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Korisni\u010dke Informacije", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Meni", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2014 Centar za Poruke", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 NEXUS AI Desktop", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profil", // EN: NEXUS — Profile

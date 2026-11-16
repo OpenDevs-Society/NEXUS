@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Einstellungen", // EN: Settings
     "Ayarlar bölümünden Ev Konumu seç": "Wählen Sie in den Einstellungen einen Heimatort aus", // EN: Choose a Home Location in Settings
     "Ayarları Kaydet": "Einstellungen speichern", // EN: Save Settings
-    "Ayda 2000 kredi kazanın": "Verdienen Sie 2000 Credits pro Monat", // EN: Earn 2000 credits a month
     "Aydınlatma": "Beleuchtung", // EN: Lighting
     "Aydınlatma Ambiyansı": "Lichtstimmung", // EN: Lighting Ambience
     "Aydınlatma Cihazı Yok": "Keine Beleuchtungsgeräte", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Diğer cihazlar": "Andere Geräte", // EN: Other devices
     "Diğer oturumlar kapatıldı ✓": "Andere Sitzungen abgemeldet ✓", // EN: Other sessions signed out ✓
     "Diş Fırçası": "Zahnbürste", // EN: Toothbrush
-    "Dokun Çalıştır": "Tippen Sie zum Ausführen", // EN: Tap to Run
     "Dokunmatik Anahtar (1 Çıkışlı)": "Berührungsschalter (1 Gang)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 Çıkışlı)": "Berührungsschalter (2 Gang)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 Çıkışlı)": "Touch-Schalter (3-Gang)", // EN: Touch Switch (3 Gang)
@@ -1994,7 +1992,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS - Einstellungen", // EN: NEXUS - Settings
     "NEXUS - Aydınlatma Ustası": "NEXUS – Lichtmeister", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS - Gerät", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS – Gerät hinzufügen", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS – Gerätecenter", // EN: NEXUS - Device Center
     "NEXUS - Cihaz Güncellemesi": "NEXUS – Geräteaktualisierungen", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS – Geräteeinrichtung", // EN: NEXUS - Device Setup
@@ -2055,7 +2052,6 @@ window.NEXUS_LANG = {
     "NEXUS — Keşfet": "NEXUS – Entdecken", // EN: NEXUS — Discover
     "NEXUS — Konum Seç": "NEXUS – Standort auswählen", // EN: NEXUS — Choose Location
     "NEXUS — Kullanıcı Bilgileri": "NEXUS – Benutzerinformationen", // EN: NEXUS — User Information
-    "NEXUS — Menü": "NEXUS – Menü", // EN: NEXUS — Menu
     "NEXUS — Mesaj Merkezi": "NEXUS – Nachrichtencenter", // EN: NEXUS — Message Center
     "NEXUS — NEXUS AI Masaüstü": "NEXUS – NEXUS AI Desktop", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS — Profil": "NEXUS – Profil", // EN: NEXUS — Profile

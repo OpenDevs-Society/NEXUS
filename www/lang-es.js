@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Configuración", // EN: Settings
     "Ayarlar bölümünden Ev Konumu seç": "Elija una ubicación de inicio en Configuración", // EN: Choose a Home Location in Settings
     "Ayarları Kaydet": "Guardar configuración", // EN: Save Settings
-    "Ayda 2000 kredi kazanın": "Gana 2000 créditos al mes", // EN: Earn 2000 credits a month
     "Aydınlatma": "Iluminación", // EN: Lighting
     "Aydınlatma Ambiyansı": "Ambiente de iluminación", // EN: Lighting Ambience
     "Aydınlatma Cihazı Yok": "Sin dispositivos de iluminación", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Diğer cihazlar": "Otros dispositivos", // EN: Other devices
     "Diğer oturumlar kapatıldı ✓": "Otras sesiones cerradas ✓", // EN: Other sessions signed out ✓
     "Diş Fırçası": "cepillo de dientes", // EN: Toothbrush
-    "Dokun Çalıştır": "Toque para ejecutar", // EN: Tap to Run
     "Dokunmatik Anahtar (1 Çıkışlı)": "Interruptor táctil (1 unidad)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 Çıkışlı)": "Interruptor táctil (2 bandas)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 Çıkışlı)": "Interruptor táctil (3 bandas)", // EN: Touch Switch (3 Gang)
@@ -1994,7 +1992,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXO - Configuración", // EN: NEXUS - Settings
     "NEXUS - Aydınlatma Ustası": "NEXUS - Maestro de la iluminación", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXO - Dispositivo", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS - Agregar dispositivo", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS - Centro de dispositivos", // EN: NEXUS - Device Center
     "NEXUS - Cihaz Güncellemesi": "NEXUS - Actualizaciones de dispositivos", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS - Configuración del dispositivo", // EN: NEXUS - Device Setup
@@ -2055,7 +2052,6 @@ window.NEXUS_LANG = {
     "NEXUS — Keşfet": "NEXO — Descubrir", // EN: NEXUS — Discover
     "NEXUS — Konum Seç": "NEXUS — Elige ubicación", // EN: NEXUS — Choose Location
     "NEXUS — Kullanıcı Bilgileri": "NEXUS — Información del usuario", // EN: NEXUS — User Information
-    "NEXUS — Menü": "NEXO — Menú", // EN: NEXUS — Menu
     "NEXUS — Mesaj Merkezi": "NEXUS - Centro de mensajes", // EN: NEXUS — Message Center
     "NEXUS — NEXUS AI Masaüstü": "NEXUS — Escritorio NEXUS AI", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS — Profil": "NEXO — Perfil", // EN: NEXUS — Profile

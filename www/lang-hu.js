@@ -919,7 +919,6 @@ window.NEXUS_LANG = {
     "Ayarlar": "Be\u00e1ll\u00edt\u00e1sok elemre", // EN: Settings
     "Ayarlar b\u00f6l\u00fcm\u00fcnden Ev Konumu se\u00e7": "V\u00e1lasszon egy otthoni helyet a Be\u00e1ll\u00edt\u00e1sokban", // EN: Choose a Home Location in Settings
     "Ayarlar\u0131 Kaydet": "Be\u00e1ll\u00edt\u00e1sok ment\u00e9se", // EN: Save Settings
-    "Ayda 2000 kredi kazan\u0131n": "Szerezzen 2000 kreditet havonta", // EN: Earn 2000 credits a month
     "Ayd\u0131nlatma": "Vil\u00e1g\u00edt\u00e1s", // EN: Lighting
     "Ayd\u0131nlatma Ambiyans\u0131": "Vil\u00e1g\u00edt\u00e1si k\u00f6rnyezet", // EN: Lighting Ambience
     "Ayd\u0131nlatma Cihaz\u0131 Yok": "Nincsenek vil\u00e1g\u00edt\u00f3eszk\u00f6z\u00f6k", // EN: No Lighting Devices
@@ -1227,7 +1226,6 @@ window.NEXUS_LANG = {
     "Di\u011fer cihazlar": "Egy\u00e9b eszk\u00f6z\u00f6k", // EN: Other devices
     "Di\u011fer oturumlar kapat\u0131ld\u0131 \u2713": "M\u00e1s munkamenetek kijelentkezve \u2713", // EN: Other sessions signed out ✓
     "Di\u015f F\u0131r\u00e7as\u0131": "Fogkefe", // EN: Toothbrush
-    "Dokun \u00c7al\u0131\u015ft\u0131r": "Koppintson a futtat\u00e1shoz", // EN: Tap to Run
     "Dokunmatik Anahtar (1 \u00c7\u0131k\u0131\u015fl\u0131)": "\u00c9rint\u0151kapcsol\u00f3 (1 banda)", // EN: Touch Switch (1 Gang)
     "Dokunmatik Anahtar (2 \u00c7\u0131k\u0131\u015fl\u0131)": "\u00c9rint\u0151kapcsol\u00f3 (2 csoport)", // EN: Touch Switch (2 Gang)
     "Dokunmatik Anahtar (3 \u00c7\u0131k\u0131\u015fl\u0131)": "\u00c9rint\u0151kapcsol\u00f3 (3 csoport)", // EN: Touch Switch (3 Gang)
@@ -1993,7 +1991,6 @@ window.NEXUS_LANG = {
     "NEXUS - Ayarlar": "NEXUS \u2013 Be\u00e1ll\u00edt\u00e1sok", // EN: NEXUS - Settings
     "NEXUS - Ayd\u0131nlatma Ustas\u0131": "NEXUS - Vil\u00e1g\u00edt\u00e1smester", // EN: NEXUS - Lighting Master
     "NEXUS - Cihaz": "NEXUS \u2013 Eszk\u00f6z", // EN: NEXUS - Device
-    "NEXUS - Cihaz Ekle": "NEXUS \u2013 Eszk\u00f6z hozz\u00e1ad\u00e1sa", // EN: NEXUS - Add Device
     "NEXUS - Cihaz Ekleme Merkezi": "NEXUS \u2013 Eszk\u00f6zk\u00f6zpont", // EN: NEXUS - Device Center
     "NEXUS - Cihaz G\u00fcncellemesi": "NEXUS \u2013 Eszk\u00f6zfriss\u00edt\u00e9sek", // EN: NEXUS - Device Updates
     "NEXUS - Cihaz Kurulumu": "NEXUS \u2013 Eszk\u00f6zbe\u00e1ll\u00edt\u00e1s", // EN: NEXUS - Device Setup
@@ -2054,7 +2051,6 @@ window.NEXUS_LANG = {
     "NEXUS \u2014 Ke\u015ffet": "NEXUS \u2014 Fedezze fel", // EN: NEXUS — Discover
     "NEXUS \u2014 Konum Se\u00e7": "NEXUS \u2014 V\u00e1lassza a Hely lehet\u0151s\u00e9get", // EN: NEXUS — Choose Location
     "NEXUS \u2014 Kullan\u0131c\u0131 Bilgileri": "NEXUS \u2014 Felhaszn\u00e1l\u00f3i inform\u00e1ci\u00f3k", // EN: NEXUS — User Information
-    "NEXUS \u2014 Men\u00fc": "NEXUS \u2014 Men\u00fc", // EN: NEXUS — Menu
     "NEXUS \u2014 Mesaj Merkezi": "NEXUS \u2013 \u00dczenetk\u00f6zpont", // EN: NEXUS — Message Center
     "NEXUS \u2014 NEXUS AI Masa\u00fcst\u00fc": "NEXUS \u2014 NEXUS AI asztali sz\u00e1m\u00edt\u00f3g\u00e9p", // EN: NEXUS — NEXUS AI Desktop
     "NEXUS \u2014 Profil": "NEXUS \u2014 Profil", // EN: NEXUS — Profile
