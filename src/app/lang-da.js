@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Kameraet kunne ikke \u00e5bnes.Tjek browsertilladelser, eller indtast ops\u00e6tningskoden.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Starter kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Kunne ikke f\u00e5 adgang til kameraet.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Forts\u00e6t med kamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kameraet optager eller deler ikke video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kameraer og l\u00e5se", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kamera- og mikrofonpr\u00e6ferencer er ikke indstillet.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kode sendt \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Koden ikke genkendt", // EN: Code not recognized
     "Kodu Kopyala": "Kopi\u00e9r kode", // EN: Copy Code
-    "Kodu elle gir": "Indtast koden manuelt", // EN: Enter the code manually
     "Kombi": "Kedel", // EN: Boiler
     "Kombiler": "Kedler", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Kommandoen kunne ikke n\u00e5 enheden \u2013 s\u00f8rg for, at den er t\u00e6ndt og p\u00e5 det samme Wi-Fi-netv\u00e6rk.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Planlagt stille tilstand", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Planlagt lagring", // EN: Scheduled Saving
-    "Zorunlu": "P\u00e5kr\u00e6vet", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Billede:", // EN: [Image:
     "anahtar\u0131n": "skifte", // EN: switch

@@ -415,12 +415,42 @@
     });
   }
 
+  // Ortak senaryo şablonu: tüm senaryo sayfalarında aynı "Başlatma" ve "Son çalışma" bilgisi.
+  // Son çalışma gerçek olay kaydından (nexusEvents, type: scene) okunur; kayıt yoksa "Henüz çalıştırılmadı".
+  function renderSceneMeta() {
+    var main = document.querySelector('main');
+    if (!main || main.querySelector('.nx-scene-meta')) return;
+    var T = function (tr, en) { return window.nexusT ? window.nexusT(tr, en) : tr; };
+    var events = safeParse(nexusGetItem('nexusEvents'), []);
+    var last = null;
+    if (Array.isArray(events)) {
+      for (var i = events.length - 1; i >= 0; i--) {
+        var e = events[i];
+        if (e && e.type === 'scene' && e.title === sceneTitle && e.ts) { last = e.ts; break; }
+      }
+    }
+    var when = T('Henüz çalıştırılmadı', 'Not run yet');
+    if (last) {
+      try {
+        when = new Date(last).toLocaleString(document.documentElement.lang || undefined, { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+      } catch (err) { when = new Date(last).toLocaleString(); }
+    }
+    var sec = document.createElement('section');
+    sec.className = 'nx-scene-meta';
+    sec.innerHTML =
+      '<div class="nx-scene-meta__row"><span>' + T('Başlatma', 'Start') + '</span><b>' + T("Bu sayfadan ya da NEXUS AI'dan", 'From this page or NEXUS AI') + '</b></div>' +
+      '<div class="nx-scene-meta__row"><span>' + T('Son çalışma', 'Last run') + '</span><b data-no-i18n>' + when + '</b></div>';
+    main.appendChild(sec);
+  }
+
+  try { body.classList.add('nx-scene'); document.documentElement.classList.add('nx-scene-page'); } catch (e) {}
   bindBackActions();
   bindSettingsActions();
   persistInputs();
   bindPrimaryCta();
   bindDeviceCount();
   renderRealSceneSteps();
+  try { renderSceneMeta(); } catch (e) {}
   bindSceneActionButtons();
   }
 

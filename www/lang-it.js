@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Impossibile aprire la fotocamera.Controlla i permessi del browser o inserisci il codice di configurazione.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Avvio della fotocamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Impossibile accedere alla fotocamera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Continua con la fotocamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "La fotocamera non registra n\u00e9 condivide video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Telecamere e serrature", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Le preferenze della fotocamera e del microfono non sono impostate.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Codice inviato \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Codice non riconosciuto", // EN: Code not recognized
     "Kodu Kopyala": "Copia codice", // EN: Copy Code
-    "Kodu elle gir": "Inserisci il codice manualmente", // EN: Enter the code manually
     "Kombi": "Caldaia", // EN: Boiler
     "Kombiler": "Caldaie", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Il comando non \u00e8 riuscito a raggiungere il dispositivo: assicurati che sia acceso e sulla stessa rete Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Modalit\u00e0 silenziosa programmata", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Temporizzatore", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Salvataggio pianificato", // EN: Scheduled Saving
-    "Zorunlu": "Obbligatorio", // EN: Required
     "Z\u00fcrih": "Zurigo", // EN: Zurich
     "[G\u00f6rsel:": "[Immagine:", // EN: [Image:
     "anahtar\u0131n": "interruttore", // EN: switch

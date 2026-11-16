@@ -1734,7 +1734,6 @@ window.NEXUS_LANG = {
     "Kamera açılamadı. Tarayıcı izinlerini kontrol edin veya kurulum kodunu girin.": "No se pudo abrir la cámara. Verifique los permisos del navegador o ingrese el código de configuración.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera başlatılıyor...": "Iniciando cámara...", // EN: Starting camera...
     "Kamera erişimi sağlanamadı.": "No se pudo acceder a la cámara.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Continuar con la cámara", // EN: Continue with camera
     "Kamera kayıt yapmıyor ve görüntü paylaşmıyor.": "La cámara no graba ni comparte vídeo.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Cámaras y cerraduras", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmamış.": "Las preferencias de cámara y micrófono no están configuradas.", // EN: Camera and microphone preferences are not set.
@@ -1833,7 +1832,6 @@ window.NEXUS_LANG = {
     "Kod gönderildi ✓": "Código enviado ✓", // EN: Code sent ✓
     "Kod tanınmadı": "Código no reconocido", // EN: Code not recognized
     "Kodu Kopyala": "Copiar código", // EN: Copy Code
-    "Kodu elle gir": "Ingrese el código manualmente", // EN: Enter the code manually
     "Kombi": "caldera", // EN: Boiler
     "Kombiler": "Calderas", // EN: Boilers
     "Komut cihaza ulaşamadı — cihazın açık ve aynı Wi-Fi ağında olduğunu doğrula.": "El comando no pudo alcanzar el dispositivo; asegúrese de que esté conectado y en la misma red Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2695,7 +2693,6 @@ window.NEXUS_LANG = {
     "Zamanlanmış Sessiz Mod": "Modo silencioso programado", // EN: Scheduled Quiet Mode
     "Zamanlayıcı": "Temporizador", // EN: Timer
     "Zamanlı Tasarruf": "Ahorro programado", // EN: Scheduled Saving
-    "Zorunlu": "Requerido", // EN: Required
     "Zürih": "Zúrich", // EN: Zurich
     "[Görsel:": "[Imagen:", // EN: [Image:
     "anahtarın": "cambiar", // EN: switch

@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Kan de camera niet openen.Controleer de browserrechten of voer de installatiecode in.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Camera starten...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Kon geen toegang krijgen tot de camera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Ga verder met camera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "De camera neemt geen video op en deelt geen video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Camera's en sloten", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Camera- en microfoonvoorkeuren zijn niet ingesteld.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Code verzonden \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Code niet herkend", // EN: Code not recognized
     "Kodu Kopyala": "Kopieer code", // EN: Copy Code
-    "Kodu elle gir": "Voer de code handmatig in", // EN: Enter the code manually
     "Kombi": "Ketel", // EN: Boiler
     "Kombiler": "Ketels", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "De opdracht kan het apparaat niet bereiken. Zorg ervoor dat het zich op hetzelfde Wi-Fi-netwerk bevindt.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Geplande stille modus", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Geplande besparing", // EN: Scheduled Saving
-    "Zorunlu": "Vereist", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Afbeelding:", // EN: [Image:
     "anahtar\u0131n": "schakelaar", // EN: switch

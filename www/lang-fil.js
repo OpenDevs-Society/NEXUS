@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Hindi mabuksan ang kamera. Suriin ang mga permiso ng browser o ilagay ang setup code.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Sinisimulan ang kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Hindi ma-access ang kamera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Magpatuloy gamit ang kamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Ang kamera ay hindi nagre-record o nagbabahagi ng video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Mga Kamera at Lock", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Ang mga preference para sa kamera at mikropono ay hindi pa nakaset.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Naipadala ang code \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Hindi kilala ang code", // EN: Code not recognized
     "Kodu Kopyala": "Kopyahin ang Code", // EN: Copy Code
-    "Kodu elle gir": "Ilagay ang code nang manu-mano", // EN: Enter the code manually
     "Kombi": "Boiler", // EN: Boiler
     "Kombiler": "Mga Boiler", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Hindi maabot ng utos ang device \u2014 siguraduhing nakabukas ito at nasa parehong Wi-Fi network.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Naka-iskedyul na Tahimik na Mode", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Naka-iskedyul na Pagtitipid", // EN: Scheduled Saving
-    "Zorunlu": "Kailangan", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[Larawan:", // EN: [Image:
     "anahtar\u0131n": "switch", // EN: switch

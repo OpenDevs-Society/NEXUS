@@ -191,6 +191,36 @@ function getVisibleCatalog() {
   return supportedMatrixCategory();
 }
 
+// Masaüstü sol kategori filtresi: arama sonucundaki kategoriler ve sayıları; "Tümü" filtreyi kaldırır.
+// Telefonda CSS ile gizlidir (tek sütunda kategoriler zaten başlıklarla ayrılır).
+var catalogActiveCat = null;
+function renderCatalogCats(groups) {
+  var main = document.getElementById("catalog-main");
+  if (!main) return;
+  var nav = document.getElementById("catalog-cats");
+  if (!nav) {
+    nav = document.createElement("nav");
+    nav.id = "catalog-cats";
+    nav.className = "nx-cat-nav";
+    nav.setAttribute("aria-label", "Kategoriler");
+    main.insertBefore(nav, main.firstChild);
+    nav.addEventListener("click", function (e) {
+      var btn = e.target.closest ? e.target.closest("button[data-cat]") : null;
+      if (!btn) return;
+      catalogActiveCat = btn.getAttribute("data-cat") || null;
+      renderCatalogContent();
+    });
+  }
+  if (catalogActiveCat && !groups.some(function (g) { return g.title === catalogActiveCat; })) catalogActiveCat = null;
+  var total = groups.reduce(function (n, g) { return n + g.items.length; }, 0);
+  function item(cat, label, n) {
+    var on = (cat || null) === catalogActiveCat;
+    return '<button type="button" data-cat="' + escapeCatalogHtml(cat) + '"' + (on ? ' aria-current="true" class="is-active"' : "") + ">" +
+      "<span>" + escapeCatalogHtml(label) + '</span><span class="nx-cat-nav__n">' + n + "</span></button>";
+  }
+  nav.innerHTML = item("", "Tümü", total) + groups.map(function (g) { return item(g.title, g.title, g.items.length); }).join("");
+}
+
 function renderCatalogContent() {
   var content = document.getElementById("catalog-content");
   if (!content) return;
@@ -209,6 +239,10 @@ function renderCatalogContent() {
     .filter(function (g) {
       return g.items.length;
     });
+  renderCatalogCats(groups);
+  if (catalogActiveCat && groups.some(function (g) { return g.title === catalogActiveCat; })) {
+    groups = groups.filter(function (g) { return g.title === catalogActiveCat; });
+  }
   content.innerHTML = groups.length
     ? groups
         .map(function (g) {

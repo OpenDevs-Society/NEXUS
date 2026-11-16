@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Neizdev\u0101s atv\u0113rt kameru. P\u0101rbaudiet p\u0101rl\u016bkprogrammas at\u013caujas vai ievadiet uzst\u0101d\u012b\u0161anas kodu.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Kamera tiek s\u0101ka...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Nevar\u0113ja piek\u013c\u016bt kamerai.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Turpin\u0101t ar kameru", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera nere\u0123istr\u0113 un nedal\u0101s ar video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kameras un sl\u0113dzenes", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kameras un mikrofonu preferences nav iestat\u012btas.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kods nos\u016bt\u012bts \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kods netika atpaz\u012bts", // EN: Code not recognized
     "Kodu Kopyala": "Kop\u0113t kodu", // EN: Copy Code
-    "Kodu elle gir": "Ievadiet kodu manu\u0101li", // EN: Enter the code manually
     "Kombi": "Katls", // EN: Boiler
     "Kombiler": "Katli", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Komanda nevar\u0113ja sasniegt ier\u012bci \u2014 p\u0101rliecinieties, ka t\u0101 ir iesl\u0113gta un piesl\u0113gta tam pa\u0161am Wi-Fi t\u012bklam.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Iepl\u0101notais klusuma re\u017e\u012bms", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Taimeris", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Pl\u0101not\u0101 taup\u012bba", // EN: Scheduled Saving
-    "Zorunlu": "Nepiecie\u0161ams", // EN: Required
     "Z\u00fcrih": "C\u012brihe", // EN: Zurich
     "[G\u00f6rsel:": "[Att\u0113ls:", // EN: [Image:
     "anahtar\u0131n": "sl\u0113dzis", // EN: switch

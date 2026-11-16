@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Impossible d'ouvrir la cam\u00e9ra.V\u00e9rifiez les autorisations du navigateur ou entrez le code de configuration.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "D\u00e9marrage de la cam\u00e9ra...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Impossible d'acc\u00e9der \u00e0 la cam\u00e9ra.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Continuer avec la cam\u00e9ra", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "La cam\u00e9ra n'enregistre pas ou ne partage pas de vid\u00e9o.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Cam\u00e9ras et serrures", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Les pr\u00e9f\u00e9rences de cam\u00e9ra et de microphone ne sont pas d\u00e9finies.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Code envoy\u00e9 \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Code non reconnu", // EN: Code not recognized
     "Kodu Kopyala": "Copier le code", // EN: Copy Code
-    "Kodu elle gir": "Entrez le code manuellement", // EN: Enter the code manually
     "Kombi": "Chaudi\u00e8re", // EN: Boiler
     "Kombiler": "Chaudi\u00e8res", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "La commande n'a pas pu atteindre l'appareil\u00a0: assurez-vous qu'il se trouve sur le m\u00eame r\u00e9seau Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Mode silencieux programm\u00e9", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Minuterie", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Sauvegarde programm\u00e9e", // EN: Scheduled Saving
-    "Zorunlu": "Obligatoire", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[Image\u00a0:", // EN: [Image:
     "anahtar\u0131n": "changer", // EN: switch

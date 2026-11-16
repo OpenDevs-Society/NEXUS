@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Nie mo\u017cna otworzy\u0107 aparatu.Sprawd\u017a uprawnienia przegl\u0105darki lub wprowad\u017a kod instalacyjny.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Uruchamiam kamer\u0119...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Nie mo\u017cna uzyska\u0107 dost\u0119pu do aparatu.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Kontynuuj z kamer\u0105", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera nie nagrywa ani nie udost\u0119pnia wideo.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamery i zamki", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Preferencje kamery i mikrofonu nie s\u0105 ustawione.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kod wys\u0142any \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kod nie zosta\u0142 rozpoznany", // EN: Code not recognized
     "Kodu Kopyala": "Skopiuj kod", // EN: Copy Code
-    "Kodu elle gir": "Wprowad\u017a kod r\u0119cznie", // EN: Enter the code manually
     "Kombi": "Kocio\u0142", // EN: Boiler
     "Kombiler": "Kot\u0142y", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Polecenie nie mog\u0142o dotrze\u0107 do urz\u0105dzenia \u2014 upewnij si\u0119, \u017ce jest w\u0142\u0105czone i znajduje si\u0119 w tej samej sieci Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Zaplanowany tryb cichy", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Zaplanowane oszcz\u0119dzanie", // EN: Scheduled Saving
-    "Zorunlu": "Wymagane", // EN: Required
     "Z\u00fcrih": "Zurych", // EN: Zurich
     "[G\u00f6rsel:": "[Obraz:", // EN: [Image:
     "anahtar\u0131n": "prze\u0142\u0105cznik", // EN: switch

@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Nepavyko atidaryti kameros. Patikrinkite nar\u0161ykl\u0117s leidimus arba \u012fveskite nustatymo kod\u0105.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Pradedama kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Nepavyko gauti prieigos prie kameros.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "T\u0119sti su kamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera neregistruoja ar nepateikia vaizdo.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kameros ir spynos", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kameros ir mikrofono nustatymai nepasirinkti.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kodas i\u0161si\u0173stas \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kodas neatpa\u017eintas", // EN: Code not recognized
     "Kodu Kopyala": "Kopijuoti kod\u0105", // EN: Copy Code
-    "Kodu elle gir": "\u012eveskite kod\u0105 rankiniu b\u016bdu", // EN: Enter the code manually
     "Kombi": "Katilas", // EN: Boiler
     "Kombiler": "Katilai", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Komanda negal\u0117jo pasiekti \u012frenginio \u2014 \u012fsitikinkite, kad jis \u012fjungtas ir tame pa\u010diame \u201eWi-Fi\u201c tinkle.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Suplanuotas tylos re\u017eimas", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Laikmatis", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Planuotas i\u0161saugojimas", // EN: Scheduled Saving
-    "Zorunlu": "Privaloma", // EN: Required
     "Z\u00fcrih": "Ciurichas", // EN: Zurich
     "[G\u00f6rsel:": "[Paveiksl\u0117lis:", // EN: [Image:
     "anahtar\u0131n": "Switch", // EN: switch

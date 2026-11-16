@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Haiwezi kufungua kamera. Angalia ruhusa za kivinjari au ingiza kodi ya usanidi.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Kuanza kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Haiwezi kupata kamera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Endelea na kamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera hairekodi au kushiriki video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamera na Mifungo", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Mapendeleo ya kamera na kipaza sauti hayawezi kuanzishwa.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kanuni imetumwa \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kanuni haijatambulika", // EN: Code not recognized
     "Kodu Kopyala": "Nakili Kanuni", // EN: Copy Code
-    "Kodu elle gir": "Weka kanuni kwa mkono", // EN: Enter the code manually
     "Kombi": "Boila", // EN: Boiler
     "Kombiler": "Boila", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Amri haiwezi kufikia kifaa \u2014 hakikisha kiko wazi na kwenye mtandao wa Wi-Fi uleule.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Hali ya Kimya Iliyopangwa", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Kipima wakati", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Uhifadhi Uliopangwa", // EN: Scheduled Saving
-    "Zorunlu": "Inahitajika", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[Picha:", // EN: [Image:
     "anahtar\u0131n": "swichi", // EN: switch

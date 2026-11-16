@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Bekungeke kuvulwe ikhamera. Hlola izimvume zesiphequluli noma faka ikhodi yokusetha.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Ukuqalisa ikhamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Bekungeke kufinyelelwe ikhamera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Qhubeka nekhamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Ikhamera ayirekhodi noma ihlanganyeli ividiyo.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Amakhamera nama-Lock", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Izintandokazi zekhamera nomakrofoni azimiswanga.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Ikhodi ithunyelwe \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Ikhodi ayiqinisekisiwe", // EN: Code not recognized
     "Kodu Kopyala": "Kopa Ikhodi", // EN: Copy Code
-    "Kodu elle gir": "Faka ikhodi ngesandla", // EN: Enter the code manually
     "Kombi": "Ibhayela", // EN: Boiler
     "Kombiler": "Amabhayela", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Umyalelo awukwazi ukufinyelela idivayisi \u2014 qiniseka ukuthi ivuliwe futhi isesimweni seWi-Fi esifanayo.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Imodi Ethule Ephakelwe", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Isikhathi somlayezo", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Ukonga Okuhleliwe", // EN: Scheduled Saving
-    "Zorunlu": "Okudingekayo", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[Isithombe:", // EN: [Image:
     "anahtar\u0131n": "swishi", // EN: switch

@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "N\u00e3o foi poss\u00edvel abrir a c\u00e2mera.Verifique as permiss\u00f5es do navegador ou insira o c\u00f3digo de configura\u00e7\u00e3o.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Iniciando a c\u00e2mera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "N\u00e3o foi poss\u00edvel acessar a c\u00e2mera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Continuar com a c\u00e2mera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "A c\u00e2mera n\u00e3o est\u00e1 gravando ou compartilhando v\u00eddeo.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "C\u00e2meras e fechaduras", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "As prefer\u00eancias de c\u00e2mera e microfone n\u00e3o est\u00e3o definidas.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "C\u00f3digo enviado \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "C\u00f3digo n\u00e3o reconhecido", // EN: Code not recognized
     "Kodu Kopyala": "Copiar c\u00f3digo", // EN: Copy Code
-    "Kodu elle gir": "Digite o c\u00f3digo manualmente", // EN: Enter the code manually
     "Kombi": "Caldeira", // EN: Boiler
     "Kombiler": "Caldeiras", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "O comando n\u00e3o conseguiu alcan\u00e7ar o dispositivo \u2013 certifique-se de que ele esteja ligado e na mesma rede Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Modo silencioso programado", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Temporizador", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Salvamento agendado", // EN: Scheduled Saving
-    "Zorunlu": "Obrigat\u00f3rio", // EN: Required
     "Z\u00fcrih": "Zurique", // EN: Zurich
     "[G\u00f6rsel:": "[Imagem:", // EN: [Image:
     "anahtar\u0131n": "mudar", // EN: switch

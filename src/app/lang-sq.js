@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Nuk mund t\u00eb hap kameren. Kontrolloni lejet e shfletuesit ose futni kodin e konfigurimit.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Duke nisur kamer\u00ebn...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Nuk mund t\u00eb qasem n\u00eb kamer\u00eb.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Vazhdo me kamer\u00ebn", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera nuk po regjistron ose ndan video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamera dhe Ky\u00e7jet", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Preferencat p\u00ebr kamer\u00ebn dhe mikrofonin nuk jan\u00eb vendosur.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kodi u d\u00ebrgua \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kodi nuk u njoh", // EN: Code not recognized
     "Kodu Kopyala": "Kopjo Kodin", // EN: Copy Code
-    "Kodu elle gir": "Shkruani kodin manualisht", // EN: Enter the code manually
     "Kombi": "Boileri", // EN: Boiler
     "Kombiler": "Boiler\u00ebt", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Komanda nuk mund t\u00eb arrij\u00eb pajisjen \u2014 sigurohuni q\u00eb t\u00eb jet\u00eb e ndezur dhe n\u00eb t\u00eb nj\u00ebjtin rrjet Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Modaliteti i qet\u00eb i planifikuar", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Koh\u00ebmat\u00ebs", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Kursim i planifikuar", // EN: Scheduled Saving
-    "Zorunlu": "I nevojsh\u00ebm", // EN: Required
     "Z\u00fcrih": "Zyrih", // EN: Zurich
     "[G\u00f6rsel:": "[Foto:", // EN: [Image:
     "anahtar\u0131n": "\u00e7el\u00ebs", // EN: switch

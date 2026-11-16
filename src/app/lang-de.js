@@ -1734,7 +1734,6 @@ window.NEXUS_LANG = {
     "Kamera açılamadı. Tarayıcı izinlerini kontrol edin veya kurulum kodunu girin.": "Die Kamera konnte nicht geöffnet werden. Überprüfen Sie die Browserberechtigungen oder geben Sie den Setup-Code ein.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera başlatılıyor...": "Kamera wird gestartet...", // EN: Starting camera...
     "Kamera erişimi sağlanamadı.": "Auf die Kamera konnte nicht zugegriffen werden.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Weiter mit der Kamera", // EN: Continue with camera
     "Kamera kayıt yapmıyor ve görüntü paylaşmıyor.": "Die Kamera zeichnet kein Video auf oder gibt es nicht weiter.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kameras und Schlösser", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmamış.": "Kamera- und Mikrofoneinstellungen sind nicht festgelegt.", // EN: Camera and microphone preferences are not set.
@@ -1833,7 +1832,6 @@ window.NEXUS_LANG = {
     "Kod gönderildi ✓": "Code gesendet ✓", // EN: Code sent ✓
     "Kod tanınmadı": "Code nicht erkannt", // EN: Code not recognized
     "Kodu Kopyala": "Code kopieren", // EN: Copy Code
-    "Kodu elle gir": "Geben Sie den Code manuell ein", // EN: Enter the code manually
     "Kombi": "Kessel", // EN: Boiler
     "Kombiler": "Kessel", // EN: Boilers
     "Komut cihaza ulaşamadı — cihazın açık ve aynı Wi-Fi ağında olduğunu doğrula.": "Der Befehl konnte das Gerät nicht erreichen. Stellen Sie sicher, dass es sich im selben WLAN-Netzwerk befindet.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2695,7 +2693,6 @@ window.NEXUS_LANG = {
     "Zamanlanmış Sessiz Mod": "Geplanter Ruhemodus", // EN: Scheduled Quiet Mode
     "Zamanlayıcı": "Timer", // EN: Timer
     "Zamanlı Tasarruf": "Geplantes Speichern", // EN: Scheduled Saving
-    "Zorunlu": "Erforderlich", // EN: Required
     "Zürih": "Zürich", // EN: Zurich
     "[Görsel:": "[Bild:", // EN: [Image:
     "anahtarın": "Schalter", // EN: switch

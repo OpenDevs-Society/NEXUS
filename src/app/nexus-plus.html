@@ -106,6 +106,7 @@
 <p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 text-sm mb-2">7 gün ücretsiz deneme</p>
 <div class="text-2xl font-bold text-black dark:text-white dark:text-white" id="pa-price">₺3999.99</div>
 <div class="text-gray-400 text-sm" id="pa-sub">₺333.33/ay</div>
+<button type="button" class="nx-plan-cta" onclick="event.stopPropagation(); selectPlan('Yıllık'); ctaAction();">Ücretsiz Dene</button>
 </div>
 <!-- Monthly Plan -->
 <div role="button" tabindex="0" id="plan-monthly" onclick="selectPlan('Aylık')" class="bg-white dark:bg-slate-800 dark:bg-slate-800 border-2 border-gray-100 rounded-3xl p-5 text-center flex flex-col justify-center shadow-sm cursor-pointer transition-all" data-plan="Aylık">
@@ -113,11 +114,14 @@
 <p class="text-gray-600 dark:text-gray-300 dark:text-gray-300 text-sm mb-2">3 gün ücretsiz deneme</p>
 <div class="text-2xl font-bold text-black dark:text-white dark:text-white" id="pm-price">₺499.99</div>
 <div class="text-gray-400 text-sm" id="pm-sub">/ay</div>
+<button type="button" class="nx-plan-cta" onclick="event.stopPropagation(); selectPlan('Aylık'); ctaAction();">Ücretsiz Dene</button>
 </div>
 </section>
 <!-- BEGIN: Feature List Card -->
 <section class="w-full max-w-md bg-white dark:bg-slate-800 dark:bg-slate-800 rounded-3xl p-6 shadow-md mb-8" data-purpose="features-card">
 <ul class="space-y-5">
+<li class="nx-cmp-head" aria-hidden="true"><span></span><span>Yıllık</span><span>Aylık</span></li>
+<li class="nx-cmp-row"><span class="nx-cmp-label">Ücretsiz deneme</span><span class="nx-cmp-cell">7 gün</span><span class="nx-cmp-cell">3 gün</span></li>
 <!-- Feature Item 1 -->
 <li class="flex items-center gap-3">
 <div class="bg-[#4C7DFF] rounded-full w-6 h-6 flex items-center justify-center shrink-0">
@@ -126,6 +130,7 @@
 </svg>
 </div>
 <span class="text-gray-800 dark:text-white dark:text-white text-lg font-medium">Ücretsiz plandaki her şey dahil</span>
+<span class="nx-cmp-cell" aria-label="Yıllık: dahil">✓</span><span class="nx-cmp-cell" aria-label="Aylık: dahil">✓</span>
 </li>
 <!-- Feature Item 2 -->
 <li class="flex items-center gap-3">
@@ -135,6 +140,7 @@
 </svg>
 </div>
 <span class="text-gray-800 dark:text-white dark:text-white text-lg font-medium">Günde 30 yerine ayda 2.000 NEXUS AI yanıtı</span>
+<span class="nx-cmp-cell" aria-label="Yıllık: dahil">✓</span><span class="nx-cmp-cell" aria-label="Aylık: dahil">✓</span>
 </li>
 <!-- Feature Item 3 -->
 <li class="flex items-center gap-3">
@@ -144,6 +150,7 @@
 </svg>
 </div>
 <span class="text-gray-800 dark:text-white dark:text-white text-lg font-medium">NEXUS AI ile doğal dille senaryo ve soru</span>
+<span class="nx-cmp-cell" aria-label="Yıllık: dahil">✓</span><span class="nx-cmp-cell" aria-label="Aylık: dahil">✓</span>
 </li>
 <!-- Feature Item: Gelişmiş bağlantılar -->
 <li class="flex items-center gap-3">
@@ -153,6 +160,7 @@
 </svg>
 </div>
 <span class="text-gray-800 dark:text-white dark:text-white text-lg font-medium">Gelişmiş bağlantılar: Home Assistant cihazı ekle</span>
+<span class="nx-cmp-cell" aria-label="Yıllık: dahil">✓</span><span class="nx-cmp-cell" aria-label="Aylık: dahil">✓</span>
 </li>
 <!-- Feature Item 4 -->
 <li class="flex items-center gap-3">
@@ -162,6 +170,7 @@
 </svg>
 </div>
 <span class="text-gray-800 dark:text-white dark:text-white text-lg font-medium">Tek hesap, tüm NEXUS cihazlarında geçerli</span>
+<span class="nx-cmp-cell" aria-label="Yıllık: dahil">✓</span><span class="nx-cmp-cell" aria-label="Aylık: dahil">✓</span>
 </li>
 </ul>
 </section>

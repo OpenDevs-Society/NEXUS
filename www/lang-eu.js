@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Ezin izan da kamerarik ireki. Egiaztatu nabigatzailearen baimenak edo sartu konfigurazio kodea.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Kamera martxan jartzen...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Ezin izan da kamerara sartu.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Jarraitu kamerarekin", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamerak ez du bideoa grabatzen edo partekatzen.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamerak eta giltzak", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kamera eta mikrofonoaren lehentasunak ez daude ezarrita.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kodea bidalia \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kodea ez da ezagutzen", // EN: Code not recognized
     "Kodu Kopyala": "Kodea kopiatu", // EN: Copy Code
-    "Kodu elle gir": "Kodea eskuz sartu", // EN: Enter the code manually
     "Kombi": "Galdara", // EN: Boiler
     "Kombiler": "Galderak", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Agindua ez da gailura iritsi \u2014 ziurtatu piztuta dagoela eta Wi-Fi sare berean.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Ordutegi Isil Modua", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Denbora-neurgailua", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Aurreikusitako Aurrezpena", // EN: Scheduled Saving
-    "Zorunlu": "Beharrezkoa", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[Irudia:", // EN: [Image:
     "anahtar\u0131n": "etengailua", // EN: switch

@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Det gick inte att \u00f6ppna kameran.Kontrollera webbl\u00e4sarens beh\u00f6righeter eller ange installationskoden.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Startar kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Det gick inte att komma \u00e5t kameran.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Forts\u00e4tt med kameran", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kameran spelar inte in eller delar video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kameror och l\u00e5s", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kamera- och mikrofoninst\u00e4llningar \u00e4r inte inst\u00e4llda.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kod skickad \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Koden k\u00e4nns inte igen", // EN: Code not recognized
     "Kodu Kopyala": "Kopiera kod", // EN: Copy Code
-    "Kodu elle gir": "Ange koden manuellt", // EN: Enter the code manually
     "Kombi": "Panna", // EN: Boiler
     "Kombiler": "Pannor", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Kommandot kunde inte n\u00e5 enheten \u2013 se till att den \u00e4r p\u00e5 och p\u00e5 samma Wi-Fi-n\u00e4tverk.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Schemalagt tyst l\u00e4ge", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Schemalagd besparing", // EN: Scheduled Saving
-    "Zorunlu": "Obligatoriskt", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Bild:", // EN: [Image:
     "anahtar\u0131n": "v\u00e4xla", // EN: switch

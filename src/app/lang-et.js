@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Ei suutnud kaamerat avada. Kontrolli brauseri \u00f5igusi v\u00f5i sisesta seadistuskood.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Kaamera k\u00e4ivitamine...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Ei saanud kaamerale juurde p\u00e4\u00e4seda.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "J\u00e4tka kaameraga", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kaamera ei salvesta ega jaga videot.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kaamerad ja lukud", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kaamera ja mikrofon eelistused ei ole seadistatud.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kood saadetud \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Koodi ei tuntud \u00e4ra", // EN: Code not recognized
     "Kodu Kopyala": "Kopeeri kood", // EN: Copy Code
-    "Kodu elle gir": "Sisesta kood k\u00e4sitsi", // EN: Enter the code manually
     "Kombi": "Katlamaja", // EN: Boiler
     "Kombiler": "Kamad", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "K\u00e4sku ei saanud seadmeni j\u00f5uda \u2014 veendu, et see on sisse l\u00fclitatud ja samas Wi-Fi v\u00f5rgus.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Ajastatud vaikne re\u017eiim", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Taimer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Ajastatud s\u00e4\u00e4stmine", // EN: Scheduled Saving
-    "Zorunlu": "N\u00f5utav", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Pilt:", // EN: [Image:
     "anahtar\u0131n": "l\u00fcliti", // EN: switch

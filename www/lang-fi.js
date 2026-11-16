@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Kameraa ei voitu avata.Tarkista selaimen k\u00e4ytt\u00f6oikeudet tai anna asennuskoodi.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "K\u00e4ynnistet\u00e4\u00e4n kameraa...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Kameraan ei saatu yhteytt\u00e4.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Jatka kameralla", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera ei tallenna tai jaa videota.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamerat ja lukot", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kamera- ja mikrofoniasetuksia ei ole asetettu.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Koodi l\u00e4hetetty \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Koodia ei tunnisteta", // EN: Code not recognized
     "Kodu Kopyala": "Kopioi koodi", // EN: Copy Code
-    "Kodu elle gir": "Sy\u00f6t\u00e4 koodi manuaalisesti", // EN: Enter the code manually
     "Kombi": "Kattila", // EN: Boiler
     "Kombiler": "Kattilat", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Komento ei saanut yhteytt\u00e4 laitteeseen \u2013 varmista, ett\u00e4 se on p\u00e4\u00e4ll\u00e4 ja samassa Wi-Fi-verkossa.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Ajastettu hiljainen tila", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Ajastin", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Aikataulutettu tallennus", // EN: Scheduled Saving
-    "Zorunlu": "Pakollinen", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Kuva:", // EN: [Image:
     "anahtar\u0131n": "kytkin", // EN: switch

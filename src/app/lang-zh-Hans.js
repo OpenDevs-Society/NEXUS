@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "\u65e0\u6cd5\u6253\u5f00\u76f8\u673a\u3002\u68c0\u67e5\u6d4f\u89c8\u5668\u6743\u9650\u6216\u8f93\u5165\u8bbe\u7f6e\u4ee3\u7801\u3002", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "\u542f\u52a8\u76f8\u673a...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "\u65e0\u6cd5\u8bbf\u95ee\u76f8\u673a\u3002", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "\u7ee7\u7eed\u4f7f\u7528\u76f8\u673a", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "\u76f8\u673a\u672a\u5f55\u5236\u6216\u5171\u4eab\u89c6\u9891\u3002", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "\u76f8\u673a\u548c\u9501", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "\u672a\u8bbe\u7f6e\u6444\u50cf\u5934\u548c\u9ea6\u514b\u98ce\u9996\u9009\u9879\u3002", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "\u4ee3\u7801\u5df2\u53d1\u9001 \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "\u4ee3\u7801\u65e0\u6cd5\u8bc6\u522b", // EN: Code not recognized
     "Kodu Kopyala": "\u590d\u5236\u4ee3\u7801", // EN: Copy Code
-    "Kodu elle gir": "\u624b\u52a8\u8f93\u5165\u4ee3\u7801", // EN: Enter the code manually
     "Kombi": "\u9505\u7089", // EN: Boiler
     "Kombiler": "\u9505\u7089", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "\u8be5\u547d\u4ee4\u65e0\u6cd5\u5230\u8fbe\u8bbe\u5907 - \u8bf7\u786e\u4fdd\u5b83\u5df2\u6253\u5f00\u5e76\u4f4d\u4e8e\u540c\u4e00 Wi-Fi \u7f51\u7edc\u4e0a\u3002", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "\u9884\u5b9a\u5b89\u9759\u6a21\u5f0f", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "\u8ba1\u65f6\u5668", // EN: Timer
     "Zamanl\u0131 Tasarruf": "\u9884\u5b9a\u50a8\u84c4", // EN: Scheduled Saving
-    "Zorunlu": "\u5fc5\u586b", // EN: Required
     "Z\u00fcrih": "\u82cf\u9ece\u4e16", // EN: Zurich
     "[G\u00f6rsel:": "[\u56fe\u7247\uff1a", // EN: [Image:
     "anahtar\u0131n": "\u5f00\u5173", // EN: switch

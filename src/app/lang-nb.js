@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Kunne ikke \u00e5pne kameraet.Sjekk nettlesertillatelsene eller skriv inn oppsettkoden.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Starter kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Fikk ikke tilgang til kameraet.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Fortsett med kamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kameraet tar ikke opp eller deler video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kameraer og l\u00e5ser", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Kamera- og mikrofonpreferanser er ikke angitt.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kode sendt \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Koden gjenkjennes ikke", // EN: Code not recognized
     "Kodu Kopyala": "Kopier kode", // EN: Copy Code
-    "Kodu elle gir": "Skriv inn koden manuelt", // EN: Enter the code manually
     "Kombi": "Kjele", // EN: Boiler
     "Kombiler": "Kjeler", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Kommandoen kunne ikke n\u00e5 enheten \u2013 s\u00f8rg for at den er p\u00e5 og p\u00e5 samme Wi-Fi-nettverk.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Planlagt stillemodus", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Planlagt lagring", // EN: Scheduled Saving
-    "Zorunlu": "Obligatorisk", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Bilde:", // EN: [Image:
     "anahtar\u0131n": "bryter", // EN: switch

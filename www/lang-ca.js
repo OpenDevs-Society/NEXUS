@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "No s'ha pogut obrir la c\u00e0mera. Comprova els permisos del navegador o introdueix el codi de configuraci\u00f3.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Iniciant la c\u00e0mera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "No s'ha pogut accedir a la c\u00e0mera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Continuar amb la c\u00e0mera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "La c\u00e0mera no est\u00e0 gravant ni compartint v\u00eddeo.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "C\u00e0meres i panys", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Les prefer\u00e8ncies de c\u00e0mera i micr\u00f2fon no estan configurades.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Codi enviat \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Codi no reconegut", // EN: Code not recognized
     "Kodu Kopyala": "Copia el codi", // EN: Copy Code
-    "Kodu elle gir": "Introdueix el codi manualment", // EN: Enter the code manually
     "Kombi": "Caldera", // EN: Boiler
     "Kombiler": "Calderes", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "La comanda no ha arribat al dispositiu \u2014 assegura\u2019t que estigui enc\u00e8s i connectat a la mateixa xarxa Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Mode silenci\u00f3s programat", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Temporitzador", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Estalvi programat", // EN: Scheduled Saving
-    "Zorunlu": "Requerit", // EN: Required
     "Z\u00fcrih": "Zuric", // EN: Zurich
     "[G\u00f6rsel:": "[Imatge:", // EN: [Image:
     "anahtar\u0131n": "interruptor", // EN: switch

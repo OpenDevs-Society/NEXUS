@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Tidak dapat membuka kamera. Periksa izin browser atau masukkan kode pengaturan.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Memulai kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Tidak dapat mengakses kamera.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Lanjutkan dengan kamera", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera tidak merekam atau membagikan video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamera dan Kunci", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Preferensi kamera dan mikrofon belum diatur.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "Kode dikirim \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "Kode tidak dikenali", // EN: Code not recognized
     "Kodu Kopyala": "Salin Kode", // EN: Copy Code
-    "Kodu elle gir": "Masukkan kode secara manual", // EN: Enter the code manually
     "Kombi": "Boiler", // EN: Boiler
     "Kombiler": "Boiler", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Perintah tidak dapat menjangkau perangkat \u2014 pastikan perangkat menyala dan terhubung ke jaringan Wi-Fi yang sama.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Mode Senyap Terjadwal", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Timer", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Penghematan Terjadwal", // EN: Scheduled Saving
-    "Zorunlu": "Diperlukan", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[Gambar:", // EN: [Image:
     "anahtar\u0131n": "sakelar", // EN: switch

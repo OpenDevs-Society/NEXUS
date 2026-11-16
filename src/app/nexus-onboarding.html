@@ -227,6 +227,64 @@
   skipBtn.textContent = T('Geç', 'Skip');
   renderSlide(0);
 </script>
+<script data-purpose="onboarding-mockups">
+// Onboarding: stok fotoğraf yerine ürünün kendi arayüzünden sade kesitler (cihaz kartı, senaryo, asistan).
+// Örnek çizimlerdir; kullanıcı verisi değildir ve hiçbir yere kaydedilmez. Adım göstergesi düğmenin yanına alınır.
+(function () {
+  var T = function (tr, en) { return window.nexusT ? window.nexusT(tr, en) : tr; };
+  var ICON = {
+    bulb: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6M10 22h4"/></svg>',
+    snow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M19 5 5 19"/></svg>',
+    moon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>',
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>'
+  };
+  function devices() {
+    return '<div class="nx-ob-grid">' +
+      '<div class="nx-ob-card is-on"><span class="nx-ob-ic">' + ICON.bulb + '</span><b>' + T('Işıklar', 'Lights') + '</b><small>' + T('Açık', 'On') + '</small><i class="nx-ob-sw is-on"></i></div>' +
+      '<div class="nx-ob-card"><span class="nx-ob-ic">' + ICON.snow + '</span><b>' + T('Klima', 'Air conditioner') + '</b><small>22°C</small><i class="nx-ob-sw"></i></div>' +
+      '</div>';
+  }
+  function scene() {
+    var steps = [T('Işıkları kapat', 'Turn off the lights'), T('Klimayı 21°C yap', 'Set the AC to 21°C'), T('Perdeleri kapat', 'Close the curtains')];
+    return '<div class="nx-ob-scene"><div class="nx-ob-scene__head"><span class="nx-ob-ic">' + ICON.moon + '</span><b>' + T('İyi geceler', 'Good night') + '</b></div>' +
+      steps.map(function (s) { return '<p><span class="nx-ob-tick">' + ICON.check + '</span>' + s + '</p>'; }).join('') + '</div>';
+  }
+  function chat() {
+    return '<div class="nx-ob-chat"><p class="me">' + T('Akşam 7\'de salon ışıklarını aç', 'Turn on the living room lights at 7 pm') + '</p>' +
+      '<p class="ai">' + T('Tamam, her akşam 19:00\'da açacağım.', 'Sure, I\'ll turn them on every evening at 19:00.') + '</p></div>';
+  }
+  var MOCKS = [devices, scene, chat];
+
+  var frame = document.getElementById('slide-image');
+  frame = frame && frame.parentNode;
+  if (!frame) return;
+  var mock = document.createElement('div');
+  mock.className = 'nx-ob-mock';
+  mock.setAttribute('aria-hidden', 'true');
+  frame.appendChild(mock);
+  document.documentElement.classList.add('nx-ob-mocked');
+
+  // Adım göstergesi düğmenin yanına
+  var ind = document.getElementById('indicators');
+  var btn = document.getElementById('next-btn');
+  if (ind && btn && btn.parentNode) {
+    btn.parentNode.classList.add('nx-ob-actions');
+    btn.parentNode.insertBefore(ind, btn);
+  }
+
+  var idx = 0;
+  function show(i) {
+    idx = i;
+    mock.style.opacity = '0';
+    setTimeout(function () { mock.innerHTML = MOCKS[Math.max(0, Math.min(MOCKS.length - 1, i))](); mock.style.opacity = '1'; }, 200);
+  }
+  if (typeof window.renderSlide === 'function') {
+    var orig = window.renderSlide;
+    window.renderSlide = function (i) { orig(i); show(i); };
+  }
+  show(typeof window.currentIndex === 'number' ? window.currentIndex : 0);
+})();
+</script>
 </body>
 </html>
 

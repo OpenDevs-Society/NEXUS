@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Nepodarilo sa otvori\u0165 fotoapar\u00e1t.Skontrolujte povolenia prehliada\u010da alebo zadajte k\u00f3d nastavenia.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Sp\u00fa\u0161\u0165a sa kamera...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Nepodarilo sa z\u00edska\u0165 pr\u00edstup k fotoapar\u00e1tu.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Pokra\u010dujte s fotoapar\u00e1tom", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera nenahr\u00e1va ani nezdie\u013ea video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Fotoapar\u00e1ty a z\u00e1mky", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "Predvo\u013eby fotoapar\u00e1tu a mikrof\u00f3nu nie s\u00fa nastaven\u00e9.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "K\u00f3d odoslan\u00fd \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "K\u00f3d nebol rozpoznan\u00fd", // EN: Code not recognized
     "Kodu Kopyala": "Kop\u00edrova\u0165 k\u00f3d", // EN: Copy Code
-    "Kodu elle gir": "Zadajte k\u00f3d ru\u010dne", // EN: Enter the code manually
     "Kombi": "Kotol", // EN: Boiler
     "Kombiler": "Kotly", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "Pr\u00edkaz sa k zariadeniu nedostal \u2013 skontrolujte, \u010di je zapnut\u00e9 a pripojen\u00e9 k rovnakej sieti Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Napl\u00e1novan\u00fd tich\u00fd re\u017eim", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "\u010casova\u010d", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Pl\u00e1novan\u00e9 ukladanie", // EN: Scheduled Saving
-    "Zorunlu": "Povinn\u00e9", // EN: Required
     "Z\u00fcrih": "Z\u00fcrich", // EN: Zurich
     "[G\u00f6rsel:": "[Obr\u00e1zok:", // EN: [Image:
     "anahtar\u0131n": "prep\u00edna\u010d", // EN: switch

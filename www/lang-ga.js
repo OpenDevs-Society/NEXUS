@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "N\u00edorbh fh\u00e9idir an ceamara a oscailt. Seice\u00e1il ceadanna brabhs\u00e1la\u00ed n\u00f3 cuir isteach c\u00f3d socraithe.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Ag tos\u00fa an cheamara...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "N\u00edorbh fh\u00e9idir rochtain ar an gceamara.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Lean le ceamara", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "N\u00edl an ceamara ag taifeadadh n\u00f3 ag roinnt f\u00edse\u00e1n.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Ceamara\u00ed agus D\u00fant\u00f3ir\u00ed", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "N\u00edl roghanna ceamara agus micreaf\u00f3n socraithe.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "C\u00f3d seolta \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "C\u00f3d n\u00e1r aithn\u00edodh", // EN: Code not recognized
     "Kodu Kopyala": "C\u00f3ipe\u00e1il C\u00f3d", // EN: Copy Code
-    "Kodu elle gir": "Cuir isteach an c\u00f3d de l\u00e1imh", // EN: Enter the code manually
     "Kombi": "B\u00f3iler", // EN: Boiler
     "Kombiler": "Boil\u00e9ir", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "N\u00edorbh fh\u00e9idir leis an ord\u00fa an gl\u00e9as a bhaint \u2014 d\u00e9an cinnte go bhfuil s\u00e9 ar si\u00fal agus ar an l\u00edonra c\u00e9anna Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "M\u00f3d Ci\u00fain Sceidealta", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "Amad\u00f3ir", // EN: Timer
     "Zamanl\u0131 Tasarruf": "S\u00e1bh\u00e1il Sceidealta", // EN: Scheduled Saving
-    "Zorunlu": "Riachtanach", // EN: Required
     "Z\u00fcrih": "Zurich", // EN: Zurich
     "[G\u00f6rsel:": "[\u00cdomh\u00e1:", // EN: [Image:
     "anahtar\u0131n": "lasc", // EN: switch

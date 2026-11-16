@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05d4\u05d9\u05d4 \u05dc\u05e4\u05ea\u05d5\u05d7 \u05d0\u05ea \u05d4\u05de\u05e6\u05dc\u05de\u05d4.\u05d1\u05d3\u05d5\u05e7 \u05d0\u05ea \u05d4\u05e8\u05e9\u05d0\u05d5\u05ea \u05d4\u05d3\u05e4\u05d3\u05e4\u05df \u05d0\u05d5 \u05d4\u05d6\u05df \u05d0\u05ea \u05e7\u05d5\u05d3 \u05d4\u05d4\u05d2\u05d3\u05e8\u05d4.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "\u05de\u05e4\u05e2\u05d9\u05dc \u05d0\u05ea \u05d4\u05de\u05e6\u05dc\u05de\u05d4...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05d4\u05d9\u05d4 \u05dc\u05d2\u05e9\u05ea \u05dc\u05de\u05e6\u05dc\u05de\u05d4.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "\u05d4\u05de\u05e9\u05da \u05e2\u05dd \u05de\u05e6\u05dc\u05de\u05d4", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "\u05d4\u05de\u05e6\u05dc\u05de\u05d4 \u05dc\u05d0 \u05de\u05e7\u05dc\u05d9\u05d8\u05ea \u05d0\u05d5 \u05de\u05e9\u05ea\u05e4\u05ea \u05d5\u05d9\u05d3\u05d0\u05d5.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "\u05de\u05e6\u05dc\u05de\u05d5\u05ea \u05d5\u05de\u05e0\u05e2\u05d5\u05dc\u05d9\u05dd", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "\u05d4\u05e2\u05d3\u05e4\u05d5\u05ea \u05d4\u05de\u05e6\u05dc\u05de\u05d4 \u05d5\u05d4\u05de\u05d9\u05e7\u05e8\u05d5\u05e4\u05d5\u05df \u05d0\u05d9\u05e0\u05df \u05de\u05d5\u05d2\u05d3\u05e8\u05d5\u05ea.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "\u05d4\u05e7\u05d5\u05d3 \u05e0\u05e9\u05dc\u05d7 \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "\u05d4\u05e7\u05d5\u05d3 \u05dc\u05d0 \u05de\u05d6\u05d5\u05d4\u05d4", // EN: Code not recognized
     "Kodu Kopyala": "\u05d4\u05e2\u05ea\u05e7 \u05e7\u05d5\u05d3", // EN: Copy Code
-    "Kodu elle gir": "\u05d4\u05d6\u05df \u05d0\u05ea \u05d4\u05e7\u05d5\u05d3 \u05d1\u05d0\u05d5\u05e4\u05df \u05d9\u05d3\u05e0\u05d9", // EN: Enter the code manually
     "Kombi": "\u05d3\u05d5\u05d3", // EN: Boiler
     "Kombiler": "\u05d3\u05d5\u05d5\u05d3\u05d9\u05dd", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "\u05d4\u05e4\u05e7\u05d5\u05d3\u05d4 \u05dc\u05d0 \u05d4\u05e6\u05dc\u05d9\u05d7\u05d4 \u05dc\u05d4\u05d2\u05d9\u05e2 \u05dc\u05de\u05db\u05e9\u05d9\u05e8 - \u05d5\u05d3\u05d0 \u05e9\u05d4\u05d5\u05d0 \u05e4\u05d5\u05e2\u05dc \u05d5\u05de\u05e6\u05d5\u05d9 \u05d1\u05d0\u05d5\u05ea\u05d4 \u05e8\u05e9\u05ea Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "\u05de\u05e6\u05d1 \u05e9\u05e7\u05d8 \u05de\u05ea\u05d5\u05d6\u05de\u05df", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "\u05d8\u05d9\u05d9\u05de\u05e8", // EN: Timer
     "Zamanl\u0131 Tasarruf": "\u05d7\u05d9\u05e1\u05db\u05d5\u05df \u05de\u05ea\u05d5\u05d6\u05de\u05df", // EN: Scheduled Saving
-    "Zorunlu": "\u05d7\u05d5\u05d1\u05d4", // EN: Required
     "Z\u00fcrih": "\u05e6\u05d9\u05e8\u05d9\u05da", // EN: Zurich
     "[G\u00f6rsel:": "[\u05ea\u05de\u05d5\u05e0\u05d4:", // EN: [Image:
     "anahtar\u0131n": "\u05e9\u05dc \u05d4\u05de\u05ea\u05d2", // EN: switch

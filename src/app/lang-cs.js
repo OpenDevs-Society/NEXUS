@@ -1733,7 +1733,6 @@ window.NEXUS_LANG = {
     "Kamera a\u00e7\u0131lamad\u0131. Taray\u0131c\u0131 izinlerini kontrol edin veya kurulum kodunu girin.": "Fotoapar\u00e1t se nepoda\u0159ilo otev\u0159\u00edt.Zkontrolujte opr\u00e1vn\u011bn\u00ed prohl\u00ed\u017ee\u010de nebo zadejte k\u00f3d nastaven\u00ed.", // EN: Couldn't open the camera. Check browser permissions or enter the setup code.
     "Kamera ba\u015flat\u0131l\u0131yor...": "Spou\u0161t\u011bn\u00ed fotoapar\u00e1tu...", // EN: Starting camera...
     "Kamera eri\u015fimi sa\u011flanamad\u0131.": "Nepoda\u0159ilo se z\u00edskat p\u0159\u00edstup k fotoapar\u00e1tu.", // EN: Couldn't access the camera.
-    "Kamera ile devam et": "Pokra\u010dujte s fotoapar\u00e1tem", // EN: Continue with camera
     "Kamera kay\u0131t yapm\u0131yor ve g\u00f6r\u00fcnt\u00fc payla\u015fm\u0131yor.": "Kamera nenahr\u00e1v\u00e1 ani nesd\u00edl\u00ed video.", // EN: The camera isn't recording or sharing video.
     "Kamera ve Kilit": "Kamery a z\u00e1mky", // EN: Cameras and Locks
     "Kamera ve mikrofon tercihleri ayarlanmam\u0131\u015f.": "P\u0159edvolby fotoapar\u00e1tu a mikrofonu nejsou nastaveny.", // EN: Camera and microphone preferences are not set.
@@ -1832,7 +1831,6 @@ window.NEXUS_LANG = {
     "Kod g\u00f6nderildi \u2713": "K\u00f3d odesl\u00e1n \u2713", // EN: Code sent ✓
     "Kod tan\u0131nmad\u0131": "K\u00f3d nebyl rozpozn\u00e1n", // EN: Code not recognized
     "Kodu Kopyala": "Kop\u00edrovat k\u00f3d", // EN: Copy Code
-    "Kodu elle gir": "Zadejte k\u00f3d ru\u010dn\u011b", // EN: Enter the code manually
     "Kombi": "Kotel", // EN: Boiler
     "Kombiler": "Kotle", // EN: Boilers
     "Komut cihaza ula\u015famad\u0131 \u2014 cihaz\u0131n a\u00e7\u0131k ve ayn\u0131 Wi-Fi a\u011f\u0131nda oldu\u011funu do\u011frula.": "P\u0159\u00edkaz nemohl dos\u00e1hnout za\u0159\u00edzen\u00ed \u2013 ujist\u011bte se, \u017ee je zapnut\u00e9 a ve stejn\u00e9 s\u00edti Wi-Fi.", // EN: The command couldn't reach the device — make sure it's on and on the same Wi-Fi network.
@@ -2694,7 +2692,6 @@ window.NEXUS_LANG = {
     "Zamanlanm\u0131\u015f Sessiz Mod": "Napl\u00e1novan\u00fd tich\u00fd re\u017eim", // EN: Scheduled Quiet Mode
     "Zamanlay\u0131c\u0131": "\u010casova\u010d", // EN: Timer
     "Zamanl\u0131 Tasarruf": "Napl\u00e1novan\u00e9 ukl\u00e1d\u00e1n\u00ed", // EN: Scheduled Saving
-    "Zorunlu": "Povinn\u00e9", // EN: Required
     "Z\u00fcrih": "Curych", // EN: Zurich
     "[G\u00f6rsel:": "[Obr\u00e1zek:", // EN: [Image:
     "anahtar\u0131n": "p\u0159ep\u00edna\u010d", // EN: switch

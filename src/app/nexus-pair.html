@@ -151,24 +151,8 @@
           <div class="absolute w-full h-full rounded-full border border-nexusPurple/30 radar-ring" style="animation-delay: 2s;"></div>
 
           <div class="relative z-10 w-24 h-24 bg-white rounded-full shadow-xl flex items-center justify-center border border-white dark:bg-slate-900 dark:border-slate-700">
-            <div class="w-16 h-16 drop-shadow-md">
-              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="NEXUS logo" role="img" class="w-full h-full">
-                <defs>
-                  <linearGradient id="nxlogo" x1="3" y1="2" x2="29" y2="30" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#6f9bff"/>
-                    <stop offset="0.55" stop-color="#5b8dff"/>
-                    <stop offset="1" stop-color="#8b7bff"/>
-                  </linearGradient>
-                  <linearGradient id="nxsheen" x1="16" y1="1" x2="16" y2="17" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#ffffff" stop-opacity="0.30"/>
-                    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-                  </linearGradient>
-                </defs>
-                <rect x="1" y="1" width="30" height="30" rx="9" fill="url(#nxlogo)"/>
-                <rect x="1" y="1" width="30" height="30" rx="9" fill="url(#nxsheen)"/>
-                <rect x="1.5" y="1.5" width="29" height="29" rx="8.5" fill="none" stroke="#ffffff" stroke-opacity="0.22"/>
-                <path d="M10.5 22.5V10.5L21.5 22.5V10.5" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+            <div class="w-16 h-16 flex items-center justify-center text-[#4C7DFF]">
+              <i data-lucide="radar" class="w-full h-full" aria-hidden="true"></i>
             </div>
           </div>
 
@@ -183,6 +167,25 @@
           <p class="text-sm font-medium text-slate-500 mt-1 max-w-[280px] mx-auto dark:text-slate-300">Cihazlarını otomatik tarama, QR kod, kurulum kodu ya da manuel katalog ile ekleyebilirsin.</p>
         </div>
 
+        <!-- Üç ekleme yolu ilk ekranda eşit kartlar: Ağı tara · QR · Kurulum kodu -->
+        <div class="nx-pair-methods grid grid-cols-3 gap-3 w-full max-w-xl mt-5" data-purpose="pair-methods">
+          <button type="button" onclick="startAutoScan()" class="nx-pair-method">
+            <span class="nx-pair-method__icon"><i data-lucide="radar" aria-hidden="true"></i></span>
+            <span class="nx-pair-method__title">Ağı tara</span>
+            <span class="nx-pair-method__sub">Otomatik bul</span>
+          </button>
+          <a href="nexus-scan.html" class="nx-pair-method nx-pair-method--qr">
+            <span class="nx-pair-method__icon"><i data-lucide="scan-qr-code" aria-hidden="true"></i></span>
+            <span class="nx-pair-method__title">QR Kod</span>
+            <span class="nx-pair-method__sub nx-m-only">Kamerayla</span>
+            <span class="nx-pair-method__sub nx-d-only">Telefonla tara</span>
+          </a>
+          <a href="nexus-setup-code.html" class="nx-pair-method">
+            <span class="nx-pair-method__icon"><i data-lucide="keyboard" aria-hidden="true"></i></span>
+            <span class="nx-pair-method__title">Kurulum Kodu</span>
+            <span class="nx-pair-method__sub">Elle gir</span>
+          </a>
+        </div>
         <!-- Yakınındaki Cihazları Bul: radar sayfaya girince kendiliğinden tarar, bulunanlar burada listelenir -->
         <div class="w-full max-w-xl mt-6">
           <div class="flex items-center justify-between gap-3">
@@ -203,26 +206,6 @@
         </div>
       </section>
 
-      <section class="grid grid-cols-2 gap-3">
-        <a href="nexus-scan.html" class="glass-card bg-white/90 backdrop-blur-md p-5 rounded-3xl border border-white/60 flex flex-col gap-4 nexus-shadow active:scale-95 transition-transform">
-          <div class="w-12 h-12 bg-nexusPurple/10 rounded-2xl flex items-center justify-center text-nexusPurple">
-            <i data-lucide="scan-qr-code" class="text-2xl"></i>
-          </div>
-          <div>
-            <span class="block text-sm font-bold">QR Kod</span>
-            <span class="text-[12px] text-slate-500 font-medium dark:text-slate-300">Kamera ile devam et</span>
-          </div>
-        </a>
-        <a href="nexus-setup-code.html" class="glass-card bg-white/90 backdrop-blur-md p-5 rounded-3xl border border-white/60 flex flex-col gap-4 nexus-shadow active:scale-95 transition-transform">
-          <div class="w-12 h-12 bg-nexusCyan/10 rounded-2xl flex items-center justify-center text-nexusCyan">
-            <i data-lucide="keyboard" class="text-2xl"></i>
-          </div>
-          <div>
-            <span class="block text-sm font-bold">Kurulum Kodu</span>
-            <span class="text-[12px] text-slate-500 font-medium dark:text-slate-300">Kodu elle gir</span>
-          </div>
-        </a>
-      </section>
 
       <section id="manual-catalog-section" class="glass-card bg-white/80 backdrop-blur-md rounded-[2.5rem] border border-white/60 nexus-shadow overflow-hidden">
         <button type="button" onclick="openCatalogCategory('all')" class="plain-card flex w-full items-center justify-between gap-3 p-6 text-left active:bg-slate-50 dark:border-slate-800">
