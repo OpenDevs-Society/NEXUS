@@ -435,6 +435,43 @@ window.addEventListener('error', function(e) {
     }
     // Masaüstü: pencere düğmelerinin simge rengi temaya uysun
     try { if (window.nexusDesktop && typeof nexusDesktop.setTitleTheme === 'function') nexusDesktop.setTitleTheme(!!isDark); } catch (e) {}
+    // Android: durum ve gezinme çubukları uygulama içi temaya uysun (sistem temasına değil)
+    syncNativeSystemBars(!!isDark);
+  }
+
+  // Android uygulamasında sistem çubuklarının zemini ve simge rengi (NexusSystemBarsPlugin).
+  // Zemin, sayfanın üst rengidir (gövde gradyanının ilk rengi ya da gövde zemini); okunamazsa
+  // tema varsayılanı. Web/masaüstü/iOS'ta eklenti olmadığından hiçbir şey yapmaz.
+  function nxCssColorToHex(c) {
+    var m = /rgba?\(\s*(\d+)[,\s]+(\d+)[,\s]+(\d+)(?:[,\s/]+([\d.]+))?/.exec(c || '');
+    if (!m) return null;
+    if (m[4] !== undefined && parseFloat(m[4]) < 0.5) return null;
+    return '#' + [m[1], m[2], m[3]].map(function (v) { return ('0' + Math.min(255, +v).toString(16)).slice(-2); }).join('');
+  }
+  function syncNativeSystemBars(isDark) {
+    var plugin = null;
+    try {
+      if (!(window.Capacitor && Capacitor.isNativePlatform && Capacitor.isNativePlatform() && Capacitor.getPlatform() === 'android')) return;
+      plugin = Capacitor.Plugins && Capacitor.Plugins.NexusSystemBars;
+    } catch (e) { return; }
+    if (!plugin || typeof plugin.apply !== 'function') return;
+    var send = function () {
+      var color = null;
+      try {
+        if (document.body) {
+          var cs = getComputedStyle(document.body);
+          var grad = /gradient\((.*)\)/.exec(cs.backgroundImage || '');
+          if (grad) color = nxCssColorToHex(grad[1]);
+          if (!color) color = nxCssColorToHex(cs.backgroundColor);
+        }
+      } catch (e) {}
+      if (!color) color = isDark ? '#0f172a' : '#ffffff';
+      try { plugin.apply({ dark: isDark, color: color }).catch(function () {}); } catch (e) { /* köprü yoksa sessizce geç */ }
+    };
+    if (document.body) send();
+    else document.addEventListener('DOMContentLoaded', send, { once: true });
+    // Sayfa stilleri (ör. Tailwind) geç uygulanırsa zemin rengi yüklemede bir kez daha okunur.
+    if (document.readyState !== 'complete') window.addEventListener('load', send, { once: true });
   }
 
   // Masaüstü uygulaması: sistem başlık çubuğu gizli olduğundan pencereyi sürüklemek için üstte ince bir tutamaç.

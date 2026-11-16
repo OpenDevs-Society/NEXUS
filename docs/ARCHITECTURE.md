@@ -111,7 +111,8 @@ Android's config cannot express "cleartext to private IP ranges only".
 Internet-facing traffic (accounts, sync) is HTTPS-only.
 
 Native additions are small: `NexusTileService` (Quick Settings tile),
-`NexusKeepAliveService` (foreground background-automations), stock Capacitor
+`NexusKeepAliveService` (foreground background-automations),
+`NexusSystemBarsPlugin` (status/navigation bars follow the in-app theme), stock Capacitor
 stubs (~175 LOC of Java). iOS shell is config + the synced `public/` mirror;
 `ios/App/App/public/` is gitignored (generated on Windows by `sync-www.mjs`).
 
