@@ -11,18 +11,49 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   smoke:
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     steps:
+      # Masaüstü ve Android ayrı iş akışlarıdır; biri bitip diğeri hâlâ dosya yüklerken denetim
+      # yarım sürümü görüp kırmızı oluyordu (v1.0.59/v1.0.60). Diğeri sürüyorsa bu tur atlanır:
+      # o bitince bu iş akışı yeniden tetiklenir ve tam sürümü denetler. Tetikleyen çalıştırma
+      # zaten başarısızsa da atlanır (kırmızı o iş akışında görünür; ikinci kez düşmeye gerek yok).
+      - name: Yayın tamamlandı mı?
+        id: ready
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRIGGER_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_run" ] && [ "$TRIGGER_CONCLUSION" != "success" ]; then
+            echo "::notice::Tetikleyen yayın iş akışı '$TRIGGER_CONCLUSION' bitti; denetim atlandı."
+            echo "run=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          busy=0
+          for wf in desktop-release.yml android-release.yml; do
+            n=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow "$wf" --limit 10 --json status -q '[.[] | select(.status != "completed")] | length')
+            if [ "${n:-0}" != "0" ]; then busy=1; echo "$wf hâlâ sürüyor."; fi
+          done
+          if [ "$busy" = 1 ]; then
+            echo "::notice::Yayın iş akışı sürüyor; tam denetim o bitince yapılacak."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v7
+        if: steps.ready.outputs.run == 'true'
       - uses: actions/setup-node@v4
+        if: steps.ready.outputs.run == 'true'
         with:
           node-version: 22
       - name: İndirme dosyaları ve hizmetler
+        if: steps.ready.outputs.run == 'true'
         run: node scripts/check-health.mjs
       - name: Sürüm tutarlılığı (latest.yml ve site rozeti)
+        if: steps.ready.outputs.run == 'true'
         run: |
           want=$(node -p "require('./desktop/package.json').version")
           have=$(curl -fsSL https://github.com/Enard52/nexus-releases/releases/latest/download/latest.yml | sed -n 's/^version: *//p' | head -n 1 | tr -d '\r"')

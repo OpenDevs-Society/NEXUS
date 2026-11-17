@@ -16,6 +16,8 @@ permissions:
 
 jobs:
   export:
+    # Yedek yalnız ana depodan alınır (arşiv deposunda sır yok).
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     env:
       DB_URL: ${{ secrets.SUPABASE_DB_URL }}

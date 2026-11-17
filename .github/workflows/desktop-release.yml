@@ -15,10 +15,43 @@ permissions:
   contents: read
 
 jobs:
+  # Sürüm nexus-releases'te TEK yerde ve derlemelerden ÖNCE oluşturulur. Eskiden ilk derleme işi
+  # (electron-builder) ile Android iş akışı aynı anda oluşturmaya çalışıyor, biri GitHub'dan 422
+  # "Published releases must have a valid tag" alıyordu (v1.0.59 ve v1.0.60'ta Windows işi düştü).
+  # Artık derleme işleri hazır sürümü bulup yalnızca dosya yükler. Arşiv deposunda (yedek) yayın
+  # işleri hiç çalışmaz: orada RELEASES_TOKEN yok ve yayın yalnız ana depodan yapılır.
+  prepare:
+    if: github.repository == 'OpenDevs-Society/NEXUS' && startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sürümü oluştur ya da var olanı doğrula
+        env:
+          GH_TOKEN: ${{ secrets.RELEASES_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::RELEASES_TOKEN gizli anahtarı tanımlı değil (Settings → Secrets → Actions)."
+            exit 1
+          fi
+          TAG="${GITHUB_REF_NAME}"
+          REPO=Enard52/nexus-releases
+          # Oluşturmayı dene; Android iş akışı aynı anda oluşturduysa hata yok sayılır ve sürümün
+          # görünür olması beklenir (oluşturma yarışında kazanan kim olursa olsun sonuç tek sürüm).
+          for i in 1 2 3 4 5 6; do
+            if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then echo "$TAG hazır."; exit 0; fi
+            gh release create "$TAG" --repo "$REPO" --title "NEXUS ${TAG#v}" --notes "NEXUS ${TAG#v}" || true
+            sleep $((i*5))
+          done
+          echo "::error::$TAG sürümü oluşturulamadı ya da görünür olmadı."
+          exit 1
+
   build:
+    needs: prepare
+    # prepare etiketsiz elle çalıştırmalarda atlanır (yayın yok); derleme yine çalışır.
+    if: ${{ github.repository == 'OpenDevs-Society/NEXUS' && !cancelled() && needs.prepare.result != 'failure' }}
     strategy:
       fail-fast: false
-      # Sırayla: paralel işler aynı anda sürümü oluşturmaya çalışınca GitHub 422 (already_exists) veriyordu.
+      # Sırayla: Windows kurulum dosyası büyük; aynı sürüme eşzamanlı yüklemelerde GitHub
+      # zaman aşımı yaşamamak için işler tek tek çalışır (sürüm artık önceden hazır).
       max-parallel: 1
       matrix:
         include:
@@ -125,7 +158,10 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.RELEASES_TOKEN }}
-        run: gh release upload "${GITHUB_REF_NAME}" "dist/SHA256SUMS-${{ runner.os }}${{ matrix.suffix }}.txt" --clobber --repo Enard52/nexus-releases
+        run: |
+          # Geçici GitHub hatalarını (502/503) emmek için 4 deneme, artan bekleme.
+          retry() { n=0; until "$@"; do n=$((n+1)); [ "$n" -ge 4 ] && return 1; echo "::warning::deneme $n başarısız; $((n*15)) sn sonra yeniden"; sleep $((n*15)); done; }
+          retry gh release upload "${GITHUB_REF_NAME}" "dist/SHA256SUMS-${{ runner.os }}${{ matrix.suffix }}.txt" --clobber --repo Enard52/nexus-releases
 
       - name: Yerel derleme işaretini kaldır
         if: startsWith(github.ref, 'refs/tags/v') && matrix.os == 'ubuntu-latest'
@@ -157,7 +193,7 @@ jobs:
 # APPLE_ID, APPLE_APP_SPECIFIC_PASSWORD, APPLE_TEAM_ID + variables.MACOS_SIGN=true.
   macos:
     needs: build
-    if: ${{ !cancelled() && vars.MACOS_BUILD == 'true' }}
+    if: ${{ github.repository == 'OpenDevs-Society/NEXUS' && !cancelled() && vars.MACOS_BUILD == 'true' }}
     runs-on: macos-latest
     defaults:
       run:
@@ -252,4 +288,7 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.RELEASES_TOKEN }}
-        run: gh release upload "${GITHUB_REF_NAME}" "dist/SHA256SUMS-macOS.txt" --clobber --repo Enard52/nexus-releases
+        run: |
+          # Geçici GitHub hatalarını (502/503) emmek için 4 deneme, artan bekleme.
+          retry() { n=0; until "$@"; do n=$((n+1)); [ "$n" -ge 4 ] && return 1; echo "::warning::deneme $n başarısız; $((n*15)) sn sonra yeniden"; sleep $((n*15)); done; }
+          retry gh release upload "${GITHUB_REF_NAME}" "dist/SHA256SUMS-macOS.txt" --clobber --repo Enard52/nexus-releases

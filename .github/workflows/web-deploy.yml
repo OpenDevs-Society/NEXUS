@@ -30,6 +30,8 @@ concurrency:
 
 jobs:
   site:
+    # Site yalnız ana depodan yayınlanır; arşiv (yedek) deposu aynı main'i taşır ama yayınlamaz.
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     env:
       SITE_REPO_TOKEN: ${{ secrets.SITE_REPO_TOKEN }}

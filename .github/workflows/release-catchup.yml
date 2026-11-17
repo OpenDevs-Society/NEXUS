@@ -14,6 +14,8 @@ permissions:
 
 jobs:
   catchup:
+    # Arşiv (yedek) deposundan yayın tetiklenmez.
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

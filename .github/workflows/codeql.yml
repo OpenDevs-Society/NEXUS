@@ -17,6 +17,9 @@ permissions:
 jobs:
   analyze:
     name: CodeQL (javascript-typescript)
+    # Kod tarama sonuçları yalnız ana (açık) depoya yüklenebilir; özel arşiv deposunda
+    # "Resource not accessible by integration" ile düşüyordu.
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

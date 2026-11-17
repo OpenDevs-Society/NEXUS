@@ -28,7 +28,8 @@ permissions: {}
 jobs:
   notify:
     # Başarılı iş akışları için bildirim yok; yalnızca başarısızlar.
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'failure'
+    # Arşiv (yedek) deposunun olayları bildirilmez.
+    if: github.repository == 'OpenDevs-Society/NEXUS' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'failure')
     runs-on: ubuntu-latest
     steps:
       - name: Discord'a gönder

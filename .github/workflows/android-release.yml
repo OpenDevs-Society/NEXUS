@@ -16,6 +16,8 @@ permissions:
 
 jobs:
   apk:
+    # Yalnız ana depoda: arşiv (yedek) deposunda imza anahtarı ve RELEASES_TOKEN yoktur.
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -79,8 +81,18 @@ jobs:
           cp android/app/build/outputs/apk/release/app-release.apk NEXUS-Android.apk
           sha256sum NEXUS-Android.apk | sed 's/NEXUS-Android.apk/NEXUS-Android.apk/' > NEXUS-Android.apk.sha256.txt
           cp NEXUS-Android.apk.sha256.txt SHA256SUMS-Android.txt
-          gh release view "$TAG" --repo Enard52/nexus-releases >/dev/null 2>&1 || gh release create "$TAG" --repo Enard52/nexus-releases --title "NEXUS ${TAG#v}" --notes "NEXUS ${TAG#v}"
-          gh release upload "$TAG" NEXUS-Android.apk NEXUS-Android.apk.sha256.txt SHA256SUMS-Android.txt --clobber --repo Enard52/nexus-releases
+          REPO=Enard52/nexus-releases
+          # Masaüstü iş akışının "prepare" işi aynı sürümü aynı anda oluşturabilir: oluşturma hatası yok
+          # sayılır, sürüm görünene kadar beklenir (tek sürüm, 422 yarışı yok).
+          for i in 1 2 3 4 5 6; do
+            gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1 && break
+            gh release create "$TAG" --repo "$REPO" --title "NEXUS ${TAG#v}" --notes "NEXUS ${TAG#v}" || true
+            sleep $((i*5))
+          done
+          gh release view "$TAG" --repo "$REPO" >/dev/null
+          # Geçici GitHub hatalarını (502/503) emmek için 4 deneme, artan bekleme.
+          retry() { n=0; until "$@"; do n=$((n+1)); [ "$n" -ge 4 ] && return 1; echo "::warning::deneme $n başarısız; $((n*15)) sn sonra yeniden"; sleep $((n*15)); done; }
+          retry gh release upload "$TAG" NEXUS-Android.apk NEXUS-Android.apk.sha256.txt SHA256SUMS-Android.txt --clobber --repo "$REPO"
       # Anahtarsız (Sigstore) kaynak kanıtı. Başarısız olursa yayın DÜŞMEZ: doğrulama için SHA-256 yeterli kalır.
       - name: Kaynak kanıtı (attestation)
         if: steps.gate.outputs.run == 'true'

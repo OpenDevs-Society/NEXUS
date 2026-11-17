@@ -63,6 +63,9 @@ jobs:
 
   secrets:
     name: secret scan (gitleaks)
+    # Ana depoda tüm geçmiş taranır. Arşiv (yedek) deposu yalnız eski dalları (legacy-main,
+    # dependabot) fazladan taşır; tarama orada değil, yayınlanan ana depoda kapıdır.
+    if: github.repository == 'OpenDevs-Society/NEXUS'
     runs-on: ubuntu-latest
     steps:
       # Tüm geçmiş gerekir: PR'da yalnız yeni commit'ler, main'de push aralığı taranır.
