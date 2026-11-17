@@ -32,19 +32,21 @@ place — here is what exists, what was just fixed, and the short list still ope
 - Site modal open/close no longer shifts layout.
 - Notification-channel fields commit on Enter.
 
-## Open quick wins (next usability pass)
+## Quick wins from the 27 Oct pass — status (17 Nov 2026)
 
-1. **Destructive actions:** device/room removal uses inline confirm — consider the
-   branded dialog with undo toast (5s) on all destructive paths for consistency.
-2. **First-run device scan:** LAN discovery requires tapping "Scan"; surface a
-   one-time auto-scan on first entry with a progress state (desktop already has
-   the engine; mobile needs the same affordance).
-3. **Error messages with next steps:** a few failures (LAN timeout) still show the
-   technical cause; append the retry/help link consistently (pattern exists on
-   energy screens).
-4. **Settings search:** settings are one long page; a small filter input would
-   future-proof as the list grows.
-5. **Password reset from login error:** when login fails with "email or password
-   wrong", offer the reset link inline (link exists on the page, not in the error).
+1. **Destructive actions — done.** `nexus-undo.js` (loaded on every screen by
+   `theme.js`) gives deletions a branded "Geri al" bar; `nexus-dialog.js` replaces
+   native confirms.
+2. **First-run device scan — done where the platform allows.** Adding a device from
+   the catalog starts LAN discovery automatically (`integrations-page.js` →
+   `nexusLan.autoScan`, 25 s limit, progress + not-found state). Where the shell has
+   no LAN discovery bridge (browser, Android WebView) the pair screen says so
+   honestly and offers QR, setup code or the catalog instead of a fake scan.
+3. **Error messages with next steps — done.** Unreachable-device, cloud, map and
+   update errors name the next step (same Wi-Fi, check connection, try again); the
+   last raw one (MQTT broker timeout) now does too.
+4. **Settings search — done.** `#settings-search` filters the settings page.
+5. **Password reset from login error — done.** A failed login shows an inline
+   "reset password" link prefilled with the typed e-mail (`showResetHint`).
 
-None of these block the open-source launch; they are the next polish tour.
+No open items from this list.

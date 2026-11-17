@@ -2982,7 +2982,7 @@
           var hit = scan();
           if (hit) return Promise.resolve(hit);
           var left = until - Date.now();
-          if (left <= 0) return Promise.reject(secureError("Broker yanıt vermedi (zaman aşımı).", "timeout"));
+          if (left <= 0) return Promise.reject(secureError("Broker yanıt vermedi. Broker adresini ve portunu, aynı Wi-Fi ağında olduğunu kontrol edip tekrar dene.", "timeout"));
           return bridge.recv({ id: sid, timeoutMs: Math.min(left, 3000) }).then(function (bytes) {
             if (bytes && bytes.length) queue = queue.concat(parser.feed(bytes));
             return loop();
